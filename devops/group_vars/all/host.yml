@@ -1,0 +1,3 @@
+---
+hostname: 'extranet.cmcuritiba.pr.leg.br'
+fqdn: '{{ hostname }}.localhost'
