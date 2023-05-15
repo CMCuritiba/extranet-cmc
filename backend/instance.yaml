@@ -3,6 +3,6 @@ default_context:
     initial_user_password: 'admin'
 
     load_zcml:
-        package_includes: ['extranetcmcuritibaprlegbr']
+        package_includes: ['extranetcmcuritibaprlegbr', 'pas.plugins.oidc']
 
     db_storage: direct

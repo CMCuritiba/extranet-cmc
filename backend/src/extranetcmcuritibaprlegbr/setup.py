@@ -45,6 +45,7 @@ setup(
     zip_safe=False,
     python_requires=">=3.8",
     install_requires=[
+        "pas.plugins.oidc",
         "setuptools",
         "Plone",
         "prettyconf",
