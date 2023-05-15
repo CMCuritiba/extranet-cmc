@@ -110,6 +110,22 @@ After the installation above, in the link (http://localhost:8080/Plone/acl_users
 
 After confirmation, the link (http://localhost:8080/Plone/acl_users/oidc/login?came_from=http%3A//localhost%3A8080/Plone/acl_users/oidc/manage_propertiesForm) will be available. This is the SSO configuration registration screen.
 
+### Docker compose
+
+## Running the server frontend + backend + nginx + postgres
+
+Create the images:
+
+```shell
+  make build-images
+```
+
+Run the images with docker compose:
+
+```shell
+  cd devops
+  docker compose up
+```
 
 ## Credits
 
