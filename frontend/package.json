@@ -141,6 +141,9 @@
   "dependencies": {
     "@eeacms/volto-accordion-block": "*",
     "@eeacms/volto-matomo": "*",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@kitconcept/volto-blocks-grid": "*",
     "@kitconcept/volto-slider-block": "*",
     "@plone/volto": "16.20.4"
@@ -151,7 +154,7 @@
     "@storybook/addon-controls": "6.3.0",
     "@storybook/addon-essentials": "^6.3.0",
     "@storybook/addon-links": "^6.3.0",
-    "@storybook/react": "^6.3.0",
+    "@storybook/react": "^7.0.11",
     "eslint-plugin-prettier": "3.1.3",
     "jest-junit": "8.0.0",
     "mrs-developer": "*",
