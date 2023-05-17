@@ -29,6 +29,14 @@ import {
   SearchWidget,
 } from '@plone/volto/components';
 
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faSitemap } from '@fortawesome/free-solid-svg-icons'
+import { faUniversalAccess } from '@fortawesome/free-solid-svg-icons'
+import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
+import { faHandPeace } from '@fortawesome/free-solid-svg-icons'
+import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons'
+
 import './Header.css';
 
 /**
@@ -93,11 +101,13 @@ class Header extends Component {
           <ul id="siteactions">
             <li id="siteaction-sitemap">
               <a href="/sitemap" accessKey="3" title="Mapa do Site">
+		<FontAwesomeIcon icon={faSitemap} />
                 Mapa do Site
               </a>
             </li>
             <li id="siteaction-accessibility">
               <a href="/acessibilidade" accessKey="0" title="Acessibilidade">
+                <FontAwesomeIcon icon={faUniversalAccess} />
                 Acessibilidade
               </a>
             </li>
@@ -107,21 +117,25 @@ class Header extends Component {
                 accessKey=""
                 title="Contato"
               >
+	 <FontAwesomeIcon icon={faAddressBook} />
                 Contato
               </a>
             </li>
             <li id="siteaction-vlibras">
               <a href="http://www.vlibras.gov.br/" accessKey="" title="VLibras">
+	 <FontAwesomeIcon icon={faHandPeace} />
                 VLibras
               </a>
             </li>
             <li id="siteaction-contraste">
               <a href="#" accessKey="" title="Contraste">
+	 <FontAwesomeIcon icon={faCircleHalfStroke} />
                 Contraste
               </a>
             </li>
             <li id="siteaction-login">
               <a href="/login" accessKey="" title="Acessar">
+	 <FontAwesomeIcon icon={faArrowRightToBracket} />
                 Acessar
               </a>
             </li>

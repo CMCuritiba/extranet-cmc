@@ -239,33 +239,6 @@ header a:hover {
   font-weight: 900;
 }
 
-#siteaction-sitemap a:before {
-  content: '\f0e8';
-}
-
-#siteaction-accessibility a:before {
-  content: '\f368';
-  font-family: 'Font Awesome 5 Brands' !important;
-  font-weight: 400 !important;
-}
-
-#siteaction-contact a:before,
-#siteaction-contato a:before {
-  content: '\f0e0';
-}
-
-#siteaction-contraste a:before {
-  content: '\f042';
-}
-
-#siteaction-login a:before {
-  content: '\f2f6';
-}
-
-#siteaction-vlibras a:before {
-  content: '\f25b';
-}
-
 #portal-searchbox {
   margin-right: 0;
   text-align: right;
