@@ -110,39 +110,6 @@ After the installation above, in the link (http://localhost:8080/Plone/acl_users
 
 After confirmation, the link (http://localhost:8080/Plone/acl_users/oidc/login?came_from=http%3A//localhost%3A8080/Plone/acl_users/oidc/manage_propertiesForm) will be available. This is the SSO configuration registration screen.
 
-## pas.plugins.authomatic plugin:
-In the setup.py file, located in the "backend/src/site_name/" folder, in the install_requires item, insert the term, with double quotes and a comma: "pas.plugins.authomatic",
-
-It is suggested to fill in the first position.
-
-## Configuration of pas.plugins.oidc on the Plone server:
-
-In a terminal, shut down the backend and frontend and run the following scripts, in this order:
-
-```shell
-    make clean
-    make-backend
-    make-frontend
-```
-After finishing, and a terminal instantiate the backend with:
-
-```shell
-  make start-backend
-```
-
-In another terminal:
-
-```shell
-  make start-frontend
-```
-
-Access the link (http://localhost:8080/Plone/prefs_install_products_form), log in with an administrator login and install pas.plugins.oidc.
-
-Access the link (http://localhost:8080/Plone/@@authomatic-controlpanel), and in "Configuration in JSON" box, insert this string:
-
-```shell
-  /* In test. */
-```
 
 ### Docker compose
 
