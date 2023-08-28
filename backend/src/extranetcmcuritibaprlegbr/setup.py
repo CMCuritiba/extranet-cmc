@@ -46,6 +46,7 @@ setup(
     python_requires=">=3.8",
     install_requires=[
         "pas.plugins.oidc",
+        "pas.plugins.memberpropertytogroup",
         "setuptools",
         "Plone",
         "prettyconf",
