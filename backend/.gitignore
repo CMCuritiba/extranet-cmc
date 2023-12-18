@@ -19,7 +19,7 @@ lib64/
 local/
 node_modules/
 parts/
-src/extranetcmcuritibaprlegbr/setuphandlers/data/*.json
+src/extranet_cmc/setuphandlers/data/*.json
 dist/*
 test.plone_addon/
 var/

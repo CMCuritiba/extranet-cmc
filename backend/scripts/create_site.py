@@ -1,5 +1,5 @@
 from AccessControl.SecurityManagement import newSecurityManager
-from extranetcmcuritibaprlegbr.interfaces import IEXTRANETCMCURITIBAPRLEGBRLayer
+from extranet_cmc.interfaces import IExtranetCmcLayer
 from Products.CMFPlone.factory import _DEFAULT_PROFILE
 from Products.CMFPlone.factory import addPloneSite
 from Testing.makerequest import makerequest
@@ -32,7 +32,7 @@ app = makerequest(app)  # noQA
 request = app.REQUEST
 
 ifaces = [
-    IEXTRANETCMCURITIBAPRLEGBRLayer,
+    IExtranetCmcLayer,
 ] + list(directlyProvidedBy(request))
 
 directlyProvides(request, *ifaces)
@@ -46,11 +46,11 @@ payload = {
     "title": "Extranet CMCuritiba",
     "profile_id": _DEFAULT_PROFILE,
     "extension_ids": [
-        "extranetcmcuritibaprlegbr:default",
-        "extranetcmcuritibaprlegbr:initial",
+        "extranet_cmc:default",
+        "extranet_cmc:initial",
     ],
     "setup_content": False,
-    "default_language": "en",
+    "default_language": "pt-br",
     "portal_timezone": "America/Sao_Paulo",
 }
 

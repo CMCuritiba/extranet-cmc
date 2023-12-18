@@ -15,11 +15,11 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-PLONE_VERSION=6.0.4
-
 BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
-CODE_QUALITY_VERSION=2.0.2
+PLONE_VERSION=$$(cat version.txt)
+
+CODE_QUALITY_VERSION=2.1
 ifndef LOG_LEVEL
 	LOG_LEVEL=INFO
 endif
@@ -28,7 +28,7 @@ USER_INFO=$$(id -u ${CURRENT_USER})
 LINT=docker run --rm -e LOG_LEVEL="${LOG_LEVEL}" -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} check
 FORMAT=docker run --rm --user="${USER_INFO}" -e LOG_LEVEL="${LOG_LEVEL}" -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} format
 
-IMAGE_NAME=cmcuritiba/extranet.cmcuritiba.pr.leg.br-backend
+IMAGE_NAME=ghcr.io/cmcuritiba/extranet-cmc-backend
 IMAGE_TAG=latest
 
 # Python checks
@@ -143,11 +143,12 @@ lint-zpretty: ## validate ZCML/XML using zpretty
 
 .PHONY: test
 test: ## run tests
-	./bin/zope-testrunner --auto-color --auto-progress --test-path src/extranetcmcuritibaprlegbr/src/
+	bin/pytest src/extranet_cmc/tests
+
 
 .PHONY: test_quiet
 test_quiet: ## run tests removing deprecation warnings
-	PYTHONWARNINGS=ignore ./bin/zope-testrunner --auto-color --auto-progress --test-path src/extranetcmcuritibaprlegbr/src/
+	bin/pytest --disable-warnings src/extranet_cmc/tests
 
 .PHONY: create-site
 create-site: instance/etc/zope.ini ## Create a new site from scratch

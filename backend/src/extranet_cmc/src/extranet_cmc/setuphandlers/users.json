@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "dtic@curitiba.pr.leg.br",
+      "properties": {
+        "fullname": "Extranet CMCuritiba",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "extranet-cmc"
+    }
+  ],
+    "team": [
+  ]
+}

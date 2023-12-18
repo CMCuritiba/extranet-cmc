@@ -1,0 +1,7 @@
+---
+project_folders:
+  # Path to store extranet.curitiba.pr.leg.br postgres data
+  - path: "/srv/extranet-cmc/data"
+    owner: 999
+    group: 999
+    mode: "0750"
