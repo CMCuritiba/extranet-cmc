@@ -1,26 +1,10 @@
-/**
- * Header component.
- * @module components/theme/Header/Header
- */
-
-import React, { Component } from 'react';
-import { Container, Segment } from 'semantic-ui-react';
+// SemanticUI-free pre-@plone/components
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faFacebookF,
-  faInstagram,
-  faYoutube,
-  faDiscord,
-  faAccessibleIcon,
-} from '@fortawesome/free-brands-svg-icons';
-import {
-  faCircle,
-  faHands,
-  faEnvelope,
-  faQuestion,
-} from '@fortawesome/free-solid-svg-icons';
+import { useSelector } from 'react-redux';
+import Container from '@kitconcept/volto-light-theme/components/Atoms/Container/Container';
+import { Link } from 'react-router-dom';
+import { FormattedMessage } from 'react-intl';
+
 import {
   Anontools,
   LanguageSelector,
@@ -29,182 +13,54 @@ import {
   SearchWidget,
 } from '@plone/volto/components';
 
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { faSitemap } from '@fortawesome/free-solid-svg-icons'
-import { faUniversalAccess } from '@fortawesome/free-solid-svg-icons'
-import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
-import { faHandPeace } from '@fortawesome/free-solid-svg-icons'
-import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons'
-import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons'
+const Header = (props) => {
+  const { pathname } = props;
+  const token = useSelector((state) => state.userSession.token);
 
-import './Header.css';
-
-/**
- * Header component class.
- * @class Header
- * @extends Component
- */
-class Header extends Component {
-  /**
-   * Property types.
-   * @property {Object} propTypes Property types.
-   * @static
-   */
-  static propTypes = {
-    token: PropTypes.string,
-    pathname: PropTypes.string.isRequired,
-  };
-
-  /**
-   * Default properties.
-   * @property {Object} defaultProps Default properties.
-   * @static
-   */
-  static defaultProps = {
-    token: null,
-  };
-
-  /**
-   * Render method.
-   * @method render
-   * @returns {string} Markup for the component.
-   */
-  render() {
-    return (
-      <header role="banner">
-        <div id="header-banner">
-          <div id="logo">
-            <a
-              href="/"
-              title="Portal da Câmara Municipal de Curitiba"
-              accessKey="1"
-            >
-              <img
-                src="https://www.curitiba.pr.leg.br/logo.png"
-                alt="Portal da Câmara Municipal de Curitiba"
-                title="Portal da Câmara Municipal de Curitiba"
-                width="92"
-                height="85"
-              />
-            </a>
-            <h1>
-              <a
-                href="/"
-                title="Portal da Câmara Municipal de Curitiba"
-                accessKey="1"
-              >
-                Câmara Municipal de <span>Curitiba</span>
-              </a>
-            </h1>
-          </div>
-
-          <ul id="siteactions">
-            <li id="siteaction-sitemap">
-              <a href="/sitemap" accessKey="3" title="Mapa do Site">
-		<FontAwesomeIcon icon={faSitemap} />
-                Mapa do Site
-              </a>
-            </li>
-            <li id="siteaction-accessibility">
-              <a href="/acessibilidade" accessKey="0" title="Acessibilidade">
-                <FontAwesomeIcon icon={faUniversalAccess} />
-                Acessibilidade
-              </a>
-            </li>
-            <li id="siteaction-contato">
-              <a
-                href="/institucional/fale-com-a-camara"
-                accessKey=""
-                title="Contato"
-              >
-	 <FontAwesomeIcon icon={faAddressBook} />
-                Contato
-              </a>
-            </li>
-            <li id="siteaction-vlibras">
-              <a href="http://www.vlibras.gov.br/" accessKey="" title="VLibras">
-	 <FontAwesomeIcon icon={faHandPeace} />
-                VLibras
-              </a>
-            </li>
-            <li id="siteaction-contraste">
-              <a href="#" accessKey="" title="Contraste">
-	 <FontAwesomeIcon icon={faCircleHalfStroke} />
-                Contraste
-              </a>
-            </li>
-            <li id="siteaction-login">
-              <a href="/login" accessKey="" title="Acessar">
-	 <FontAwesomeIcon icon={faArrowRightToBracket} />
-                Acessar
-              </a>
-            </li>
-          </ul>
-
-          <div id="portal-searchbox">
-            <form id="livesearch0" action="/@@search">
-              <div className="LSBox">
-                <label className="hiddenStructure" htmlFor="searchGadget">
-                  Busca
-                </label>
-
-                <input
-                  name="SearchableText"
-                  type="text"
-                  size="18"
-                  title="Buscar no Site"
-                  placeholder="Buscar no Site"
-                  accessKey="4"
-                  className="searchField"
-                  id="searchGadget"
-                  autoComplete="off"
-                />
-
-                <input className="searchButton" type="submit" value="Buscar" />
-
-                <div className="LSResult" id="LSResult">
-                  <div className="LSShadow" id="LSShadow"></div>
-                </div>
+  return (
+    <header className="header-wrapper">
+      <Container layout>
+        <div className="header">
+          <div className="logo-nav-wrapper">
+            <div className="logo">
+              <Logo />
+              <p>Câmara Municipal de Curitiba</p>
+            </div>
+            <Navigation pathname={pathname} />
+            <div><h2>Extranet</h2></div>
+            <div className="search-wrapper">
+              <div className="search">
+                <SearchWidget />
               </div>
-            </form>
+            </div>
+          </div>
+          <div className="tools-wrapper">
+            <LanguageSelector />
 
-            <div id="portal-advanced-search" className="hiddenStructure">
-              <a href="/@@search" accessKey="5">
-                Busca Avançada…
+            <div className="tools">
+              {!token && <Anontools />}
+
+              <Link aria-label="sitemap" to="/sitemap">
+                <FormattedMessage id="Sitemap" defaultMessage="Sitemap" />
+              </Link>
+              <a href="https://github.com/kitconcept/volto-light-theme">
+                GitHub
               </a>
             </div>
           </div>
         </div>
-        <nav id="main-navigation" role="navigation">
-          <a className="abrefecha">
-            <i className="fas fa-bars" aria-hidden="true"></i>
-            <i className="fas fa-times" aria-hidden="true"></i>
-            <span className="menu-title">Menu</span>
-          </a>
-          <ul id="destaques">
-            <li>
-              <a
-                href="/institucional/fale-com-a-camara"
-                title="Entre em contato"
-              >
-                Entre em contato
-              </a>
-            </li>
-            <li>
-              <a
-                href="/transparencia/portal-da-transparencia-1"
-                title="Portal da Transparência"
-              >
-                Portal da Transparência
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    );
-  }
-}
+      </Container>
+    </header>
+  );
+};
 
-export default connect((state) => ({
-  token: state.userSession.token,
-}))(Header);
+Header.propTypes = {
+  token: PropTypes.string,
+  pathname: PropTypes.string.isRequired,
+};
+
+Header.defaultProps = {
+  token: null,
+};
+
+export default Header;

@@ -1,133 +1,110 @@
-# Extranet CMCuritiba
+# Extranet CMCuritiba 🚀
 
 [![Built with Cookiecutter Plone Starter](https://img.shields.io/badge/built%20with-Cookiecutter%20Plone%20Starter-0083be.svg?logo=cookiecutter)](https://github.com/collective/cookiecutter-plone-starter/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
-[![Backend Tests](https://github.com/CMCuritiba/extranet.cmcuritiba.pr.leg.br/actions/workflows/backend.yml/badge.svg)](https://github.com/CMCuritiba/extranet.cmcuritiba.pr.leg.br/actions/workflows/backend.yml)
-[![Frontend Tests](https://github.com/CMCuritiba/extranet.cmcuritiba.pr.leg.br/actions/workflows/frontend.yml/badge.svg)](https://github.com/CMCuritiba/extranet.cmcuritiba.pr.leg.br/actions/workflows/frontend.yml)
+[![Backend Tests](https://github.com/cmcuritiba/extranet-cmc/actions/workflows/backend.yml/badge.svg)](https://github.com/cmcuritiba/extranet-cmc/actions/workflows/backend.yml)
+[![Frontend Tests](https://github.com/cmcuritiba/extranet-cmc/actions/workflows/frontend.yml/badge.svg)](https://github.com/cmcuritiba/extranet-cmc/actions/workflows/frontend.yml)
 
-Extranet da Câmara Municipal de Curitiba
-Baseado em Plone 6 - Volto.
+Extranet da Câmara Municipal de Curitiba baseado em Plone 6 - Volto.
 
-## Quick start
+## Quick Start 🏁
 
-### Development Setup
+### Prerequisites ✅
 
-- Python 3.9, 3.10, 3.11
-- Node 16
-- yarn
-- Docker
+Ensure you have the following installed:
 
-### Install
+- Python 3.11 🐍
+- Node 18 🟩
+- yarn 🧶
+- Docker 🐳
+
+### Installation 🔧
+
+1. Clone the repository:
 
 ```shell
-git clone git@github.com:CMCuritiba/extranet.cmcuritiba.pr.leg.br.git
-cd extranet.cmcuritiba.pr.leg.br
+git clone git@github.com:cmcuritiba/extranet-cmc.git
+cd extranet-cmc
+```
+
+2. Install both Backend and Frontend:
+
+```shell
 make install
 ```
 
-### Start
+### Fire Up the Servers 🔥
 
-Start the Backend (http://localhost:8080/)
+1. Create a new Plone site on your first run:
+
+```shell
+make create-site
+```
+
+2. Start the Backend at [http://localhost:8080/](http://localhost:8080/):
 
 ```shell
 make start-backend
 ```
 
-Start the Frontend (http://localhost:3000/)
+3. In a new terminal, start the Frontend at [http://localhost:3000/](http://localhost:3000/):
 
 ```shell
 make start-frontend
 ```
 
-## Structure
+Voila! Your Plone site should be live and kicking! 🎉
 
-This monorepo is composed by two distinct codebases: api and frontend.
+### Local Stack Deployment 📦
 
-- **backend**: API (Backend) Plone installation using pip (not buildout). Includes a policy package named extranetcmcuritibaprlegbr
-- **frontend**: React (Volto) package named frontend
+Deploy a local `Docker Compose` environment that includes:
 
-### Reasoning
+- Docker images for Backend and Frontend 🖼️
+- A stack with a Traefik router and a Postgres database 🗃️
+- Accessible at [http://extranet-cmc.localhost](http://extranet-cmc.localhost) 🌐
 
-- Repo contains all codebase needed to run the site (excluding existing addons for Plone and React).
-- Github Workflows are triggered based on changes on each codebase (see .github/workflows)
-- Easier to create Docker images for each codebase
-- Showcase Plone installation/setup without buildout
-
-## Linters and Formatting
-
-There are some hooks to run lint checks on the code. If you want to automatically format them, you can run
-
-`make format`
-
-in the root folder or especifically in each backend or frontend folders.
-
-Linters commands are available in each backend and frontend folder.
-
-## Acceptance tests
-
-There are `Makefile` commands in place:
-
-`build-test-acceptance-server`: Build Acceptance Backend Server Docker image that it's being used afterwards. Must be run before running the tests, if the backend code has changed.
-
-`start-test-acceptance-server`: Start server fixture in docker (previous build required)
-
-`start-test-acceptance-frontend`: Start the Core Acceptance Frontend Fixture in dev mode
-
-`test-acceptance`: Start Core Cypress Acceptance Tests in dev mode
-
-### Plugins Installation
-
-## pas.plugins.oidc plugin:
-
-In the setup.py file, located in the "backend/src/site_name/" folder, in the install_requires item, insert the term, with double quotes and a comma: "pas.plugins.oidc",
-
-It is suggested to fill in the first position.
-
-## Configuration of pas.plugins.oidc on the Plone server:
-
-In a terminal, shut down the backend and frontend and run the following scripts, in this order:
+Execute the following:
 
 ```shell
-    make clean
-    make-backend
-    make-frontend
+make stack-start
+make stack-create-site
 ```
-After finishing, and a terminal instantiate the backend with:
+
+And... you're all set! Your Plone site is up and running locally! 🚀
+
+## Project Structure 🏗️
+
+This monorepo consists of three distinct sections: `backend`, `frontend`, and `devops`.
+
+- **backend**: Houses the API and Plone installation, utilizing pip instead of buildout, and includes a policy package named extranet_cmc.
+- **frontend**: Contains the React (Volto) package.
+- **devops**: Encompasses Docker Stack, Ansible playbooks, and Cache settings.
+
+### Why This Structure? 🤔
+
+- All necessary codebases to run the site are contained within the repo (excluding existing addons for Plone and React).
+- Specific GitHub Workflows are triggered based on changes in each codebase (refer to .github/workflows).
+- Simplifies the creation of Docker images for each codebase.
+- Demonstrates Plone installation/setup without buildout.
+
+## Code Quality Assurance 🧐
+
+To automatically format your code and ensure it adheres to quality standards, execute:
 
 ```shell
-  make start-backend
+make format
 ```
 
-In another terminal:
+Linters can be run individually within the `backend` or `frontend` folders.
+
+## Internationalization 🌐
+
+Generate translation files for Plone and Volto with ease:
 
 ```shell
-  make start-frontend
+make i18n
 ```
 
-Access the link (http://localhost:8080/Plone/prefs_install_products_form), log in with an administrator login and install pas.plugins.oidc.
+## Credits and Acknowledgements 🙏
 
-After the installation above, in the link (http://localhost:8080/Plone/acl_users/plugins/manage_interfaces) the term pas.plugins.oidc.plugins.IOIDCPlugin will appear. Mark and click on ADD, at the bottom of the page.
-
-After confirmation, the link (http://localhost:8080/Plone/acl_users/oidc/login?came_from=http%3A//localhost%3A8080/Plone/acl_users/oidc/manage_propertiesForm) will be available. This is the SSO configuration registration screen.
-
-
-### Docker compose
-
-## Running the server frontend + backend + nginx + postgres
-
-Create the images:
-
-```shell
-  make build-images
-```
-
-Run the images with docker compose:
-
-```shell
-  cd devops
-  docker compose up
-```
-
-## Credits
-
-**This was generated by [cookiecutter-plone-starter](https://github.com/collective/cookiecutter-plone-starter) on 2023-05-05 12:54:55**
+Crafted with care by **This was generated by [cookiecutter-plone-starter](https://github.com/collective/cookiecutter-plone-starter) on 2023-12-11 17:28:09**. A special thanks to all contributors and supporters!

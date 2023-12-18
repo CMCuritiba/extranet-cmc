@@ -1,1 +1,5 @@
-{}
+{
+  "volto-extranet-cmc": {
+    "local": "addons/volto-extranet-cmc/src"
+  }
+}

@@ -1,3 +1,4 @@
-# 2023-05-05
+# Changes
+## 1.0.0 (2023-12-11)
 
-- Initial version [CMCuritiba]
+- Initial version [cmcuritiba]

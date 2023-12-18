@@ -1,50 +1,104 @@
-version: "3"
+---
+version: '3.8'
+name: extranet-cmc
+
 services:
+  traefik:
+    image: traefik:v2.10
 
-  webserver:
-    image: nginx
-    volumes:
-      - ./default.conf:/etc/nginx/conf.d/default.conf
-    depends_on:
-      - backend
-      - frontend
     ports:
-    - "80:80"
+      - 80:80
 
+    labels:
+      - traefik.enable=true
+      - traefik.constraint-label=public
+      - traefik.http.routers.traefik-public-http.rule=Host(`traefik.extranet-cmc.localhost`)
+      - traefik.http.routers.traefik-public-http.entrypoints=http
+      - traefik.http.routers.traefik-public-http.service=api@internal
+      - traefik.http.services.traefik-public.loadbalancer.server.port=8000
+
+      # GENERIC MIDDLEWARES
+      - traefik.http.middlewares.gzip.compress=true
+      - traefik.http.middlewares.gzip.compress.excludedcontenttypes=image/png, image/jpeg, font/woff2
+
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+    command:
+      - --providers.docker
+      - --providers.docker.constraints=Label(`traefik.constraint-label`, `public`)
+      - --providers.docker.exposedbydefault=false
+      - --entrypoints.http.address=:80
+      - --accesslog
+      - --log
+      - --api
   frontend:
     build:
       context: ./frontend
-      dockerfile: Dockerfile
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
-    ports:
-    - "3000:3000"
     depends_on:
       - backend
+    labels:
+      - traefik.enable=true
+      - traefik.constraint-label=public
+      # Service
+      - traefik.http.services.svc-frontend.loadbalancer.server.port=3000
+      # Routers
+      ## /
+      - traefik.http.routers.rt-frontend.rule=Host(`extranet-cmc.localhost`)
+      - traefik.http.routers.rt-frontend.entrypoints=http
+      - traefik.http.routers.rt-frontend.service=svc-frontend
+      - traefik.http.routers.rt-frontend.middlewares=gzip
 
   backend:
     build:
       context: ./backend
-      dockerfile: Dockerfile
     environment:
-      SITE: Plone
-      RELSTORAGE_DSN: "dbname='plone' user='xxx' host='db' password='xxx'"
-    ports:
-    - "8080:8080"
+      RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_NAME:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-AlVTkAjyfPbh}' port='${DB_PORT:-5432}'"
+      ADDONS: "pas.plugins.oidc"
     depends_on:
       - db
+    labels:
+      - traefik.enable=true
+      - traefik.constraint-label=public
+      # Services
+      - traefik.http.services.svc-backend.loadbalancer.server.port=8080
 
+      # Middlewares
+      ## VHM rewrite /++api++/
+      - "traefik.http.middlewares.mw-backend-vhm-api.replacepathregex.regex=^/\\+\\+api\\+\\+($$|/.*)"
+      - "traefik.http.middlewares.mw-backend-vhm-api.replacepathregex.replacement=/VirtualHostBase/http/extranet-cmc.localhost/Plone/++api++/VirtualHostRoot$$1"
+
+      ## VHM rewrite /ClassicUI/
+      - "traefik.http.middlewares.mw-backend-vhm-classic.replacepathregex.regex=^/ClassicUI($$|/.*)"
+      - "traefik.http.middlewares.mw-backend-vhm-classic.replacepathregex.replacement=/VirtualHostBase/http/extranet-cmc.localhost/Plone/VirtualHostRoot/_vh_ClassicUI$$1"
+
+      ## Basic Authentication
+      ### Note: all dollar signs in the hash need to be doubled for escaping.
+      ### To create user:password pair, it's possible to use this command:
+      ### echo $(htpasswd -nb user password) | sed -e s/\\$/\\$\\$/g
+      ### Defaults to admin:admin
+      - traefik.http.middlewares.mw-backend-auth.basicauth.users=admin:$$apr1$$uZPT5Fgu$$AmlIdamxT5ipBvPlsdfD70
+      # Routers
+      - traefik.http.routers.rt-backend-api.rule=Host(`extranet-cmc.localhost`) && (PathPrefix(`/++api++`))
+      - traefik.http.routers.rt-backend-api.entrypoints=http
+      - traefik.http.routers.rt-backend-api.service=svc-backend
+      - traefik.http.routers.rt-backend-api.middlewares=gzip,mw-backend-vhm-api
+      ## /ClassicUI
+      - traefik.http.routers.rt-backend-classic.rule=Host(`extranet-cmc.localhost`) && PathPrefix(`/ClassicUI`)
+      - traefik.http.routers.rt-backend-classic.entrypoints=http
+      - traefik.http.routers.rt-backend-classic.service=svc-backend
+      - traefik.http.routers.rt-backend-classic.middlewares=gzip,mw-backend-auth,mw-backend-vhm-classic
 
   db:
-    image: postgres
+    image: postgres:14
     environment:
-      POSTGRES_USER: xxx
-      POSTGRES_PASSWORD: xxx
+      POSTGRES_USER: plone
+      POSTGRES_PASSWORD: AlVTkAjyfPbh
       POSTGRES_DB: plone
     volumes:
-    - data:/var/lib/postgresql/data
-    ports:
-    - "5432:5432"
+      - vol-site-data:/var/lib/postgresql/data
 
 volumes:
-  data: {}
+  vol-site-data: {}

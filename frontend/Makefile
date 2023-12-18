@@ -7,7 +7,7 @@ SHELL:=bash
 .DELETE_ON_ERROR:
 MAKEFLAGS+=--warn-undefined-variables
 MAKEFLAGS+=--no-builtin-rules
-IMAGE_NAME=cmcuritiba/extranet.cmcuritiba.pr.leg.br-frontend
+IMAGE_NAME=ghcr.io/cmcuritiba/extranet-cmc-frontend
 IMAGE_TAG=latest
 
 NODEBIN = ./node_modules/.bin
@@ -45,7 +45,7 @@ format-lint: ## Format Code with Lint
 	yarn run lint:fix
 
 .PHONY: format
-format: format-prettier format-stylelint format-lint ## Format the codebase according to our standards
+format: format-prettier format-lint format-stylelint ## Format the codebase according to our standards
 
 .PHONY: install
 install: ## Install the frontend
@@ -60,7 +60,7 @@ preinstall: ## Preinstall task, checks if missdev (mrs-developer) is present and
 
 .PHONY: develop
 develop: ## Runs missdev in the local project (mrs.developer.json should be present)
-	npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https
+	if [ -f $$(pwd)/tsconfig.json ]; then npx -p mrs-developer missdev --config=tsconfig.json --output=addons --fetch-https; else  npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https;fi
 
 .PHONY: omelette
 omelette: ## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)

@@ -1,11 +1,13 @@
 # syntax=docker/dockerfile:1
-FROM node:16-slim as base
+FROM node:18-slim as base
 FROM base as builder
 
 RUN <<EOT
-    apt-get update
-    buildDeps="python3 build-essential git ca-certificates"
-    apt-get install -y --no-install-recommends $buildDeps
+    set -e
+    apt update
+    apt install -y --no-install-recommends python3 build-essential
+    mkdir /app
+    chown -R node:node /app
     rm -rf /var/lib/apt/lists/*
 EOT
 
@@ -15,29 +17,46 @@ RUN corepack enable
 USER node
 WORKDIR /build
 RUN <<EOT
+    set -e
     make install
     yarn build
 EOT
 
 FROM base
 
-LABEL maintainer="Ramiro Batista da Luz <ramiroluz@gmail.com>" \
-      org.label-schema.name="extranet.cmcuritiba.pr.leg.br-frontend" \
+LABEL maintainer="DTIC CMCuritiba <dtic@curitiba.pr.leg.br>" \
+      org.label-schema.name="extranet-cmc-frontend" \
       org.label-schema.description="Extranet CMCuritiba frontend image." \
-      org.label-schema.vendor="Ramiro Batista da Luz"
+      org.label-schema.vendor="DTIC CMCuritiba"
 
+# Install busybox and wget
 RUN <<EOT
-    apt-get update
-    buildDeps="busybox"
-    apt-get install -y --no-install-recommends $buildDeps
+    set -e
+    apt update
+    apt install -y --no-install-recommends busybox wget
     busybox --install -s
     rm -rf /var/lib/apt/lists/*
+    mkdir /app
+    chown -R node:node /app
 EOT
 
-
+# Run the image with user node
 USER node
+
+# Copy
 COPY --from=builder /build/ /app/
 
+# Set working directory to /app
 WORKDIR /app
+
+# Expose default Express port
 EXPOSE 3000
-CMD ["yarn", "start:prod"]
+
+# Set healthcheck to port 3000
+HEALTHCHECK --interval=10s --timeout=5s --start-period=30s CMD [ -n "$LISTEN_PORT" ] || LISTEN_PORT=3000 ; wget -q http://127.0.0.1:"$LISTEN_PORT" -O - || exit 1
+
+# Entrypoint would be yarn
+ENTRYPOINT [ "yarn" ]
+
+# And the image will run in production mode
+CMD ["start:prod"]

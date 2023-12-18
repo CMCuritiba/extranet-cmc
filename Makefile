@@ -10,6 +10,8 @@ MAKEFLAGS+=--no-builtin-rules
 
 CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
+PROJECT_NAME=extranet-cmc
+STACK_NAME=extranet-curitiba-pr-leg-br
 
 # We like colors
 # From: https://coderwall.com/p/izxssa/colored-makefile-for-golang-projects
@@ -115,36 +117,54 @@ build-images:  ## Build docker images
 	$(MAKE) -C "./frontend/" build-image
 
 ## Docker stack
-.PHONY: start-stack
-start-stack:  ## Start local stack
+.PHONY: stack-start
+stack-start:  ## Local Stack: Start Services
 	@echo "Start local Docker stack"
-	@docker-compose -f devops/stacks/docker-compose-local.yml up -d --build
+	@docker compose -f docker-compose.yml up -d --build
+	@echo "Now visit: http://extranet-cmc.localhost"
 
-.PHONY: stop-stack
-stop-stack:  ## Stop local stack
+.PHONY: start-stack
+stack-create-site:  ## Local Stack: Create a new site
+	@echo "Create a new site in the local Docker stack"
+	@docker compose -f docker-compose.yml exec backend ./docker-entrypoint.sh create-site
+
+.PHONY: start-ps
+stack-status:  ## Local Stack: Check Status
+	@echo "Check the status of the local Docker stack"
+	@docker compose -f docker-compose.yml ps
+
+.PHONY: stack-stop
+stack-stop:  ##  Local Stack: Stop Services
 	@echo "Stop local Docker stack"
-	@docker-compose -f devops/stacks/docker-compose-local.yml down
+	@docker compose -f docker-compose.yml stop
+
+.PHONY: stack-rm
+stack-rm:  ## Local Stack: Remove Services and Volumes
+	@echo "Remove local Docker stack"
+	@docker compose -f docker-compose.yml down
+	@echo "Remove local volume data"
+	@docker volume rm $(PROJECT_NAME)_vol-site-data
 
 ## Acceptance
 .PHONY: build-acceptance-servers
 build-acceptance-servers: ## Build Acceptance Servers
 	@echo "Build acceptance backend"
-	@docker build backend -t CMCuritiba/extranet.cmcuritiba.pr.leg.br-backend:acceptance -f backend/Dockerfile.acceptance
+	@docker build backend -t cmcuritiba/extranet-cmc-backend:acceptance -f backend/Dockerfile.acceptance
 	@echo "Build acceptance frontend"
-	@docker build frontend -t cmcuritiba/extranet.cmcuritiba.pr.leg.br-frontend:acceptance -f frontend/Dockerfile
+	@docker build frontend -t cmcuritiba/extranet-cmc-frontend:acceptance -f frontend/Dockerfile
 
 .PHONY: start-acceptance-servers
 start-acceptance-servers: build-acceptance-servers ## Start Acceptance Servers
 	@echo "Start acceptance backend"
-	@docker run --rm -p 55001:55001 --name extranet.cmcuritiba.pr.leg.br-backend-acceptance -d CMCuritiba/extranet.cmcuritiba.pr.leg.br-backend:acceptance
+	@docker run --rm -p 55001:55001 --name extranet-cmc-backend-acceptance -d cmcuritiba/extranet-cmc-backend:acceptance
 	@echo "Start acceptance frontend"
-	@docker run --rm -p 3000:3000 --name extranet.cmcuritiba.pr.leg.br-frontend-acceptance --link extranet.cmcuritiba.pr.leg.br-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d CMCuritiba/extranet.cmcuritiba.pr.leg.br-frontend:acceptance
+	@docker run --rm -p 3000:3000 --name extranet-cmc-frontend-acceptance --link extranet-cmc-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d cmcuritiba/extranet-cmc-frontend:acceptance
 
 .PHONY: stop-acceptance-servers
 stop-acceptance-servers: ## Stop Acceptance Servers
 	@echo "Stop acceptance containers"
-	@docker stop extranet.cmcuritiba.pr.leg.br-frontend-acceptance
-	@docker stop extranet.cmcuritiba.pr.leg.br-backend-acceptance
+	@docker stop extranet-cmc-frontend-acceptance
+	@docker stop extranet-cmc-backend-acceptance
 
 .PHONY: run-acceptance-tests
 run-acceptance-tests: ## Run Acceptance tests
