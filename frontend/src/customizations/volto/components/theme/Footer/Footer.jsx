@@ -36,7 +36,9 @@ const Footer = ({ intl }) => {
     <footer id="footer">
       <Container layout className="footer">
         <div className="footer-message">
-          <div align='center'><Image src={LogoPreta} /></div>
+          <div align="center">
+            <Image src={LogoPreta} />
+          </div>
           <FormattedMessage
             id="AQUI SE CONSTRÓI O FUTURO DA CIDADE   |   18ª LEGISLATURA (2021-2024)"
             defaultMessage="AQUI SE CONSTRÓI O FUTURO DA CIDADE   |   18ª LEGISLATURA (2021-2024)"

@@ -4,7 +4,6 @@
  */
 import { useEffect } from 'react';
 import { Image } from 'semantic-ui-react';
-import { TextArea } from 'semantic-ui-react';
 import { ConditionalLink } from '@plone/volto/components';
 import LogoImage from './Logo.png';
 import { useSelector, useDispatch } from 'react-redux';
