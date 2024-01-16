@@ -29,6 +29,8 @@
     "src/addons/volto-extranet-cmc"
   ],
   "addons": [
+    "@eeacms/volto-eea-kitkat",
+    "@kitconcept/volto-slider-block",
     "volto-extranet-cmc"
   ],
   "jest": {
@@ -139,6 +141,8 @@
     "node": "^16 || ^18 || ^20"
   },
   "dependencies": {
+    "@eeacms/volto-eea-kitkat": "*",
+    "@kitconcept/volto-slider-block": "*",
     "@plone/volto": "17.6.1"
   },
   "devDependencies": {
