@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 // SemanticUI-free pre-@plone/components
 import React from 'react';
 
@@ -11,29 +9,6 @@ import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
 import config from '@plone/volto/registry';
 import { Image } from 'semantic-ui-react';
 import LogoPreta from './logo-cmc-preta.png';
-=======
-/**
- * Footer component.
- * @module components/theme/Footer/Footer
- */
-
-=======
-// SemanticUI-free pre-@plone/components
->>>>>>> 1f900ae (Resolve conflitos main)
-import React from 'react';
-
-import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
-import { useSelector, shallowEqual } from 'react-redux';
-import { UniversalLink, Logo } from '@plone/volto/components';
-import Container from '@kitconcept/volto-light-theme/components/Atoms/Container/Container';
-import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
-<<<<<<< HEAD
->>>>>>> e1dab84 (Rodapé customizado da Extranet)
-=======
-import config from '@plone/volto/registry';
-import { Image } from 'semantic-ui-react';
-import LogoPreta from './logo-cmc-preta.png';
->>>>>>> 1f900ae (Resolve conflitos main)
 
 const messages = defineMessages({
   copyright: {
@@ -61,13 +36,9 @@ const Footer = ({ intl }) => {
     <footer id="footer">
       <Container layout className="footer">
         <div className="footer-message">
-<<<<<<< HEAD
           <div align="center">
             <Image src={LogoPreta} />
           </div>
-=======
-          <div align='center'><Image src={LogoPreta} /></div>
->>>>>>> 1f900ae (Resolve conflitos main)
           <FormattedMessage
             id="AQUI SE CONSTRÓI O FUTURO DA CIDADE   |   18ª LEGISLATURA (2021-2024)"
             defaultMessage="AQUI SE CONSTRÓI O FUTURO DA CIDADE   |   18ª LEGISLATURA (2021-2024)"
