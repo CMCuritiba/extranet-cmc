@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // SemanticUI-free pre-@plone/components
 import React from 'react';
 
@@ -9,6 +10,20 @@ import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
 import config from '@plone/volto/registry';
 import { Image } from 'semantic-ui-react';
 import LogoPreta from './logo-cmc-preta.png';
+=======
+/**
+ * Footer component.
+ * @module components/theme/Footer/Footer
+ */
+
+import React from 'react';
+import { Container, List, Segment } from 'semantic-ui-react';
+import { map } from 'lodash';
+import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
+import { useSelector, shallowEqual } from 'react-redux';
+import { UniversalLink } from '@plone/volto/components';
+import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
+>>>>>>> e1dab84 (Rodapé customizado da Extranet)
 
 const messages = defineMessages({
   copyright: {
