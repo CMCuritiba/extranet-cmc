@@ -27,7 +27,9 @@ const Header = (props) => {
               <p>Câmara Municipal de Curitiba</p>
             </div>
             <Navigation pathname={pathname} />
-            <div><h2>Extranet</h2></div>
+            <div>
+              <h2>Extranet</h2>
+            </div>
             <div className="search-wrapper">
               <div className="search">
                 <SearchWidget />
