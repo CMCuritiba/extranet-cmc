@@ -3,7 +3,7 @@ import React from 'react';
 
 import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
 import { useSelector, shallowEqual } from 'react-redux';
-import { UniversalLink, Logo } from '@plone/volto/components';
+import { UniversalLink } from '@plone/volto/components';
 import Container from '@kitconcept/volto-light-theme/components/Atoms/Container/Container';
 import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
 import config from '@plone/volto/registry';
@@ -108,9 +108,6 @@ const Footer = ({ intl }) => {
               ))
             : null}
         </ul>
-        <div className="logo">
-          <Logo />
-        </div>
         <a className="item powered-by" href="https://plone.org">
           <FormattedMessage
             id="Powered by Plone & Python"
