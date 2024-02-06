@@ -108,9 +108,6 @@ const Footer = ({ intl }) => {
               ))
             : null}
         </ul>
-        <div className="logo">
-          <Logo />
-        </div>
         <a className="item powered-by" href="https://plone.org">
           <FormattedMessage
             id="Powered by Plone & Python"
