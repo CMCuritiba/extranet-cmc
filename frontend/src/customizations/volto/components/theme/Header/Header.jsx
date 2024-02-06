@@ -22,9 +22,17 @@ const Header = (props) => {
       <Container layout>
         <div className="header">
           <div className="logo-nav-wrapper">
-            <div className="logo">
-              <Logo />
-              <p>Câmara Municipal de Curitiba</p>
+            <div className="logo" style={{ display: 'grid' }}>
+              <div
+                style={{
+                  justifySelf: 'center',
+                }}
+              >
+                <Logo />
+              </div>
+              <div>
+                <h4>Câmara Municipal de Curitiba</h4>
+              </div>
             </div>
             <Navigation pathname={pathname} />
             <div>
