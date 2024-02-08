@@ -12,7 +12,18 @@
 // [Internal] All the imports of modules required for the configuration *must* happen
 // here BEFORE the following line
 import '@plone/volto/config';
+import SocialSharing from '@codesyntax/volto-social-sharing/SocialSharing';
 
 export default function applyConfig(config) {
+  config.settings = {
+    ...config.settings,
+appExtras: [
+    ...config.settings.appExtras,
+    {
+      match: '',
+      component: SocialSharing,
+    },
+  ],
+  }
   return config;
 }
