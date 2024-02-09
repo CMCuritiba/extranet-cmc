@@ -31,6 +31,7 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@kitconcept/volto-slider-block",
+    "@codesyntax/volto-social-sharing",
     "volto-extranet-cmc"
   ],
   "jest": {
@@ -141,6 +142,7 @@
     "node": "^16 || ^18 || ^20"
   },
   "dependencies": {
+    "@codesyntax/volto-social-sharing": "*",
     "@eeacms/volto-eea-kitkat": "*",
     "@kitconcept/volto-slider-block": "*",
     "@plone/volto": "17.6.1"
