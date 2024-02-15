@@ -87,155 +87,160 @@ Agora com seu bloco vazio disponível, você pode selecionar seu tipo de uma das
 
 (user-manual-description-block-label)=
 
-### Description block
+### Bloco descrição
 
-A description block accepts plain text.
-When displayed, it appears as the description in the page, and for search engine optimization in HTML meta tags as `<meta name="description" content="DESCRIPTION_TEXT" data-react-helmet="true">` and `<meta property="og:description" content="DESCRIPTION_TEXT" data-react-helmet="true">`.
+Um bloco de descrição aceita texto puro.
+Quando exibido, ele aparece como descrição na página, e para otimização de mecanismos de pesquisa nas meta tags HTML como `<meta name="description" content="DESCRIPTION_TEXT" data-react-helmet="true">` e `<meta property="og:description" content="DESCRIPTION_TEXT" data-react-helmet="true">`.
 
 
 (user-manual-grid-block-label)=
 
-### Grid block
+### Bloco grid
 
-A grid block creates a single row of columns in a grid, which can be used to display content in a structured, organized way.
-You can select the number of columns to insert.
+Um bloco grid cria uma linha única de colunas numa grade, que pode ser usada para exibir conteúdo de uma forma estruturada e organizada.
+Você pode selecionar o número de colunas para inserir.
 
 ```{image} ../_static/user-manual/blocks/grid-block-number-of-columns.png
-:alt: Choose the number of columns to insert in a grid block.
+:alt: Escolha o número de colunas para inserir num bloco grid.
 ```
 
-After choosing the number of columns to insert in a grid block, you can manage the columns.
+Depois de escolher o número de colunas para inserir num bloco grid, você pode gerenciar as colunas.
 
 ```{image} ../_static/user-manual/blocks/grid-block-manage-blocks.png
-:alt: Add a specific block type into a grid block's column
+:alt: Adiciona um tipo de bloco específico em uma coluna de um bloco grid
 ```
 
--   Specify the block type in a column by clicking its `+` button.
--   Rearrange the order of columns in the grid block by dragging and dropping them.
--   Add a column to the grid block by clicking the `+` button above and to the left of it.
--   Remove a column from a grid block by clicking its `×` button.
+-   Especifique o tipo do bloco numa coluna clicando em seu botão `+`.
+-   Reorganize a ordem das colunas no bloco grid arrastando e soltando elas.
+-   Adiicone uma coluna ao bloco grid clicando no botão `+` no lado superior esquerdo dele.
+-   Remova uma coluna do bloco grid clicando no seu botão `×`.
 
 
 (user-manual-html-block-label)=
 
-### HTML block
+### Bloco HTML
 
-An HTML block allows users to add custom HTML code to a page.
-This can be useful for adding custom functionality or styling to a page, or for integrating with external services or applications.
-For example, you can insert an HTML snippet or widget from a third party service to embed a calendar, payment or donation button, or social media into a page.
+Um bloco HTML permite aos usuários adicionar código HTML customizado em uma página.
+Isto pode ser útil para adicionar funcionalidades ou estilos customizados em uma página, ou para integração com serviços externos ou aplicações.
+Por exemplo, você pode inserir um trecho de HTML ou componente de um serviço de terceiros para embutir um calendário, botão de doação ou pagamento, ou mídia social em uma página.
 
 ```{image} ../_static/user-manual/blocks/html-block.png
-:alt: HTML block
+:alt: Bloco HTML
 ```
 
-To use an HTML block, you need to have some knowledge of how to write HTML, unless you are provided an HTML code snippet from a third party that you can copy and paste into the block.
+Para usar um bloco HTML, você precisa ter algum conhecimento sobre como escrever HTML, a não ser que você receba um trecho de HTML de um terceiro que você pode copiar e colar no bloco.
 
 
 (user-manual-hero-block-label)=
 
-### Hero block
+### Bloco hero
 
-A hero block creates a full-width banner or header for a page.
-It is typically used to highlight important content or to create a visual impact at the top of a page.
+Um bloco hero cria um banner de largura total ou cabeçalho para uma página.
+Ele é tipicamente usado para destacar conteúdo importante ou para criar um impacto visual no topo da página.
 
 ```{image} ../_static/user-manual/blocks/hero-block.png
-:alt: Hero block
+:alt: Bloco hero
 ```
 
-Hero blocks typically include a background image or color.
-They can also include a title, description, and links to other pages in your site.
+Blocos hero tipicamente incluem uma imagem ou cor de fundo.
+Eles também podem incluir um título, descrição e links para outras páginas do seu site.
 
-You can use the block editor to configure its options.
-You can set the background image or color, its title and description, and links.
-For links, you can enter an external URL or select a page in your site by clicking the list icon, and give the link a title.
+Você pode usar o editor de blocos para configurar suas opções.
+Você pode configurar a imagem de fundo ou a cor, seu título, descrição e links.
+Para links, você pode fornecer uma URL externa ou selecionar uma página do seu site clicando no ícone lista e fornecer um título para o link.
 
 
 (user-manual-image-block-label)=
 
-### Image block
+### Bloco imagem
 
-An image block lets a user insert an image into a page and configure its attributes.
+Um bloco imagem permiter inserir uma imagem numa página e configurar seus atributos.
 
 ```{image} ../_static/user-manual/blocks/image-block.png
-:alt: Image block
+:alt: Bloco imagem
 ```
 
-After inserting an image block, an image must be specified by any of the following methods.
--   Choose an existing image in the site by clicking the block's list icon.
--   Upload a new image by either clicking the block's upload icon or drag and drop.
--   Enter a remote image's URL in the block's text area.
-    Click the arrow icon to save the URL.
+Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada através de qualquer um dos seguintes métodos:
+-   Escolha uma imagem existente no site clicando no ícone de lista do bloco.
+-   Envie uma nova imagem ou clicando no ícone de upload do bloco ou arrastando e soltando.
+-   Forneça uma URL remota da imagem na área de texto do bloco.
+    Clique no ícone de seta para salvar a URL.
 
-Once you have specified an image, its configurable options become available.
+Depois que você especificou uma imagem, suas opções de configuração se tornar disponíveis.
 ```{image} ../_static/user-manual/blocks/image-block-configuration-options.png
-:alt: Image block configuration options
+:alt: Opções de configuração do bloco imagem
 ```
 
-Source
-: The path or URL to the image.
+Origem
+: Caminho ou URL para a imagem.
 
-Alt text
-: Alternative text (alt text) is used by screen readers and search engines to describe the image.
-  Alt text should not be used for decorative images, as it adds noise to the screen reader.
+Texto alternativo
+: Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca para descrever a imagem
+  Texto alternativo não deve ser usado para imagens decorativas, pois adiciona ruído aos leitores de tela.
 
-Alignment
-: Options for alignment include left, right, center, and full width.
+Alinhamento
+: Opções para alinhamento incluindo a esquerda, a direita, centralizado e largura total.
 
-Image size
-: The image size determines its relative display width, either small, medium, or large.
+Tamanho da imagem
+: O tamanho da imagem determina a exibição relativa a largura, qual seja pequeno, médio ou grande
 
-Link to
-: You can enter a URL in the text field, or click the list icon and choose a page in your website, as the target for a link.
-  You can optionally have the link open in a new tab when the user clicks it by checking the checkbox {guilabel}`Open in a new tab`.
+Link para
+: Você pode fornecer uma URL no campo de texto, ou clicar no ícone lista e escolher uma página do site para o link alvo.
+  Você pode opcionalmente fazer o link abrir em uma nova aba quando o usuário clicar nele marcando a caixa de seleção {guilabel}`Abrir em nova aba`.
 
 
 (user-manual-images-grid-block-label)=
 
-### Images grid block
+### Bloco grid de imagens
 
-An images grid block displays a row of images on a page.
-It is typically used to showcase a collection of images in a visually appealing way.
-It can be configured to display the images in different layouts and styles.
+Um bloco de imagens apresenta uma linha de imagens numa página.
+É usado tipicamente para mostrar uma coleção de imagens de uma maneira agradável.
+Pode ser configurado para mostrar imagens em diferentes layouts e estilos.
 
 ```{image} ../_static/user-manual/blocks/images-grid-block-number-of-columns.png
-:alt: Choose the number of images to insert in an images grid block.
+:alt: Escolha o número de imagens para inserir em um bloco de grid de imagens.
 ```
 
-After choosing the number of images to insert in an images grid block, you can configure the images exactly as you would configure a single image in an image block.
+Depois de escolher o número de imagens a inserir em um bloco de grid de imagens, você pode configurar as imagens assim como configura um única imagem em um bloco de imagem.
 
 ```{image} ../_static/user-manual/blocks/image-block-configuration-options.png
-:alt: Image block configuration options
+:alt: Opções de configuração do bloco de imagem.
 ```
 
-Source
-: The path or URL to the image.
+Origem
+: O caminho ou URL da imagem
 
-Alt text
-: Alternative text (alt text) is used by screen readers and search engines to describe the image.
-  Alt text should not be used for decorative images, as it adds noise to the screen reader.
+Texto alternativo
+: Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca para descrever a imagem
+  Texto alternativo não deve ser usado para imagens decorativas, pois adiciona ruído aos leitores de tela.
 
-Alignment
-: Options for alignment include left, right, center, and full width.
+Alinhamento
+: Opções para alinhamento incluindo a esquerda, a direita, centralizado e largura total.
 
-Image size
-: The image size determines its relative display width, either small, medium, or large.
+Tamanho da imagem
+: O tamanho da imagem determina a exibição relativa a largura, qual seja pequeno, médio ou grande
 
-Link to
-: You can enter a URL in the text field, or click the list icon and choose a page in your website, as the target for a link.
-  You can optionally have the link open in a new tab when the user clicks it by checking the checkbox {guilabel}`Open in a new tab`.
+Link para
+: Você pode fornecer uma URL no campo de texto, ou clicar no ícone lista e escolher uma página do site para o link alvo.
+  Você pode opcionalmente fazer o link abrir em uma nova aba quando o usuário clicar nele marcando a caixa de seleção {guilabel}`Abrir em nova aba`.
 
-You can also manage the images in the images grid block.
+
+Você também pode gerenciar as imagens em um block de grid de imagens.
 
 ```{image} ../_static/user-manual/blocks/images-grid-block-manage-images.png
-:alt: Manage images in an images gride block
+:alt: Gerencie imagens num bloco de grid de imagens
 ```
 
--   Rearrange the order of images in the images grid block by dragging and dropping them.
--   Add an image to the images grid block by clicking the `+` button above and to the left of it.
--   Remove an image from an images grid block by clicking its `×` button.
+-   Reorganize a ordem das imagens no bloco de grid de imagens arrastando e soltando elas.
+-   Adicione uma imagem ao bloc de grid de imagens clicando no botão `+` no seu lado superior esquerdo.
+-   Remova uma imagem do bloco de grid de imagens clicando no seu botão `×`.
 
 
-After inserting an image grid block, an image must be specified by any of the following methods.
+Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada através de qualquer um dos seguintes métodos:
+-   Escolha uma imagem existente no site clicando no ícone de lista do bloco.
+-   Envie uma nova imagem ou clicando no ícone de upload do bloco ou arrastando e soltando.
+-   Forneça uma URL remota da imagem na área de texto do bloco.
+    Clique no ícone de seta para salvar a URL.
 
 
 (user-manual-listing-block-label)=
