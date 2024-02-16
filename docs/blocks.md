@@ -446,52 +446,52 @@ Visões disponíveis
 
 (user-manual-table-block-label)=
 
-### Table block
+### Bloco tabela
 
-A table block inserts a table with two rows and two columns of cells to hold data, with the first row as the header row.
-It is typically used to display structured data in a clear and organized way.
-It can be configured to display the data in different styles and layouts.
+O bloco tabela insere uma tabela de duas linhas e duas colunas de células para conter dados, sendo a primeira linha a linha de cabeçalho.
+Ele é tipicamente usado para mostrar dados estruturados de uma maneira limpa e organizada.
+Ele pode ser configurado para mostrar dados em diferentes estilos e disposições.
 
 ```{image} ../_static/user-manual/blocks/table-block.png
-:alt: Table block
+:alt: Bloco tabela
 ```
 
-You can use the editor at the top of table to add rows and columns to the table, and to delete rows and columns.
+Você pode usar o editor no topo da tabela para adicionar linhas e colunas na tabela e para deletar linhas e colunas.
 
-To enter data, click in a cell, and type.
-You can optionally format data.
+Para preencher os dados, clique em uma célula e digite.
+Você pode opcionalmente formatar os dados.
 
-The table block has several configuration options.
+O bloco tabela possuem diversas opções de configuração.
 
 ```{image} ../_static/user-manual/blocks/table-block-configuration.png
-:alt: Table block configuration
+:alt: Configuração do bloco tabela
 ```
 
-Hide headers
-: Toggle to show or hide the table header row.
+Ocultar cabeçalhos
+: Alterne para mostrar ou esconder a linha de cabeçalho.
 
-Make the table sortable
-: Toggle to enable or disable sorting the table by the values in its columns.
-  When enabled, a visitor may click a column's header to sort by that column.
+Tornar a tabela ordenável
+: Alterne para habilitar ou desabilitar a ordenação na tabela pelos valores em suas colunas.
+  Quando habilitado, um visitante pode clicar no cabeçalho de uma coluna para ordenar or aquela coluna.
 
-Fixed width table cells
-: When enabled, the columns are fixed to an equal percentage width of the table.
-  For example, a table with four columns would have each of its columns fixed at 25% of the table width.
+Células da tabela com largura fixa
+: Quando habilitado, as colunas são fixadas em uma mesma largura percentual da tabela
+  Por exemplo, uma tabela com quatro colunas poderia ter cada uma de suas colunas fixadas em 25% da largura da tabela.
 
-Divide each row into separate cells
-: When enabled, the cells in a row are separated by a vertical border.
+Dividir cada linha em células separadas
+: Quando habilitada, as células em uma linha são separadas por uma borda vertical.
 
-Stripe alternate rows with color
-: When enabled, the rows in the table body are striped with alternating colors.
+Alternar cores das linhas
+: Quando habilitada, as linhas em uma tabela terão cores alternadas.
 
-Make the table compact
-: When enabled, padding of cells is reduced, giving a more compact appearance.
+Tornar a tabela compacta
+: Quando habilitada, o preenchimendo das células é reduzido dando uma aparência mais compacta.
 
-Reduce complexity
-: When enabled, the top, left, and right table borders are removed.
+Reduzir complexidade
+: Quando habilitada, as bordas do topo, esquerda, direita são removidas.
 
-Table color inverted
-: When enabled, the table color is inverted.
+Inverter cores da tabela
+: Quando habilitada, as cores da tabela são invertidas.
 
 
 (user-manual-table-of-contents-block-label)=
