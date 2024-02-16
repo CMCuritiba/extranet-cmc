@@ -245,46 +245,51 @@ Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada atra
 
 (user-manual-listing-block-label)=
 
-### Listing block
+### Bloco de listagem
 
-A listing block allows users to display a list of content items in your Plone site on a page.
-A site editor can configure the criteria to use for retrieving content items, including text, title, dates, and creator.
-The retrieved results can be configured with a sort order, limit of results, and whether to batch the results with pagination.
+O bloco de listagem permite aos usuários exibir uma lista de itens de conteúdo do seu site Plone numa página.
+O editor do site pode configurar o critério usado para obter itens de conteúdo, incluindo texto, titúlo, datas e criador.
+Os resultados obtidos podem ser configurados com uma ordenação, limite de resultados e se é para criar um lote de resultados com paginação.
 
 ```{image} ../_static/user-manual/blocks/listing-block.png
-:alt: Listing block
+:alt: Bloco de listagem
 ```
 
-The listing block has several configuration options.
+O bloco de listagem tem várias opções de configuração.
 
 ```{image} ../_static/user-manual/blocks/listing-block-configuration.png
-:alt: Listing block configuration
+:alt: Configuração do bloco de listagem
 ```
 
-Variation
-: Options for variation include {guilabel}`Default`, {guilabel}`Image gallery`, and {guilabel}`Summary`.
+Variação
+: Opções para variação incluem {guilabel}`Padrão`, {guilabel}`Galeria de imagens`, e {guilabel}`Listagem`.
 
-Headline
-: Optionally add a headline to the listing block.
+Chamada
+: Opcionalmente adiciona uma chamada para o bloco de listagem.
 
+<!---
+Não tem essa opção no formulário do bloco listagem rodando o Volto do repositório da extranet.
+--->
+<!--
 Headline level
 : Headline level sets the level of the headline to either {guilabel}`H2` or {guilabel}`H3`.
+ -->
 
-Criteria
-: Add criteria for the search.
-  Options include searching metadata, dates, and text.
-  Each criterion has its own options.
-  For example, you can configure a search for content that was created between two dates, or for its location within a path of your Plone site.
+Critério
+: Adiciona um critério de pesquisa.
+  Inclue opções para pesquisa por metadados, datas e texto.
+  Cada critério tem suas próprias opções
+  Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas, ou pela sua localização em um caminho do seu site Plone.
 
-Sort on
-: Sort the retrieved results by a given option.
-  Options include metadata, dates, and text.
+Ordenação
+: Ordena os resultados pela opção escolhida.
+  Opções incluídas metadados, datas e texto.
 
-Results limit
-: Limit the number of results returned.
+Limite de resultados
+: Limita o número de resultados retornado.
 
-Item batch size
-: Batch the search result items into a specified batch size.
+Tamanho do lote de items
+: Agrupa os itens do resultado da pesquisa em um tamanho de lote especificado.
 
 
 (user-manual-maps-block-label)=
