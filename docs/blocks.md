@@ -294,6 +294,10 @@ Tamanho do lote de items
 
 (user-manual-maps-block-label)=
 
+<!-- 
+Na nossa instalação não tem bloco maps.
+ -->
+ 
 ### Maps block
 
 A map block allows a user to add a map to a page.
@@ -323,121 +327,121 @@ Alignment
 
 (user-manual-search-block-label)=
 
-### Search block
+### Bloco de pesquisa
 
-A search block provides a search interface for visitors to find content in a Plone site.
-A site editor can configure its search criteria and facets across numerous parameters, including text, status, dates, and creator.
-Search results can be configured with a sort order, limit of results, and whether to batch the results with pagination.
-A site editor can choose which search controls to offer to the visitor, including sort order and total results.
+O bloco de pesquisa fornece uma interface de pesquisa a visitantes para buscar conteúdo em um site Plone.
+O editor do site pode configurar seus critérios e aspectos de pesquisa através de diversos parâmetros, incluindo texto, status, datas e criador
+Os resultados de pesquisa podem ser configurados com uma ordenação, limite de resultados e se os resultados devem ser agrupados com paginação.
+O editor do site pode escolher quais controles oferecer ao visitante, incluindo ordenação e total de resultados.
 
 ```{image} ../_static/user-manual/blocks/search-block.png
-:alt: Search block
+:alt: Bloco de pesquisa
 ```
 
-You can configure the search block by modifying its options in the block editor.
+Você pode configurar o bloco de pesquisa modificando as opções no editor do bloco.
 
 ```{image} ../_static/user-manual/blocks/search-block-configuration.png
-:alt: Search block configuration
+:alt: Configuração do bloco de pesquisa
 ```
 
 ```{todo}
-Add omitted configuration options.
+Adicionar opções de configuração omitidas.
 ```
 
 
-#### Basic options
+#### Opções básicas
 
-Variation
-: Options for variation include {guilabel}`Facets on right side`, {guilabel}`Facets on right side`, and {guilabel}`Facets on top`.
+Variação
+: Opções para variação incluem {guilabel}`Facetas no lado direito`, {guilabel}`Facetas no lado esquerdo`, and {guilabel}`Facetas no topo`.
 
-Results template
-: Options for results template include {guilabel}`Default`, {guilabel}`Image gallery`, and {guilabel}`Summary`.
+Modelo de resultados
+: Opções para o modelo de resultados incluem {guilabel}`Padrão`, {guilabel}`Galeria de imagens` e {guilabel}`Listagem`.
 
-Headline
-: The value to display above the search box as a heading.
-
-
-#### Base search query options
-
-Criteria
-: Add criteria for the search.
-  Options include searching metadata, dates, and text.
-  Each criterion has its own options.
-  For example, you can configure a search for content that was created between two dates, or for its location within a path of your Plone site.
-
-Sort on
-: Sort the search results according to the selected option.
-  Optionally sort results in reverse order by checking the checkbox {guilabel}`Reversed order`.
-
-Results limit
-: Limit the number of results returned.
-
-Item batch size
-: Batch the search result items into a specified batch size.
+Chamada
+: O valor exibido acima da caixa de pesquisa como cabeçalho.
 
 
-#### Facets
+#### Opções de consulta básicas para pesquisa
 
-Section title
-: ```{todo}
-  This needs content.
+Critério
+: Adiciona um critério de pesquisa.
+  Inclue opções para pesquisa por metadados, datas e texto.
+  Cada critério tem suas próprias opções
+  Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas, ou pela sua localização em um caminho do seu site Plone.
+
+Ordenação
+: Ordena os resultados pela opção escolhida.
+  Opções incluídas metadados, datas e texto.
+  Opcionalmente ordene os resultados de forma reversa marcando a caixa de verificação {guilabel}`Reversed order`.
+
+Limite de resultados
+: Limita o número de resultados retornado.
+
+Tamanho do lote de items
+: Agrupa os itens do resultado da pesquisa em um tamanho de lote especificado.
+
+#### Facetas
+
+Título da seção
+: ```
+  Serve como cabeçalho da seção de facetas do bloco de pesquisa.  
   ```
 
-Facets
-: Click the button {guilabel}`Add Facet` to add a facet to the search.
-  The first facet appears as "FACET #1".
-  You can add many facets, reorder them by drag and drop, and delete them.
+Facetas
+: Clique no botão {guilabel}`Adicionar Faceta` para adicionar uma faceta na pesquisa.
+  A primeira faceta aparece como "FACETA #1".
+  Você pode adicionar várias facetas, reordenar elas arrastando e soltando e deletar elas.
 
-Label
-: ```{todo}
-  This needs content.
+Rótulo
+: ```
+  Serve como título da seção da faceta da seção de facetas do bloco de pesquisa.
   ```
 
-Field
-: ```{todo}
-  This needs content.
+Campo
+: ```
+  Serve para escolher o tipo do campo que será usado para apresentar uma opção de filtro ao visitante.
   ```
 
-Facet widget
-: ```{todo}
-  This needs content.
+Widget Faceta
+: ```
+  Serve para escolher o tipo de componente visual utilizado para apresentar o filtro ao visitante.
   ```
 
-Multiple choices?
-: ```{todo}
-  This needs content.
+Múltipla escolha?
+: ```
+  Serve para escolher se o componente, quando fizer sentido, permite que seja selecionado mais de um item pelo visitante.
   ```
 
-Hide facet?
-: Toggle to show or hide the facet.
-  Hidden facets will still filter the results if proper parameters are passed in URLs
+Ocultar faceta?
+: Alterna entre mostrar ou esconder a faceta.
+  Facetas escondidas ainda poderão filtar os resultados se os parâmetros apropriados forem passados nas URLs.
 
-Advanced facet?
-: Select to set the facet as advanced.
-  Advanced facets are initially hidden and displayed on demand.
+Faceta avançada?
+: Seleciona para definir a faceta como avançada.
+  Facetas avançadas ficam ocultas inicialmente e exibidas sobre demanda.
 
-#### Controls
+#### Controles
 
-You can configure which search controls to offer to the site visitor.
+Você pode configurar wuais controles de pesquisa oferecer ao visitante do site.
 
-Show sorting?
-: Toggle to show or hide the sorting control.
+Exibir ordenação?
+: Alternar para mostrar ou esconder o controle de ordenação.
 
-Show search input?
-: Toggle to show or hide the search input field.
+Exibir entrada de pesquisa?
+: Alternar para mostrar ou esconder o campo de entrada de pesquisa.
 
-Show search button?
-: Toggle to show or hide the search button.
-  When the button is present, the auto-complete search feature is disabled, and the query is issued when the visitor types the {kbd}`Enter` key.
+Exibir botão de pesquisa?
+: Alternar para mostrar ou esconder o botão de pesquisa.
+  Quando o botão está presente, a função de auto completar é desativada e a consulta é submetida quando o visitante pressiona a tecla {kbd}`Enter`.
 
-Show total results?
-: Toggle to show or hide the search results total count.
+Exibir o total de resultados?
+: Alternar para mostrar ou esconder a contagem do total de resultados de pesquisa.
 
 
-#### Views
+#### Visões
 
-Available views
-: Options include {guilabel}`Default`, {guilabel}`Image gallery`, and {guilabel}`Summary`.
+Visões disponíveis
+: Opções incluem {guilabel}`Padrão`, {guilabel}`Galeria de imagem` e {guilabel}`Listagem`.
 
 
 (user-manual-table-block-label)=
