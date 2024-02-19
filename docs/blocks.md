@@ -496,44 +496,44 @@ Inverter cores da tabela
 
 (user-manual-table-of-contents-block-label)=
 
-### Table of contents block
+### Bloco tabela de conteúdos
 
-A table of contents (TOC) block creates a list of links to the titles and subtitles of text blocks in a page.
-A TOC block makes it easier for a visitor to navigate to a section of a long or complex page.
-It can be configured to display the links in different styles and layouts.
+O bloco tabela de conteúdos (TOC) cria uma lista de links para os títulos e subtítulos dos blocos de texto de uma página.
+O bloco TOC torna mais fácil para o visitante navegar para uma seção de uma página longa ou complexa.
+Ele pode ser configurado para mostrar os links em layouts e estilos. 
 
-To use a TOC block, you must first have text blocks with titles or subtitles in your page.
-When you add a TOC block to the page, a table of contents is automatically populated with the titles and subtitles in a bulleted list, with subtitles indented.
+Para usar o bloco TOC, você deve primeiro ter blocos de texto com títulos e subtítulos em sua página.
+Quando você adiciona um bloco TOC na página, o bloco de tabela de conteúdos é automaticamente preenchido com títulos e subtítulos em uma lista com marcadores, com subtítulos recuados.
 
 ```{image} ../_static/user-manual/blocks/table-of-contents-block.png
-:alt: Table of contents block
+:alt: Bloco de tabela de conteúdos
 ```
 
-The TOC block has several configuration options.
+O bloco TOC tem diversas opções de configuração.
 
 ```{image} ../_static/user-manual/blocks/table-of-contents-block-configuration.png
-:alt: Table of contents block configuration
+:alt: Configuração do bloco de tabela de conteúdos
 ```
 
-Variation
-: Toggles the display of the TOC to be a listing (default) or horizontal as tabs.
-  The horizontal variation also adds a dropdown button, if necessary, so the items that won't fit would be displayed in the dropdown list.
+Variação
+: Alterna a exibição da TOC entre listagem (padrão) ou abas horizontais.
+  A variação horizontal também adiciona um botão suspenso (dropdown), se necessário, assim itens que não couberem serão exibidos em uma lista suspensa (dropdown).
   ```{video} /_static/user-manual/blocks/table-of-contents-block-with-dropdown.mp4
-  :alt: Table of contents block with dropdown menu.
+  :alt: Menu do bloco tabela de conteúdos.
   ```
 
-Block title
-: Optionally add a title above the table of contents.
+Título do bloco
+: Opcionalmente adiciona um título acima da tabela de conteúdos.
 
-Hide title
-: When enabled, it hides the title.
+Ocultar título
+: Quando habilitado, esconde o título.
 
-Ordered
-: When enabled, it changes the listing to a numbered (ordered) list.
+Ordenação
+: Quando habilitado, muda a listagem para uma lista numerada (ordenada).
 
-Entries
-: Selects which heading levels to display.
-  Currently only heading levels `H2` (titles) and `H3` (subtitles) are supported.
+Entradas
+: Selecione quais níveis de títulos exibir.
+  Atualmente apenas níves `H2` (títulos) e `H3` (subtítulos) são suportados.
 
 
 (user-manual-teaser-block-label)=
