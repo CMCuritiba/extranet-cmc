@@ -538,61 +538,61 @@ Entradas
 
 (user-manual-teaser-block-label)=
 
-### Teaser block
+### Bloco teaser
 
-A teaser block displays a summary or teaser of a content item—such as an article or blog post—on a website, and links to the full content item.
-When the visitor clicks or taps on the teaser block, they will visit the full content item.
-A teaser block typically includes a title, an excerpt or summary of the content, and a thumbnail image or other visual element.
+O bloco teaser mostra um sumário ou teaser de um item de conteúdo, como um artigo ou post de blog num website, e linka com o conteúdo completo do item.
+Quando um visitante clica ou aciona o bloco teaser, eles irão visitar o conteúdo total do item.
+O bloco teaser tipicamente inclui o título, um extrato do sumário do conteúdo e a miniatura ou outro elemento visual.
 
 ```{image} ../_static/user-manual/blocks/teaser-block.png
-:alt: Teaser block
+:alt: Bloco teaser
 ```
 
-The teaser block has several configuration options.
+O bloco teaser possue várias opções de configuração.
 
 ```{image} ../_static/user-manual/blocks/teaser-block-configuration.png
-:alt: Teaser block
+:alt: Configuração do bloco teaser
 ```
 
-Target
-: The target is either an existing content item in your Plone site that can be selected by clicking the list icon, or an external URL that can be typed into the text field and saved by clicking the right arrow when it appears after you start typing.
+Alvo
+: O alvo é um conteúdo existente no seu site Plone que pode ser selecionado clicando no ícone de lista, ou uma URL externa que pode ser digitada no campo de texto e salva clicando na seta à direita quando ela aparecer depois que você começar a digitar.
 
-Title
-: The title is the title of the content item.
+Título
+: O título é o título do item de conteúdo.
 
-Head title
-: The head title is a heading that appears above the title.
+Chapéu
+: O chapéu é um cabeçalho que aparece acima do título.
 
-Description
-: The description is plain text that summarizes or describes the content item.
+Descrição
+: A descrição é um texto puro que sumariza ou descreve o item de conteúdo.
 
-Image override
-: The image override is either an existing image in your Plone site that can be selected by clicking the list icon, or an external URL of an image that can be typed into the text field and saved by clicking the right arrow when it appears after you start typing.
+Imagem
+: A imagem é uma imagem existente em seu site Plone que pode ser selecionada clicando no ícone lista, ou uma URL externa de uma imagem que pode ser digitada no campo de texto e salva clicando na seta à direita quando ela aparecer depois que você começar a digitar.
 
-Alignment
-: The alignment of the teaser image can be set to left (default), right, or top.
+Alinhamento
+: O alinhamento do imagem destaque que pode ser a esquera (padrão), a direita ou no topo.
 
 (user-manual-teaser-grid-block-label)=
 
-### Teaser grid block
+### Bloco de grade de teaser
 
 ```{todo}
-Needs content.
+Precisa de conteúdo.
 ```
 
 
 (user-manual-text-grid-block-label)=
 
-### Text block
+### Bloco texto
 
 ```{todo}
-Needs content.
+Precisa de conteúdo.
 ```
 
 
 (user-manual-video-block-label)=
 
-### Video block
+### Bloco vídeo
 
 A video block allows an editor to insert a video in to a page.
 Enter the URL of a video hosted by a third party, and click the right arrow to save it.
