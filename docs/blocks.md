@@ -267,13 +267,8 @@ Variação
 Chamada
 : Opcionalmente adiciona uma chamada para o bloco de listagem.
 
-<!---
-Não tem essa opção no formulário do bloco listagem rodando o Volto do repositório da extranet.
---->
-<!--
-Headline level
-: Headline level sets the level of the headline to either {guilabel}`H2` or {guilabel}`H3`.
- -->
+Nível de cabeçalho
+: Nível de cabeçalho define o nível de cabeçalho para {guilabel}`H2` ou {guilabel}`H3`.
 
 Critério
 : Adiciona um critério de pesquisa.
@@ -294,35 +289,31 @@ Tamanho do lote de items
 
 (user-manual-maps-block-label)=
 
-<!-- 
-Na nossa instalação não tem bloco maps.
- -->
- 
-### Maps block
+### Bloco mapas
 
-A map block allows a user to add a map to a page.
-It is typically used to display a geographic location or region, or provide travel directions.
+O bloco mapa permite o usuário a adicionar um mapa em uma página.
+É tipicamente usado para exibir localização ou região geográfica, ou fornecer rotas de viagem.
 
 ```{image} ../_static/user-manual/blocks/maps-block.png
-:alt: Maps block
+:alt: Bloco mapas
 ```
 
-To use a map block, the third party map service must provide a snippet of HTML code that you can copy and paste into the map block.
-Usually the snippet includes an `<iframe>` HTML tag.
-After you paste the snippet into the map block's configuration, you will see additional options.
+Para usar o bloco mapa, o serviço de mapas de um terceiro deve fornecer um trecho de código HTML que você pode copiar e colar no bloco mapa.
+Usualmente o trecho inclui uma marcação HTML `<iframe>`.
+Depois que você cola o trecho de código na configuração do bloco de mapa, você verá opções adicionais.
 
 ```{image} ../_static/user-manual/blocks/map-blocks-configuration.png
-:alt: Maps block configuration
+:alt: Configuração do bloco de mapas.
 ```
 
-Maps URL
-: The URL of the map.
+URL do mapa
+: A URL do mapa.
 
-Alt text
-: Alternative text to display in search engine results and to screen readers.
+Texto alternativo
+: Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca.
 
-Alignment
-: Options for alignment include left, right, center, and full width.
+Alinhamento
+: Opções para alinhamento incluem esquerdo, direito, centralizado ou largura total.
 
 
 (user-manual-search-block-label)=
