@@ -594,26 +594,26 @@ Precisa de conteúdo.
 
 ### Bloco vídeo
 
-A video block allows an editor to insert a video in to a page.
-Enter the URL of a video hosted by a third party, and click the right arrow to save it.
-A preview of the video displays.
+O bloco vídeo permite a um editor inserir vídeo em uma página.
+Forneça a URL de um vídeo hospedado em um terceiro e clique na seta a direita para salvar.
+Uma prévia do vídeo é apresentada.
 
 ```{image} ../_static/user-manual/blocks/video-block.png
-:alt: Video block
+:alt: Bloco vídeo
 ```
 
-The video block has several configuration options.
+O bloco vídeo tem diversas opções de configuração.
 
 ```{image} ../_static/user-manual/blocks/video-block-configuration.png
-:alt: Video block configuration
+:alt: Configuração do bloco vídeo
 ```
 
-Video URL
-: The URL of the video.
+URL do vídeo
+: A URL do vídeo.
 
-Preview Image URL
-: Optionally set a preview image.
-  You can enter a URL of an image in the text field, or click the list icon and choose an image in your website.
+URL da image de prévia
+: Opcionalmente use uma imagem de prévia.
+  Você pode fornecer a URL de uma imagem no campo texto, ou clicar no ícone lista e escolher uma imagem do seu site.
 
-Alignment
-: Options for alignment include left, right, center, and full width.
+Alinhamento
+: Opções para alinhamento incluem esquerda, direita, centralizada e largura total.
