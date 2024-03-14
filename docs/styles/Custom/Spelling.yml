@@ -1,0 +1,7 @@
+# Uses the built-in dictionary and filters.
+extends: spelling
+message: "Did you really mean '%s'?"
+dicpath: /usr/share/hunspell
+dictionaries:
+  - en_US
+  - pt_BR

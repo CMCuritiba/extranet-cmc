@@ -34,7 +34,7 @@ Eles são craidos utilizando componentes React, que são peças modulares de có
 Para criar ou adicionar um bloco vazio depois de um bloco existente, clique no bloco, então pressione e tecla {kbd}`Enter`.
 Um novo bloco vazio aparece.
 
-```{image} ../_static/user-manual/blocks/add-new-block.gif
+```{image} ./_static/user-manual/blocks/add-new-block.gif
 :alt: Adiciona novo bloco
 ```
 
@@ -71,7 +71,7 @@ Agora com seu bloco vazio disponível, você pode selecionar seu tipo de uma das
 
 1.  Clique no botão `+` do lado esquerdo do bloco vazio.
 
-    ```{image} ../_static/user-manual/blocks/block-left-add-icon.png
+    ```{image} ./_static/user-manual/blocks/block-left-add-icon.png
     :alt: Botão de adição de bloco
     ```
 
@@ -80,7 +80,7 @@ Agora com seu bloco vazio disponível, você pode selecionar seu tipo de uma das
    Você pode usar as teclas de seta para cima e para baixo para navegar dentro da lista de tipos de bloco.
    Para selecionar o tipo de bloco, você pode clicar ou tocar ou usar a tecla {kbd}`Enter`.
 
-    ```{image} ../_static/user-manual/blocks/block-types-menu.png
+    ```{image} ./_static/user-manual/blocks/block-types-menu.png
     :alt: Menu de tipos de bloco
     ```
 
@@ -100,13 +100,13 @@ Quando exibido, ele aparece como descrição na página, e para otimização de 
 Um bloco grid cria uma linha única de colunas numa grade, que pode ser usada para exibir conteúdo de uma forma estruturada e organizada.
 Você pode selecionar o número de colunas para inserir.
 
-```{image} ../_static/user-manual/blocks/grid-block-number-of-columns.png
+```{image} ./_static/user-manual/blocks/grid-block-number-of-columns.png
 :alt: Escolha o número de colunas para inserir num bloco grid.
 ```
 
 Depois de escolher o número de colunas para inserir num bloco grid, você pode gerenciar as colunas.
 
-```{image} ../_static/user-manual/blocks/grid-block-manage-blocks.png
+```{image} ./_static/user-manual/blocks/grid-block-manage-blocks.png
 :alt: Adiciona um tipo de bloco específico em uma coluna de um bloco grid
 ```
 
@@ -124,7 +124,7 @@ Um bloco HTML permite aos usuários adicionar código HTML customizado em uma p�
 Isto pode ser útil para adicionar funcionalidades ou estilos customizados em uma página, ou para integração com serviços externos ou aplicações.
 Por exemplo, você pode inserir um trecho de HTML ou componente de um serviço de terceiros para embutir um calendário, botão de doação ou pagamento, ou mídia social em uma página.
 
-```{image} ../_static/user-manual/blocks/html-block.png
+```{image} ./_static/user-manual/blocks/html-block.png
 :alt: Bloco HTML
 ```
 
@@ -138,7 +138,7 @@ Para usar um bloco HTML, você precisa ter algum conhecimento sobre como escreve
 Um bloco hero cria um banner de largura total ou cabeçalho para uma página.
 Ele é tipicamente usado para destacar conteúdo importante ou para criar um impacto visual no topo da página.
 
-```{image} ../_static/user-manual/blocks/hero-block.png
+```{image} ./_static/user-manual/blocks/hero-block.png
 :alt: Bloco hero
 ```
 
@@ -156,7 +156,7 @@ Para links, você pode fornecer uma URL externa ou selecionar uma página do seu
 
 Um bloco imagem permiter inserir uma imagem numa página e configurar seus atributos.
 
-```{image} ../_static/user-manual/blocks/image-block.png
+```{image} ./_static/user-manual/blocks/image-block.png
 :alt: Bloco imagem
 ```
 
@@ -167,7 +167,7 @@ Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada atra
     Clique no ícone de seta para salvar a URL.
 
 Depois que você especificou uma imagem, suas opções de configuração se tornar disponíveis.
-```{image} ../_static/user-manual/blocks/image-block-configuration-options.png
+```{image} ./_static/user-manual/blocks/image-block-configuration-options.png
 :alt: Opções de configuração do bloco imagem
 ```
 
@@ -197,13 +197,13 @@ Um bloco de imagens apresenta uma linha de imagens numa página.
 É usado tipicamente para mostrar uma coleção de imagens de uma maneira agradável.
 Pode ser configurado para mostrar imagens em diferentes layouts e estilos.
 
-```{image} ../_static/user-manual/blocks/images-grid-block-number-of-columns.png
+```{image} ./_static/user-manual/blocks/images-grid-block-number-of-columns.png
 :alt: Escolha o número de imagens para inserir em um bloco de grid de imagens.
 ```
 
 Depois de escolher o número de imagens a inserir em um bloco de grid de imagens, você pode configurar as imagens assim como configura um única imagem em um bloco de imagem.
 
-```{image} ../_static/user-manual/blocks/image-block-configuration-options.png
+```{image} ./_static/user-manual/blocks/image-block-configuration-options.png
 :alt: Opções de configuração do bloco de imagem.
 ```
 
@@ -227,7 +227,7 @@ Link para
 
 Você também pode gerenciar as imagens em um block de grid de imagens.
 
-```{image} ../_static/user-manual/blocks/images-grid-block-manage-images.png
+```{image} ./_static/user-manual/blocks/images-grid-block-manage-images.png
 :alt: Gerencie imagens num bloco de grid de imagens
 ```
 
@@ -251,13 +251,13 @@ O bloco de listagem permite aos usuários exibir uma lista de itens de conteúdo
 O editor do site pode configurar o critério usado para obter itens de conteúdo, incluindo texto, titúlo, datas e criador.
 Os resultados obtidos podem ser configurados com uma ordenação, limite de resultados e se é para criar um lote de resultados com paginação.
 
-```{image} ../_static/user-manual/blocks/listing-block.png
+```{image} ./_static/user-manual/blocks/listing-block.png
 :alt: Bloco de listagem
 ```
 
 O bloco de listagem tem várias opções de configuração.
 
-```{image} ../_static/user-manual/blocks/listing-block-configuration.png
+```{image} ./_static/user-manual/blocks/listing-block-configuration.png
 :alt: Configuração do bloco de listagem
 ```
 
@@ -294,7 +294,7 @@ Tamanho do lote de items
 O bloco mapa permite o usuário a adicionar um mapa em uma página.
 É tipicamente usado para exibir localização ou região geográfica, ou fornecer rotas de viagem.
 
-```{image} ../_static/user-manual/blocks/maps-block.png
+```{image} ./_static/user-manual/blocks/maps-block.png
 :alt: Bloco mapas
 ```
 
@@ -302,7 +302,7 @@ Para usar o bloco mapa, o serviço de mapas de um terceiro deve fornecer um trec
 Usualmente o trecho inclui uma marcação HTML `<iframe>`.
 Depois que você cola o trecho de código na configuração do bloco de mapa, você verá opções adicionais.
 
-```{image} ../_static/user-manual/blocks/map-blocks-configuration.png
+```{image} ./_static/user-manual/blocks/map-blocks-configuration.png
 :alt: Configuração do bloco de mapas.
 ```
 
@@ -325,13 +325,13 @@ O editor do site pode configurar seus critérios e aspectos de pesquisa através
 Os resultados de pesquisa podem ser configurados com uma ordenação, limite de resultados e se os resultados devem ser agrupados com paginação.
 O editor do site pode escolher quais controles oferecer ao visitante, incluindo ordenação e total de resultados.
 
-```{image} ../_static/user-manual/blocks/search-block.png
+```{image} ./_static/user-manual/blocks/search-block.png
 :alt: Bloco de pesquisa
 ```
 
 Você pode configurar o bloco de pesquisa modificando as opções no editor do bloco.
 
-```{image} ../_static/user-manual/blocks/search-block-configuration.png
+```{image} ./_static/user-manual/blocks/search-block-configuration.png
 :alt: Configuração do bloco de pesquisa
 ```
 
@@ -443,7 +443,7 @@ O bloco tabela insere uma tabela de duas linhas e duas colunas de células para 
 Ele é tipicamente usado para mostrar dados estruturados de uma maneira limpa e organizada.
 Ele pode ser configurado para mostrar dados em diferentes estilos e disposições.
 
-```{image} ../_static/user-manual/blocks/table-block.png
+```{image} ./_static/user-manual/blocks/table-block.png
 :alt: Bloco tabela
 ```
 
@@ -454,7 +454,7 @@ Você pode opcionalmente formatar os dados.
 
 O bloco tabela possuem diversas opções de configuração.
 
-```{image} ../_static/user-manual/blocks/table-block-configuration.png
+```{image} ./_static/user-manual/blocks/table-block-configuration.png
 :alt: Configuração do bloco tabela
 ```
 
@@ -496,20 +496,20 @@ Ele pode ser configurado para mostrar os links em layouts e estilos.
 Para usar o bloco TOC, você deve primeiro ter blocos de texto com títulos e subtítulos em sua página.
 Quando você adiciona um bloco TOC na página, o bloco de tabela de conteúdos é automaticamente preenchido com títulos e subtítulos em uma lista com marcadores, com subtítulos recuados.
 
-```{image} ../_static/user-manual/blocks/table-of-contents-block.png
+```{image} ./_static/user-manual/blocks/table-of-contents-block.png
 :alt: Bloco de tabela de conteúdos
 ```
 
 O bloco TOC tem diversas opções de configuração.
 
-```{image} ../_static/user-manual/blocks/table-of-contents-block-configuration.png
+```{image} ./_static/user-manual/blocks/table-of-contents-block-configuration.png
 :alt: Configuração do bloco de tabela de conteúdos
 ```
 
 Variação
 : Alterna a exibição da TOC entre listagem (padrão) ou abas horizontais.
   A variação horizontal também adiciona um botão suspenso (dropdown), se necessário, assim itens que não couberem serão exibidos em uma lista suspensa (dropdown).
-  ```{video} /_static/user-manual/blocks/table-of-contents-block-with-dropdown.mp4
+  ```{video} ./_static/user-manual/blocks/table-of-contents-block-with-dropdown.mp4
   :alt: Menu do bloco tabela de conteúdos.
   ```
 
@@ -535,13 +535,13 @@ O bloco teaser mostra um sumário ou teaser de um item de conteúdo, como um art
 Quando um visitante clica ou aciona o bloco teaser, eles irão visitar o conteúdo total do item.
 O bloco teaser tipicamente inclui o título, um extrato do sumário do conteúdo e a miniatura ou outro elemento visual.
 
-```{image} ../_static/user-manual/blocks/teaser-block.png
+```{image} ./_static/user-manual/blocks/teaser-block.png
 :alt: Bloco teaser
 ```
 
 O bloco teaser possue várias opções de configuração.
 
-```{image} ../_static/user-manual/blocks/teaser-block-configuration.png
+```{image} ./_static/user-manual/blocks/teaser-block-configuration.png
 :alt: Configuração do bloco teaser
 ```
 
@@ -589,13 +589,13 @@ O bloco vídeo permite a um editor inserir vídeo em uma página.
 Forneça a URL de um vídeo hospedado em um terceiro e clique na seta a direita para salvar.
 Uma prévia do vídeo é apresentada.
 
-```{image} ../_static/user-manual/blocks/video-block.png
+```{image} ./_static/user-manual/blocks/video-block.png
 :alt: Bloco vídeo
 ```
 
 O bloco vídeo tem diversas opções de configuração.
 
-```{image} ../_static/user-manual/blocks/video-block-configuration.png
+```{image} ./_static/user-manual/blocks/video-block-configuration.png
 :alt: Configuração do bloco vídeo
 ```
 

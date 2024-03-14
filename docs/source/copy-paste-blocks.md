@@ -20,14 +20,14 @@ Este capítulo descreve como fazer.
 ## Copiar ou cortar blocos
 
 Estando no modo de edição, você pode segurar a tecla {kbd}`ctrl` para selecionar multiplos blocos que você deseja copiar ou cortar.
-Uma vez que os blocos estejam selecionados, você terá as opções de copiar <img alt="Copy icon" src="../_static/copy.svg" class="inline"> e cortar <img alt="Cut icon" src="../_static/cut.svg" class="inline"> na barra de ferramentas.
+Uma vez que os blocos estejam selecionados, você terá as opções de copiar <img alt="Copy icon" src="./_static/copy.svg" class="inline"> e cortar <img alt="Cut icon" src="./_static/cut.svg" class="inline"> na barra de ferramentas.
 
 Volto também permite a seleção de multiplos blocos contíguos.
 Essa funcionalidade pode ser usada selecionando o bloco inicial e um bloco final segurando a tecla {kbd}`shift`.
 Isto irá selecionar todos os blocos entre os blocos inicial e final, possibilitando que você copie, corte ou edlete multiplos blocos de uma vez.
 
 ````{only} not text
-```{video} /_static/user-manual/blocks/block-copy-cut.mp4
+```{video} ./_static/user-manual/blocks/block-copy-cut.mp4
 ```
 ````
 
@@ -38,11 +38,11 @@ Isto irá selecionar todos os blocos entre os blocos inicial e final, possibilit
 
 Uma vez que você copiou ou cortou blocos, você pode colar esses blocos na página ou em alguma outra página.
 Selecione um bloco vazio aonde você deseja colar os blocos da área de transferência.
-Você pode clicar na opção de colar <img alt="Paste icon" src="../_static/paste.svg" class="inline"> na barra de tarefas.
+Você pode clicar na opção de colar <img alt="Paste icon" src="./_static/paste.svg" class="inline"> na barra de tarefas.
 
 Ainda, se você segurar a tecla {kbd}`ctrl` enquanto clica no botão colar, o conteúdo da área de transferência é mantido, possibilitando que você cole repetidamente.
 
 ````{only} not text
-```{video} /_static/user-manual/blocks/block-paste.mp4
+```{video} ./_static/user-manual/blocks/block-paste.mp4
 ```
 ````
