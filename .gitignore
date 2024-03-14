@@ -1,1 +1,9 @@
 !.vscode
+devops/.env_gh_token
+devops/etc/keys/plone_prod_deploy_ed25519
+devops/etc/keys/plone_prod_deploy_ed25519.pub
+docs/_build/
+docs/bin/
+docs/lib/
+docs/lib64
+reports/

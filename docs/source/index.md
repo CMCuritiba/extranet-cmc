@@ -20,4 +20,5 @@ Este é o manual do usuário do Volto da DTIC da CMC traduzido do manual do Volt
 blocks
 copy-paste-blocks
 links-to-item
+how-to
 ```
