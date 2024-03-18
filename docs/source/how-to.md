@@ -22,4 +22,5 @@ structure
 upload-image
 create-page
 create-news
+blocks-use
 ```
