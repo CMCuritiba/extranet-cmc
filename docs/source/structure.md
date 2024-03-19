@@ -229,5 +229,92 @@ A seguir um diagrama representando a estrutura de conteúdo. A página inicial, 
 
 Outra forma de mostrar os arquivos que estão contidos na página é utilizando o bloco listagem. Ao invés de ter que adicionar texto e fazer os links manualmente você pode ter um bloco dinâmico que vai ser atualizado automaticamente se um novo arquivo for adicionado, removido ou receber uma alteração no título por exemplo.
 
+Antes de adicionar um novo bloco você deve editar a página clicando no botão editar.
 
-TODO: Utilização do bloco listing.
+ ---
+
+```{image} ./_static/how-to/edit-button.png
+:alt: Botão de edição da página.
+```
+
+ ---
+
+Agora você pode posicionar o cursor no final do texto do bloco Título e pressionar a tecla {kbd}`Enter`. Um novo bloco vazio será inserido após o título.
+
+ ---
+
+```{image} ./_static/how-to/enter-and-add-new-block.png
+:alt: Novo bloco adicionado com a tecla enter.
+```
+
+ ---
+
+Ao lado do novo bloco vazio está o botão para escolher um tipo de bloco para adicionar, clique no botão com o símbolo `+`.
+
+ ---
+
+```{image} ./_static/how-to/block-left-add-icon.png
+:alt: Botão para escolher um tipo de bloco para adicionar.
+```
+
+ ---
+
+Nas opções de tipos de bloco para adicionar você irá encontrar o tipo listagem, clique no bloco listagem para adicionar. 
+
+ ---
+
+```{image} ./_static/how-to/add-listing-block.png
+:alt: Botão de adição do bloco listagem.
+```
+
+ ---
+
+Então a lista de arquivos já será exibida no formato padrão. Existem várias visualizações disponíveis. A seguir a visualização padrão.
+
+ ---
+
+```{image} ./_static/how-to/content-listing-standard.png
+:alt: Tipo de listagem padrão.
+```
+
+ ---
+
+Existe também um modo de listagem.
+
+ ---
+
+```{image} ./_static/how-to/content-listing.png
+:alt: Tipo de listagem lista de itens.
+```
+
+ ---
+
+A opção de escolher o tipo carrossel.
+
+ ---
+
+```{image} ./_static/how-to/content-listing-carousel.png
+:alt: Tipo de listagem carrossel
+```
+
+ ---
+
+Ou o tipo de listagem galeria.
+
+ ---
+
+```{image} ./_static/how-to/content-listing-gallery.png
+:alt: Tipo de listagem galeria
+```
+
+ ---
+
+Por fim, há o modo de listagem tipo grid.
+
+ ---
+
+```{image} ./_static/how-to/content-listing-grid.png
+:alt: Tipo de listagem grid
+```
+
+ ---
