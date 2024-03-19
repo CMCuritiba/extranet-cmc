@@ -316,5 +316,3 @@ Por fim, há o modo de listagem tipo grid.
 ```{image} ./_static/how-to/content-listing-grid.png
 :alt: Tipo de listagem grid
 ```
-
- ---

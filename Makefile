@@ -77,12 +77,18 @@ install:  ## Install
 
 ##### Documentation
 
+# Add the following 'help' target to your Makefile
+# And add help text after each target name starting with '\#\#'
+.PHONY: docs-help
+docs-help:  ## Docs help message.
+	$(MAKE) -C "./docs/" help
+	
 .PHONY: docs-clean
-docs-clean:  ## Clean current and legacy docs build directories, and Python virtual environment
+docs-clean:  ## Clean current and legacy docs build directories, and docs Python virtual environment
 	$(MAKE) -C "./docs/" clean
 
 .PHONY: docs-setup
-docs-setup: ## Install sphinx requirements.
+docs-setup:  ## Install sphinx requirements.
 	$(MAKE) -C "./docs/" setup
 
 .PHONY: docs-html
