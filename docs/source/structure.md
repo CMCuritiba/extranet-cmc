@@ -1,0 +1,233 @@
+---
+myst:
+  html_meta:
+    "description": "Manual do portal - criar página com arquivos e links"
+    "property=og:description": "Manual do portal - criar página com arquivos e links"
+    "property=og:title": "Frontend"
+    "keywords": "Volto, Plone, frontend, React, User manual, how to, guia como fazer"
+---
+
+
+(content-management-label)=
+
+# Como gerenciar conteúdo
+
+Aqui você verá como funciona o gerenciamento de conteúdo e estrutura de armazenamento para os arquivos do portal, como criar página, enviar arquivos, exibir a lista de arquivos que estão em uma página entre outras funcionalidades. 
+
+(new-page-label)=
+
+## Como criar uma nova página
+
+Para criar uma página inicialmente você precisa clicar no botão de adicionar conteúdo e depois no menu que vai aparecer, clicar no ítem de menu Página.
+
+
+```{image} ./_static/how-to/add-content-button.png
+:alt: Botão adicionar conteúdo.
+```
+
+ ---
+
+```{image} ./_static/how-to/add-page-button.png
+:alt: Botão adicionar página.
+```
+
+ ---
+
+Então você pode adicionar o título e em seguida preencher o texto e salvar, neste exemplo você verá como criar links para arquivos no portal.
+
+ ---
+
+```{image} ./_static/how-to/save-button.png
+:alt: Botão salvar.
+```
+
+ ---
+
+Agora você pode adicionar os arquivos, para isso acione o botão para adicionar conteúdo e no menu que apareceu você escolhe o ítem de menu Arquivo.
+
+ ---
+
+```{image} ./_static/how-to/add-content-button.png
+:alt: Botão adicionar conteúdo.
+```
+
+ ---
+
+```{image} ./_static/how-to/add-file-button.png
+:alt: Botão adicionar arquivo.
+```
+
+ ---
+
+Após enviar todos os arquivos, você pode criar links para eles na página. Navegue até a página e então clique no botão editar.
+
+ ---
+
+```{image} ./_static/how-to/link-to-parent-page-or-folder.png
+:alt: Link para a página na barra de caminho da navegação.
+```
+
+ ---
+
+```{image} ./_static/how-to/edit-button.png
+:alt: Botão editar.
+```
+
+ ---
+
+No modo de edição da página, selecione o texto que deve estar ligado ao arquivo, então clique no botão link.
+
+ ---
+
+```{image} ./_static/how-to/select-text-to-create-link.png
+:alt: Seleção de texto para criar link.
+```
+
+ ---
+
+```{image} ./_static/how-to/insert-link-button.png
+:alt: Botão de criação de link.
+```
+
+ ---
+
+Na caixa que apareceu clique no botão para escolha do ítem de conteúdo que devemos ligar.
+
+ ---
+
+```{image} ./_static/how-to/select-content-to-link-button.png
+:alt: Botão de seleção de conteúdo para link.
+```
+
+ ---
+
+Então escolha o arquivo relacionado ao texto selecionado.
+
+ ---
+
+```{image} ./_static/how-to/select-content-to-link-to.png
+:alt: Seleção do arquivo para link de conteúdo.
+```
+
+ ---
+
+Quase lá, agora o link deve ser enviado para confirmar a alteração.
+
+ ---
+
+```{image} ./_static/how-to/submit-link-button-to-save-reference.png
+:alt: Enviar o link para salvar a referência.
+```
+
+ ---
+
+Repetir o processo para todos os arquivos e salvar.
+
+ ---
+
+```{image} ./_static/how-to/save-page-with-linked-content-button.png
+:alt: Salvar página com o conteúdo linkado.
+```
+
+## Como utilizar um link de download direto
+
+O link que criamos inicialmente remete a página que representa o arquivo, mas as vezes queremos que o arquivo seja enviado diretamente para o usuário, então vamos ver como você faz para criar um link de download direto.
+
+O primeiro passo que você precisa fazer é acessar a página que representa o arquivo.
+
+ ---
+```{image} ./_static/how-to/file-link.png
+:alt: Link para a página que representa o arquivo.
+```
+ ---
+
+Em seguida, na página que representa o arquivo, você deve clicar com o botão direito e copiar o link para o arquivo.
+
+ ---
+```{image} ./_static/how-to/right-click-copy-link.png
+:alt: Clique com botão direito e menu para copiar o link para o arquivo.
+```
+ ---
+
+Agora na página anterior, Legislação RH, vamos editar o link para o arquivo utilizando o link copiado. Clique no link para a página anterior na barra de caminhos da navegação.
+
+ ---
+```{image} ./_static/how-to/link-to-parent-page-or-folder.png
+:alt: Link da página anterior na barra de caminhos.
+```
+ ---
+
+Em seguida clique no botão editar e selecione o texto do link do arquivo. Com o texto selecionado clique no botão para editar o link.
+
+ ---
+```{image} ./_static/how-to/edit-button.png
+:alt: Botão de edição da página.
+```
+ ---
+```{image} ./_static/how-to/edit-link.png
+:alt: Botão de edição de link.
+```
+ ---
+
+Então na caixa de texto que aparece, apagar o conteúdo do campo com o link anterior, colar o link novo e enviar a nova referência no botão de confirmação.
+
+ ---
+```{image} ./_static/how-to/paste-new-link-and-submit.png
+:alt: Botão de confirmação de referência para o link.
+```
+ ---
+
+Agora, ao clicar no link o download direto é realizado, sem passar pela página que representa o arquivo no portal.
+
+ ---
+```{image} ./_static/how-to/raw-file-opened.png
+:alt: Arquivo aberto.
+```
+ ---
+
+
+## Conhecendo a estrutura de conteúdo
+
+Vamos navegar pelo conteúdo, algo visivel apenas para quem está autenticado e tem permissão para ver o conteúdo. Na página inicial do portal, clicar no botão Conteúdo. A página criada vai estar na lista de conteúdo.
+
+ ---
+
+```{image} ./_static/how-to/content-button.png
+:alt: Botão de acesso ao conteúdo.
+```
+
+ ---
+
+```{image} ./_static/how-to/content-item-link.png
+:alt: Listagem de ítens de conteúdo.
+```
+
+ ---
+
+Ao clicar na página aparece a lista de conteúdo da página contendo os arquivos que foram enviados.
+
+ ---
+
+```{image} ./_static/how-to/page-content-list.png
+:alt: Listagem de ítens de conteúdo da página.
+```
+
+ ---
+
+A seguir um diagrama representando a estrutura de conteúdo. A página inicial, Home, contém a página Legislação RH que por sua vez contém os arquivos que foram enviados.
+
+ ---
+
+```{image} ./_static/how-to/content-schema.png
+:alt: Diagrama representando estrutura de conteúdo.
+```
+
+ ---
+
+
+## Como usar o bloco listing para exibir o conteúdo
+
+Outra forma de mostrar os arquivos que estão contidos na página é utilizando o bloco listagem. Ao invés de ter que adicionar texto e fazer os links manualmente você pode ter um bloco dinâmico que vai ser atualizado automaticamente se um novo arquivo for adicionado, removido ou receber uma alteração no título por exemplo.
+
+
+TODO: Utilização do bloco listing.
