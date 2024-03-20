@@ -20,6 +20,17 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
+# Sphinx variables
+# You can set these variables from the command line.
+SPHINXOPTS      ?=
+# Internal variables.
+SPHINXBUILD     = "$(realpath bin/sphinx-build)"
+SPHINXAUTOBUILD = "$(realpath bin/sphinx-autobuild)"
+DOCS_DIR        = ./docs/source/
+BUILDDIR        = ../_build/
+ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(SPHINXOPTS) .
+VALEFILES       := $(shell find $(DOCS_DIR) -type f -name "*.md" -print)
+
 .PHONY: all
 all: build
 
@@ -63,6 +74,45 @@ install:  ## Install
 	@echo "Install Backend & Frontend"
 	$(MAKE) install-backend
 	$(MAKE) install-frontend
+
+##### Documentation
+
+# Add the following 'help' target to your Makefile
+# And add help text after each target name starting with '\#\#'
+.PHONY: docs-help
+docs-help:  ## Docs help message.
+	$(MAKE) -C "./docs/" help
+	
+.PHONY: docs-clean
+docs-clean:  ## Clean current and legacy docs build directories, and docs Python virtual environment
+	$(MAKE) -C "./docs/" clean
+
+.PHONY: docs-setup
+docs-setup:  ## Install sphinx requirements.
+	$(MAKE) -C "./docs/" setup
+
+.PHONY: docs-html
+docs-html:  ## Build html
+	$(MAKE) -C "./docs/" html
+
+.PHONY: docs-livehtml
+docs-livehtml:  ## Rebuild Sphinx documentation on changes, with live-reload in the browser
+	$(MAKE) -C "./docs/" livehtml
+
+.PHONY: docs-linkcheck
+docs-linkcheck:  ## Run linkcheck
+	$(MAKE) -C "./docs/" linkcheck
+
+.PHONY: docs-linkcheckbroken
+docs-linkcheckbroken:  ## Run linkcheck and show only broken links
+	$(MAKE) -C "./docs/" linkcheckbroken
+
+.PHONY: docs-vale
+docs-vale:  ## Install (once) and run Vale style, grammar, and spell checks
+	$(MAKE) -C "./docs/" vale
+
+.PHONY: docs-test
+docs-test: docs-clean docs-linkcheckbroken docs-vale  ## Clean docs build, then run linkcheckbroken, vale
 
 # TODO production build
 
