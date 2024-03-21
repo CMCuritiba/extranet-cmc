@@ -94,6 +94,16 @@ As tags são exibidas no final da página da notícia.
 
  ---
 
+A seguir você pode inserir uma imagem na notícia, clique no botão `+` no bloco vazio abaixo do título, se necessário adicione um bloco vazio primeiro.
+
+
+ ---
+
+```{image} ./_static/how-to/block-left-add-icon.png
+:alt: Botão para inserir um tipo de bloco no documento.
+```
+
+ ---
 
 Então clique no botão bloco de imagem para adicionar um bloco de imagem.
 
@@ -104,6 +114,28 @@ Então clique no botão bloco de imagem para adicionar um bloco de imagem.
 ```
 
  ---
+ 
+ Por padrão o bloco vem sem imagem e com um campo que permite selecionar ou enviar uma imagem.
+
+ ---
+
+```{image} ./_static/create-news/image-block.png
+:alt: Novo bloco de imagem vazio.
+```
+
+ ---
+
+Clique no botão para envio de imagem.
+
+ ---
+
+```{image} ./_static/create-news/image-upload-button.png
+:alt: Botão para envio da imagem.
+```
+
+ ---
+
+Então na janela de uplaod de arquivo de imagem escolha a imagem desejada.
 
  ---
 
@@ -113,6 +145,8 @@ Então clique no botão bloco de imagem para adicionar um bloco de imagem.
 
  ---
 
+Após o envio a imagem é exibida e também o painel com as configurações da imagem. Preencha os campos de acordo com a necessidade.
+
  ---
 
 ```{image} ./_static/create-news/image-properties.png
@@ -121,21 +155,7 @@ Então clique no botão bloco de imagem para adicionar um bloco de imagem.
 
  ---
 
- ---
-
-```{image} ./_static/create-news/news-image-medium-align-right-button.png
-:alt: Imagem de tamanho médio com configuração de alinhamento a direita.
-```
-
- ---
-
- ---
-
-```{image} ./_static/create-news/news-image-medium-size-button.png
-:alt: Botão de opção por imagem de tamanho médio 
-```
-
- ---
+Outra forma de adicionar imagem é colando o texto copiado de outra página que contenha uma imagem. A imagem é exibida com as configurações padrão.
 
  ---
 
@@ -145,6 +165,28 @@ Então clique no botão bloco de imagem para adicionar um bloco de imagem.
 
  ---
 
+Vamos realinhar a imagem, para começar vamos alinhar a imagem a direita. Clique no botão de alinhamento a direita que fica no painel de configuração.
+
+ ---
+
+```{image} ./_static/create-news/news-image-medium-align-right-button.png
+:alt: Imagem de tamanho médio com configuração de alinhamento a direita.
+```
+
+ ---
+
+Em seguida clique no botão de tamanho médio no painel de configuração.
+
+ ---
+
+```{image} ./_static/create-news/news-image-medium-size-button.png
+:alt: Botão de opção por imagem de tamanho médio 
+```
+
+ ---
+
+Para finalizar mova a imagem para a posição adequada usando o botão de mover bloco de imagem.
+
  ---
 
 ```{image} ./_static/create-news/news-move-image-block.png
@@ -152,3 +194,11 @@ Então clique no botão bloco de imagem para adicionar um bloco de imagem.
 ```
 
  ---
+
+Por fim, clique no botão salvar.
+
+ ---
+
+```{image} ./_static/create-news/news-save-button.png
+:alt: Botão salvar.
+```
