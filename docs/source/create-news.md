@@ -105,7 +105,7 @@ A seguir você pode inserir uma imagem na notícia, clique no botão `+` no bloc
 
  ---
 
-Então clique no botão bloco de imagem para adicionar um bloco de imagem.
+Clique no ícone `+` para escolher um bloco para adicionar. Então clique no botão bloco de imagem para adicionar um bloco de imagem.
 
  ---
 
