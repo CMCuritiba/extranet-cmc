@@ -12,7 +12,7 @@ myst:
 
 # Guia para criar uma página com duas colunas 
 
-Este é o guia de como criar uma página com duas colunas no portal extranet da [^DTIC] da [^CMC] para extranet usando Volto, o frontend do Plone 6.
+Este é o guia de como criar uma página com duas colunas no portal extranet da [DTIC] da [CMC] para extranet usando Volto, o frontend do Plone 6.
 
 
 Clique no botão de adicionar conteúdo.
@@ -36,7 +36,7 @@ Escolha o tipo de conteúdo página.
  
  ---
 
-Preencha o título e adicione uma imagem ao bloco de texto.
+Preencha o título e adicione uma imagem ao bloco de texto. Clique no ícone `+` para adicionar um bloco. Escolha o bloco imagem.
 
  ---
 
@@ -56,7 +56,7 @@ Envie uma imagem para ser o banner da página.
  
  ---
 
-Crie um bloco listagem.
+Clique no ícone `+` para adicionar um novo tipo de bloco. Clique no botão do bloco listagem para adicionar uma listagem.
 
  ---
 
@@ -111,7 +111,7 @@ Salve a página.
  ---
 
 ```{image} ./_static/create-page/save-page-button.png
-:alt: 
+:alt: Botão salvar página.
 ```
  ---
 
@@ -168,99 +168,27 @@ As opções da imagem podem ficar nos seus valores padrão.
  ---
 
 
-
-
-Com a imagem enviado podemos criar as colunas
-
-TODO
+Após a criação do banner você pode criar as colunas. O bloco de colunas pode ser encontrado na lista de blocos padrão. Clique na categoria 'PADRÃO' para encontrar o bloco de colunas.
 
  ---
 
-```{image} ./_static/create-page/add-columns-accordion-block-with-text.png
+```{image} ./_static/create-page/add-standard-blocks.png
 :alt: 
 ```
-
+ 
  ---
 
-TODO
-
- ---
-
-```{image} ./_static/create-page/add-columns-add-accordion-block-button.png
-:alt: 
-```
-
- ---
-
-TODO
-
- ---
-
-```{image} ./_static/create-page/add-columns-add-block.png
-:alt: 
-```
-
- ---
-
-TODO
+Então clique no botão para adicionar o bloco de colunas.
 
  ---
 
 ```{image} ./_static/create-page/add-columns-block-button.png
 :alt: 
 ```
-
- ---
-
-TODO
-
- ---
-
-```{image} ./_static/create-page/add-columns-empty-accordion-block.png
-:alt: 
-```
-
- ---
-
-TODO
-
- ---
-
-```{image} ./_static/create-page/save-page-button.png
-:alt: 
-```
- ---
-
-TODO
-
- ---
-
-```{image} ./_static/create-page/add-columns-accordion-block-add-item.png
-:alt: 
-```
-
- ---
-
-TODO
-
- ---
-
-```{image} ./_static/create-page/add-standart-blocks.png
-:alt: 
-```
  
  ---
-TODO
 
- ---
-
-```{image} ./_static/create-page/add-columns-pasted-text.png
-:alt: 
-```
-
- ---
-
-TODO
+Ao clicar no bloco de colunas serão apresentadas opções para escolher a disposição das colunas. Clique no botão 50/50.
 
  ---
 
@@ -270,8 +198,75 @@ TODO
 
  ---
 
+Agora você pode adicionar o texto do lado esquerdo, como no exemplo abaixo onde um texto foi colado com formatação.
+
+ ---
+
+```{image} ./_static/create-page/add-columns-pasted-text.png
+:alt: 
+```
+
+ ---
+
+Ao lado direito você pode adiionar um novo bloco no botão `+` que fica no canto direito superior da coluna.
+
+ ---
+
+```{image} ./_static/create-page/add-columns-add-block.png
+:alt: 
+```
+
+ ---
+
+Escolha o bloco 'Acordeão' para criar uma exibição de texto organizada em tópicos na coluna direita. 
+
+
+ ---
+
+```{image} ./_static/create-page/add-columns-add-accordion-block-button.png
+:alt: 
+```
+
+ ---
+
+Um acrodeão vazio permite que você adicione o título e conteúdo de 3 ítens por padrão. Você pode remover um ítem, clique no ícone de lixeira ao lado do ítem vazio.
+
+ ---
+
+```{image} ./_static/create-page/add-columns-empty-accordion-block.png
+:alt: 
+```
+
+ ---
+
+Para adicionar ítens no acordeão clique no botão 'Adicionar acordeão'. Clique no ícone de lixeira ao lado de um ítem se quiser remover o ítem.
+
+ ---
+
+```{image} ./_static/create-page/add-columns-accordion-block-add-item.png
+:alt: 
+```
+
+ ---
+
+Para abrir ou fechar o acordeão clique na seta ao lado direito do título.
+
+ ---
+
+```{image} ./_static/create-page/add-columns-accordion-block-with-text.png
+:alt: 
+```
+
+ ---
+
 Por fim, clique no botão salvar.
 
+ ---
 
-[^DTIC]: Diretoria de Tecnologia da Informação e Comunicação
-[^CMC]: Câmara Municipal de Curitiba
+```{image} ./_static/create-page/sic-save-page-button.png
+:alt: 
+```
+
+
+[DTIC]: Diretoria de Tecnologia da Informação e Comunicação
+[CMC]: Câmara Municipal de Curitiba
