@@ -10,9 +10,9 @@ myst:
 
 (user-manual-label)=
 
-# Manual do Usuário 
+# Manual do usuário 
 
-Este é o manual do usuário do Volto da DTIC da CMC traduzido do manual do Volto, o frontend do Plone 6.
+Este é o manual do usuário do Volto da [^DTIC] da [^CMC] traduzido do manual do Volto, o frontend do Plone 6.
 
 ```{toctree}
 :maxdepth: 1
@@ -22,3 +22,6 @@ copy-paste-blocks
 links-to-item
 how-to
 ```
+
+[^DTIC]: Diretoria de Tecnologia da Informação e Comunicação
+[^CMC]: Câmara Municipal de Curitiba

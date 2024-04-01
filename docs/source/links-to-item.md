@@ -50,5 +50,5 @@ Você pode ver então uma tabela mostrando todos os links e referências do item
 Para editores, esta visão dá uma ideia se estes links e referências ainda são relevantes.
 À segunda vista, ele também ajuda a prevenir quebras potenciais de links e relações.
 
-Por exemplo, quando você tenta apagar esta página com outras páginas linkando a ela, você recebe um aviso que isto irá causar a quebrra de links ou relações que conduzem a página de erro 'não encontrado' .
+Por exemplo, quando você tenta apagar esta página com outras páginas apontando para ela, você recebe um aviso. Isto irá causar a quebra de links ou relações que conduzem a página de erro 'não encontrado' .
 Se você ver esse aviso, pode inspecionar esta visão e navegar por cada página referenciando, removendo qualquer referência.

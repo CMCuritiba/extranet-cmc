@@ -21,10 +21,10 @@ Os blocos fornecem a você a habilidade de exibir conteúdo de uma maneira espec
 ## Gerenciamento de blocos
 
 No Volto, "blocos" são peças individuais de conteúdo que podem ser adicionadas a uma página ou outras áreas de conteúdo.
-Estes blocos podem ser usados em diferentes tipos de conteúdos; como texto, imagens, multimídia e podem ser organizados e customizados para criar uma grande variedade de layouts.
+Estes blocos podem ser usados em diferentes tipos de conteúdos, como texto, imagens ou multimídia. Os blocos podem ser organizados e customizados para criar uma grande variedade de layouts.
 
 Blocos são a característica chave do Volto e são projetados para tornar fácil para os usuários a adição de conteúdo em seu website.
-Eles são craidos utilizando componentes React, que são peças modulares de código que podem ser fácilmente ser reutilizados e customizados.
+Eles são criados utilizando componentes React, que são peças modulares de código que podem ser fácilmente ser reutilizados e customizados.
 
 
 (create-a-block-label)=
@@ -65,7 +65,7 @@ Para remover um bloco, ao lado direito do bloco, clique no botão de remoção, 
 ## Tipos de bloco padão
 
 Volto oferece diversos tipos de blocos padrão no seu empacotamento.
-Você pode acessar e escolher um tipo de bloco para adicionar ao seu conteúdo qunado você tem um bloco vazio.
+Você pode acessar e escolher um tipo de bloco para adicionar ao seu conteúdo quando você tem um bloco vazio.
 
 Agora com seu bloco vazio disponível, você pode selecionar seu tipo de uma das duas formas.
 
@@ -112,23 +112,23 @@ Depois de escolher o número de colunas para inserir num bloco grid, você pode 
 
 -   Especifique o tipo do bloco numa coluna clicando em seu botão `+`.
 -   Reorganize a ordem das colunas no bloco grid arrastando e soltando elas.
--   Adiicone uma coluna ao bloco grid clicando no botão `+` no lado superior esquerdo dele.
+-   Adicione uma coluna ao bloco grid clicando no botão `+` no lado superior esquerdo dele.
 -   Remova uma coluna do bloco grid clicando no seu botão `×`.
 
 
 (user-manual-html-block-label)=
 
-### Bloco HTML
+### Bloco html
 
 Um bloco HTML permite aos usuários adicionar código HTML customizado em uma página.
 Isto pode ser útil para adicionar funcionalidades ou estilos customizados em uma página, ou para integração com serviços externos ou aplicações.
-Por exemplo, você pode inserir um trecho de HTML ou componente de um serviço de terceiros para embutir um calendário, botão de doação ou pagamento, ou mídia social em uma página.
+Por exemplo, você pode inserir um trecho de HTML ou componente de um serviço de terceiros. É possível embutir um calendário, botão de doação ou pagamento, ou mídia social em uma página.
 
 ```{image} ./_static/user-manual/blocks/html-block.png
 :alt: Bloco HTML
 ```
 
-Para usar um bloco HTML, você precisa ter algum conhecimento sobre como escrever HTML, a não ser que você receba um trecho de HTML de um terceiro que você pode copiar e colar no bloco.
+Para usar um bloco HTML, você precisa ter algum conhecimento sobre como escrever HTML. Se você obtiver um trecho de HTML de um terceiro que você pode copiar e colar no bloco.
 
 
 (user-manual-hero-block-label)=
@@ -147,14 +147,14 @@ Eles também podem incluir um título, descrição e links para outras páginas 
 
 Você pode usar o editor de blocos para configurar suas opções.
 Você pode configurar a imagem de fundo ou a cor, seu título, descrição e links.
-Para links, você pode fornecer uma URL externa ou selecionar uma página do seu site clicando no ícone lista e fornecer um título para o link.
+Para links, você pode fornecer um endereço externo ou selecionar uma página do seu site clicando no ícone lista e fornecer um título para o link.
 
 
 (user-manual-image-block-label)=
 
 ### Bloco imagem
 
-Um bloco imagem permiter inserir uma imagem numa página e configurar seus atributos.
+Um bloco imagem permite inserir uma imagem numa página e configurar seus atributos.
 
 ```{image} ./_static/user-manual/blocks/image-block.png
 :alt: Bloco imagem
@@ -163,8 +163,8 @@ Um bloco imagem permiter inserir uma imagem numa página e configurar seus atrib
 Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada através de qualquer um dos seguintes métodos:
 -   Escolha uma imagem existente no site clicando no ícone de lista do bloco.
 -   Envie uma nova imagem ou clicando no ícone de upload do bloco ou arrastando e soltando.
--   Forneça uma URL remota da imagem na área de texto do bloco.
-    Clique no ícone de seta para salvar a URL.
+-   Forneça um endereço remoto da imagem na área de texto do bloco.
+    Clique no ícone de seta para salvar o endereço.
 
 Depois que você especificou uma imagem, suas opções de configuração se tornar disponíveis.
 ```{image} ./_static/user-manual/blocks/image-block-configuration-options.png
@@ -172,10 +172,10 @@ Depois que você especificou uma imagem, suas opções de configuração se torn
 ```
 
 Origem
-: Caminho ou URL para a imagem.
+: Caminho ou endereço para a imagem.
 
 Texto alternativo
-: Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca para descrever a imagem
+: Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca para descrever a imagem.
   Texto alternativo não deve ser usado para imagens decorativas, pois adiciona ruído aos leitores de tela.
 
 Alinhamento
@@ -185,7 +185,7 @@ Tamanho da imagem
 : O tamanho da imagem determina a exibição relativa a largura, qual seja pequeno, médio ou grande
 
 Link para
-: Você pode fornecer uma URL no campo de texto, ou clicar no ícone lista e escolher uma página do site para o link alvo.
+: Você pode fornecer um endereço no campo de texto, ou clicar no ícone lista e escolher uma página do site para o link alvo.
   Você pode opcionalmente fazer o link abrir em uma nova aba quando o usuário clicar nele marcando a caixa de seleção {guilabel}`Abrir em nova aba`.
 
 
@@ -201,17 +201,17 @@ Pode ser configurado para mostrar imagens em diferentes layouts e estilos.
 :alt: Escolha o número de imagens para inserir em um bloco de grid de imagens.
 ```
 
-Depois de escolher o número de imagens a inserir em um bloco de grid de imagens, você pode configurar as imagens assim como configura um única imagem em um bloco de imagem.
+Depois de escolher o número de imagens a inserir em um bloco de grid de imagens, você pode configurar as imagens. Funciona da mesma forma que configurar um única imagem em um bloco de imagem.
 
 ```{image} ./_static/user-manual/blocks/image-block-configuration-options.png
 :alt: Opções de configuração do bloco de imagem.
 ```
 
 Origem
-: O caminho ou URL da imagem
+: O caminho ou endereço da imagem
 
 Texto alternativo
-: Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca para descrever a imagem
+: Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca para descrever a imagem.
   Texto alternativo não deve ser usado para imagens decorativas, pois adiciona ruído aos leitores de tela.
 
 Alinhamento
@@ -221,7 +221,7 @@ Tamanho da imagem
 : O tamanho da imagem determina a exibição relativa a largura, qual seja pequeno, médio ou grande
 
 Link para
-: Você pode fornecer uma URL no campo de texto, ou clicar no ícone lista e escolher uma página do site para o link alvo.
+: Você pode fornecer um endereço no campo de texto, ou clicar no ícone lista e escolher uma página do site para o link alvo.
   Você pode opcionalmente fazer o link abrir em uma nova aba quando o usuário clicar nele marcando a caixa de seleção {guilabel}`Abrir em nova aba`.
 
 
@@ -239,8 +239,8 @@ Você também pode gerenciar as imagens em um block de grid de imagens.
 Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada através de qualquer um dos seguintes métodos:
 -   Escolha uma imagem existente no site clicando no ícone de lista do bloco.
 -   Envie uma nova imagem ou clicando no ícone de upload do bloco ou arrastando e soltando.
--   Forneça uma URL remota da imagem na área de texto do bloco.
-    Clique no ícone de seta para salvar a URL.
+-   Forneça um endereço remoto da imagem na área de texto do bloco.
+    Clique no ícone de seta para salvar o endereço.
 
 
 (user-manual-listing-block-label)=
@@ -273,8 +273,8 @@ Nível de cabeçalho
 Critério
 : Adiciona um critério de pesquisa.
   Inclue opções para pesquisa por metadados, datas e texto.
-  Cada critério tem suas próprias opções
-  Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas, ou pela sua localização em um caminho do seu site Plone.
+  Cada critério tem suas próprias opções.
+  Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas. Ou pela sua localização em um caminho do seu site Plone.
 
 Ordenação
 : Ordena os resultados pela opção escolhida.
@@ -306,8 +306,8 @@ Depois que você cola o trecho de código na configuração do bloco de mapa, vo
 :alt: Configuração do bloco de mapas.
 ```
 
-URL do mapa
-: A URL do mapa.
+Endereço do mapa
+: O endereço do mapa.
 
 Texto alternativo
 : Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca.
@@ -321,7 +321,7 @@ Alinhamento
 ### Bloco de pesquisa
 
 O bloco de pesquisa fornece uma interface de pesquisa a visitantes para buscar conteúdo em um site Plone.
-O editor do site pode configurar seus critérios e aspectos de pesquisa através de diversos parâmetros, incluindo texto, status, datas e criador
+O editor do site pode configurar seus critérios e aspectos de pesquisa através de diversos parâmetros, incluindo texto, status, datas e criador.
 Os resultados de pesquisa podem ser configurados com uma ordenação, limite de resultados e se os resultados devem ser agrupados com paginação.
 O editor do site pode escolher quais controles oferecer ao visitante, incluindo ordenação e total de resultados.
 
@@ -357,8 +357,8 @@ Chamada
 Critério
 : Adiciona um critério de pesquisa.
   Inclue opções para pesquisa por metadados, datas e texto.
-  Cada critério tem suas próprias opções
-  Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas, ou pela sua localização em um caminho do seu site Plone.
+  Cada critério tem suas próprias opções.
+  Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas. Ou pela sua localização em um caminho do seu site Plone.
 
 Ordenação
 : Ordena os resultados pela opção escolhida.
@@ -405,7 +405,7 @@ Múltipla escolha?
 
 Ocultar faceta?
 : Alterna entre mostrar ou esconder a faceta.
-  Facetas escondidas ainda poderão filtar os resultados se os parâmetros apropriados forem passados nas URLs.
+  Facetas escondidas ainda poderão filtar os resultados se os parâmetros apropriados forem passados nos endereços.
 
 Faceta avançada?
 : Seleciona para definir a faceta como avançada.
@@ -466,7 +466,7 @@ Tornar a tabela ordenável
   Quando habilitado, um visitante pode clicar no cabeçalho de uma coluna para ordenar or aquela coluna.
 
 Células da tabela com largura fixa
-: Quando habilitado, as colunas são fixadas em uma mesma largura percentual da tabela
+: Quando habilitado, as colunas são fixadas em uma mesma largura percentual da tabela.
   Por exemplo, uma tabela com quatro colunas poderia ter cada uma de suas colunas fixadas em 25% da largura da tabela.
 
 Dividir cada linha em células separadas
@@ -476,7 +476,7 @@ Alternar cores das linhas
 : Quando habilitada, as linhas em uma tabela terão cores alternadas.
 
 Tornar a tabela compacta
-: Quando habilitada, o preenchimendo das células é reduzido dando uma aparência mais compacta.
+: Quando habilitada, o preenchimento das células é reduzido dando uma aparência mais compacta.
 
 Reduzir complexidade
 : Quando habilitada, as bordas do topo, esquerda, direita são removidas.
@@ -489,25 +489,25 @@ Inverter cores da tabela
 
 ### Bloco tabela de conteúdos
 
-O bloco tabela de conteúdos (TOC) cria uma lista de links para os títulos e subtítulos dos blocos de texto de uma página.
-O bloco TOC torna mais fácil para o visitante navegar para uma seção de uma página longa ou complexa.
+O bloco tabela de conteúdos cria uma lista de links para os títulos e subtítulos dos blocos de texto de uma página.
+O bloco tabela de conteúdos torna mais fácil para o visitante navegar para uma seção de uma página longa ou complexa.
 Ele pode ser configurado para mostrar os links em layouts e estilos. 
 
-Para usar o bloco TOC, você deve primeiro ter blocos de texto com títulos e subtítulos em sua página.
-Quando você adiciona um bloco TOC na página, o bloco de tabela de conteúdos é automaticamente preenchido com títulos e subtítulos em uma lista com marcadores, com subtítulos recuados.
+Para usar o bloco tabela de conteúdos, você deve primeiro ter blocos de texto com títulos e subtítulos em sua página.
+Quando você adiciona um bloco tabela de conteúdos na página, o bloco de tabela de conteúdos é automaticamente preenchido. São exibidos os títulos e subtítulos em uma lista com marcadores, com subtítulos recuados.
 
 ```{image} ./_static/user-manual/blocks/table-of-contents-block.png
 :alt: Bloco de tabela de conteúdos
 ```
 
-O bloco TOC tem diversas opções de configuração.
+O bloco tabela de conteúdos tem diversas opções de configuração.
 
 ```{image} ./_static/user-manual/blocks/table-of-contents-block-configuration.png
 :alt: Configuração do bloco de tabela de conteúdos
 ```
 
 Variação
-: Alterna a exibição da TOC entre listagem (padrão) ou abas horizontais.
+: Alterna a exibição da tabela de conteúdos entre listagem (padrão) ou abas horizontais.
   A variação horizontal também adiciona um botão suspenso (dropdown), se necessário, assim itens que não couberem serão exibidos em uma lista suspensa (dropdown).
   ```{video} ./_static/user-manual/blocks/table-of-contents-block-with-dropdown.mp4
   :alt: Menu do bloco tabela de conteúdos.
@@ -531,7 +531,7 @@ Entradas
 
 ### Bloco teaser
 
-O bloco teaser mostra um sumário ou teaser de um item de conteúdo, como um artigo ou post de blog num website, e linka com o conteúdo completo do item.
+O bloco teaser mostra um sumário ou teaser de um item de conteúdo, como um artigo ou post de blog num website, e aponta para o conteúdo completo do item.
 Quando um visitante clica ou aciona o bloco teaser, eles irão visitar o conteúdo total do item.
 O bloco teaser tipicamente inclui o título, um extrato do sumário do conteúdo e a miniatura ou outro elemento visual.
 
@@ -546,7 +546,7 @@ O bloco teaser possue várias opções de configuração.
 ```
 
 Alvo
-: O alvo é um conteúdo existente no seu site Plone que pode ser selecionado clicando no ícone de lista, ou uma URL externa que pode ser digitada no campo de texto e salva clicando na seta à direita quando ela aparecer depois que você começar a digitar.
+: O alvo é um conteúdo existente no seu site Plone que pode ser selecionado clicando no ícone de lista. Ou um endereço externo que pode ser digitada no campo de texto e salva clicando na seta à direita quando ela aparecer depois que você começar a digitar.
 
 Título
 : O título é o título do item de conteúdo.
@@ -558,10 +558,10 @@ Descrição
 : A descrição é um texto puro que sumariza ou descreve o item de conteúdo.
 
 Imagem
-: A imagem é uma imagem existente em seu site Plone que pode ser selecionada clicando no ícone lista, ou uma URL externa de uma imagem que pode ser digitada no campo de texto e salva clicando na seta à direita quando ela aparecer depois que você começar a digitar.
+: A imagem é uma imagem existente em seu site Plone que pode ser selecionada clicando no ícone lista. Ou um endereço externo de uma imagem que pode ser digitada no campo de texto. Para salvar, clique na seta à direita quando ela aparecer depois que você começar a digitar.
 
 Alinhamento
-: O alinhamento do imagem destaque que pode ser a esquera (padrão), a direita ou no topo.
+: O alinhamento do imagem destaque que pode ser a esquerda (padrão), a direita ou no topo.
 
 (user-manual-teaser-grid-block-label)=
 
@@ -586,7 +586,7 @@ Precisa de conteúdo.
 ### Bloco vídeo
 
 O bloco vídeo permite a um editor inserir vídeo em uma página.
-Forneça a URL de um vídeo hospedado em um terceiro e clique na seta a direita para salvar.
+Forneça o endereço de um vídeo hospedado em um terceiro e clique na seta a direita para salvar.
 Uma prévia do vídeo é apresentada.
 
 ```{image} ./_static/user-manual/blocks/video-block.png
@@ -599,12 +599,12 @@ O bloco vídeo tem diversas opções de configuração.
 :alt: Configuração do bloco vídeo
 ```
 
-URL do vídeo
-: A URL do vídeo.
+Endereço do vídeo
+: O endereço do vídeo.
 
-URL da image de prévia
+Endereço da imagem de prévia
 : Opcionalmente use uma imagem de prévia.
-  Você pode fornecer a URL de uma imagem no campo texto, ou clicar no ícone lista e escolher uma imagem do seu site.
+  Você pode fornecer o endereço de uma imagem no campo texto, ou clicar no ícone lista e escolher uma imagem do seu site.
 
 Alinhamento
 : Opções para alinhamento incluem esquerda, direita, centralizada e largura total.

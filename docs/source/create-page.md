@@ -12,7 +12,7 @@ myst:
 
 # Guia para criar uma página com duas colunas 
 
-Este é o guia de como criar uma página com duas colunas no portal extranet da [DTIC] da [CMC] para extranet usando Volto, o frontend do Plone 6.
+Este é o guia de como criar uma página com duas colunas no portal extranet da [^DTIC] da [^CMC] para extranet usando Volto, o frontend do Plone 6.
 
 
 Clique no botão de adicionar conteúdo.
@@ -208,7 +208,7 @@ Agora você pode adicionar o texto do lado esquerdo, como no exemplo abaixo onde
 
  ---
 
-Ao lado direito você pode adiionar um novo bloco no botão `+` que fica no canto direito superior da coluna.
+Ao lado direito você pode adicionar um novo bloco no botão `+` que fica no canto direito superior da coluna.
 
  ---
 
@@ -268,5 +268,5 @@ Por fim, clique no botão salvar.
 ```
 
 
-[DTIC]: Diretoria de Tecnologia da Informação e Comunicação
-[CMC]: Câmara Municipal de Curitiba
+[^DTIC]: Diretoria de Tecnologia da Informação e Comunicação
+[^CMC]: Câmara Municipal de Curitiba
