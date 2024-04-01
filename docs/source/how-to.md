@@ -12,7 +12,7 @@ myst:
 
 # Como utilizar 
 
-Este é o guia de como utilizar o portal extranet da DTIC da CMC para extranet usando Volto, o frontend do Plone 6.
+Este é o guia de como utilizar o portal extranet da [^DTIC] da [^CMC] para extranet usando Volto, o frontend do Plone 6.
 
 ```{toctree}
 :maxdepth: 1
@@ -24,3 +24,6 @@ create-page
 create-news
 blocks-use
 ```
+
+[^DTIC]: Diretoria de Tecnologia da Informação e Comunicação
+[^CMC]: Câmara Municipal de Curitiba

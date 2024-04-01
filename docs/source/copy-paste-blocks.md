@@ -19,12 +19,12 @@ Este capítulo descreve como fazer.
 
 ## Copiar ou cortar blocos
 
-Estando no modo de edição, você pode segurar a tecla {kbd}`ctrl` para selecionar multiplos blocos que você deseja copiar ou cortar.
+Estando no modo de edição, você pode segurar a tecla {kbd}`ctrl` para selecionar múltiplos blocos que você deseja copiar ou cortar.
 Uma vez que os blocos estejam selecionados, você terá as opções de copiar <img alt="Copy icon" src="./_static/copy.svg" class="inline"> e cortar <img alt="Cut icon" src="./_static/cut.svg" class="inline"> na barra de ferramentas.
 
-Volto também permite a seleção de multiplos blocos contíguos.
+Volto também permite a seleção de múltiplos blocos contíguos.
 Essa funcionalidade pode ser usada selecionando o bloco inicial e um bloco final segurando a tecla {kbd}`shift`.
-Isto irá selecionar todos os blocos entre os blocos inicial e final, possibilitando que você copie, corte ou edlete multiplos blocos de uma vez.
+Isto irá selecionar todos os blocos entre os blocos inicial e final, possibilitando que você copie, corte ou delete múltiplos blocos de uma vez.
 
 ````{only} not text
 ```{video} ./_static/user-manual/blocks/block-copy-cut.mp4

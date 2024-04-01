@@ -12,7 +12,7 @@ myst:
 
 # Como gerenciar conteúdo
 
-Aqui você verá como funciona o gerenciamento de conteúdo e estrutura de armazenamento para os arquivos do portal, como criar página, enviar arquivos, exibir a lista de arquivos que estão em uma página entre outras funcionalidades. 
+Aqui você verá como funciona o gerenciamento de conteúdo e estrutura de armazenamento para os arquivos do portal. Como criar páginas, enviar arquivos, exibir a lista de arquivos que estão em uma página entre outras funcionalidades. 
 
 (new-page-label)=
 
@@ -131,7 +131,7 @@ Repetir o processo para todos os arquivos e salvar.
 
 ## Como utilizar um link de download direto
 
-O link que criamos inicialmente remete a página que representa o arquivo, mas as vezes queremos que o arquivo seja enviado diretamente para o usuário, então vamos ver como você faz para criar um link de download direto.
+O link que criamos inicialmente remete a página que representa o arquivo, mas as vezes queremos que o arquivo seja enviado diretamente para o usuário. Então vamos ver como você faz para criar um link de download direto.
 
 O primeiro passo que você precisa fazer é acessar a página que representa o arquivo.
 
@@ -188,7 +188,7 @@ Agora, ao clicar no link o download direto é realizado, sem passar pela página
 
 ## Conhecendo a estrutura de conteúdo
 
-Vamos navegar pelo conteúdo, algo visivel apenas para quem está autenticado e tem permissão para ver o conteúdo. Na página inicial do portal, clicar no botão Conteúdo. A página criada vai estar na lista de conteúdo.
+Vamos navegar pelo conteúdo, algo visível apenas para quem está autenticado e tem permissão para ver o conteúdo. Na página inicial do portal, clicar no botão `Conteúdo`. A página criada vai estar na lista de conteúdo.
 
  ---
 
@@ -227,7 +227,7 @@ A seguir um diagrama representando a estrutura de conteúdo. A página inicial, 
 
 ## Como usar o bloco listing para exibir o conteúdo
 
-Outra forma de mostrar os arquivos que estão contidos na página é utilizando o bloco listagem. Ao invés de ter que adicionar texto e fazer os links manualmente você pode ter um bloco dinâmico que vai ser atualizado automaticamente se um novo arquivo for adicionado, removido ou receber uma alteração no título por exemplo.
+Outra forma de mostrar os arquivos que estão contidos na página é utilizando o bloco listagem ao invés de ter que adicionar texto e fazer os links manualmente. Você pode ter um bloco dinâmico que vai ser atualizado automaticamente se um novo arquivo for adicionado, removido ou receber uma alteração no título por exemplo.
 
 Antes de adicionar um novo bloco você deve editar a página clicando no botão editar.
 

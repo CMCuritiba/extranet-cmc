@@ -12,7 +12,7 @@ myst:
 
 # Guia para criar uma notícia 
 
-Este é o guia de como criar uma notícia no portal extranet da DTIC da CMC para extranet usando Volto, o frontend do Plone 6.
+Este é o guia de como criar uma notícia no portal extranet da [^DTIC] da [^CMC] para extranet usando Volto, o frontend do Plone 6.
 
 O primeiro passo para criar uma notícia é clicar no botão de adicionar conteúdo.
 
@@ -135,7 +135,7 @@ Clique no botão para envio de imagem.
 
  ---
 
-Então na janela de uplaod de arquivo de imagem escolha a imagem desejada.
+Então na janela de upload de arquivo de imagem escolha a imagem desejada.
 
  ---
 
@@ -202,3 +202,7 @@ Por fim, clique no botão salvar.
 ```{image} ./_static/create-news/news-save-button.png
 :alt: Botão salvar.
 ```
+
+
+[^DTIC]: Diretoria de Tecnologia da Informação e Comunicação
+[^CMC]: Câmara Municipal de Curitiba
