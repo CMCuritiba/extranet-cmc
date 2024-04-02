@@ -1,10 +1,10 @@
 ---
 myst:
   html_meta:
-    "description": "Manual do usuário para edição de blocos na Extranet da DTIC da CMC traduzido do manual do Volto, o frontend do Plone 6."
-    "property=og:description": "Manual do usuário para edição de blocos na Extranet da DTIC da CMC traduzido do manual do Volto, o frontend do Plone 6."
-    "property=og:title": "Como editar conteúdo usando blocos do Volto"
-    "keywords": "Volto, Plone, frontend, React, User manual, edit blocks, edição de blocos"
+    "description": "Plano de aulas para treinamento de uso do portal Volto o frontend do Plone 6."
+    "property=og:description": "Plano de aulas para treinamento de uso do portal Volto o frontend do Plone 6."
+    "property=og:title": "Plano de aulas do treinamento de uso do portal Volto/Plone 6"
+    "keywords": "Volto, Plone, frontend, React, User manual, plano de aulas"
 ---
 
 # Plano de aulas
