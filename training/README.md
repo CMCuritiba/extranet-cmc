@@ -107,3 +107,7 @@ As referências para a criação do treinamento incluem:
     portal*](https://github.com/CMCuritiba/extranet-cmc/tree/main/docs)
 -   [*Canal de discussão do Plone no
     Discord*](https://discord.gg/zFY3EBbjaj)
+
+# Convertendo o documento
+
+Para gerar a versão pdf do plano de aulas instale o software pandoc e execute o comando: `pandoc README.md -o plano_de_aulas.pdf` na linha de comando.
