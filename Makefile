@@ -20,6 +20,9 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
+# Keycloak tests.
+COMPOSE_FOLDER=./tests
+
 # Sphinx variables
 # You can set these variables from the command line.
 SPHINXOPTS      ?=
@@ -74,6 +77,22 @@ install:  ## Install
 	@echo "Install Backend & Frontend"
 	$(MAKE) install-backend
 	$(MAKE) install-frontend
+
+# Keycloak
+.PHONY: keycloak-start
+keycloak-start: ## Start Keycloak stack
+	@echo "$(GREEN)==> Start keycloak stack$(RESET)"
+	@docker compose -f $(COMPOSE_FOLDER)/docker-compose.yml up -d
+
+.PHONY: keycloak-status
+keycloak-status: ## Check Keycloak stack status
+	@echo "$(GREEN)==> Check Keycloak stack status$(RESET)"
+	@docker compose -f $(COMPOSE_FOLDER)/docker-compose.yml ps
+
+.PHONY: keycloak-stop
+keycloak-stop: ## Stop Keycloak stack
+	@echo "$(GREEN)==> Stop Keycloak stack$(RESET)"
+	@docker compose -f $(COMPOSE_FOLDER)/docker-compose.yml down
 
 ##### Documentation
 
