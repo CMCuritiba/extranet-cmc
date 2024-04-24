@@ -12,5 +12,15 @@ myst:
 
 # Treinamento de utilização do Volto na [^CMC]
 
-Este é o manual do usuário do Volto da [^DTIC] da [^CMC].
+O treinamento apresenta o portal como ferramenta de gerenciamento de conteúdo. Aborada a utilização do portal desde a forma de autenticar, introdução aos elementos da interface, botões, painéis e blocos. Ainda ensina a organizar o conteúdo e navegação do portal.
 
+
+```{toctree}
+:maxdepth: 1
+
+autenticar
+explorar
+navegar
+compartilhar
+publicar
+```
