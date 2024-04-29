@@ -18,9 +18,9 @@ O treinamento apresenta o portal como ferramenta de gerenciamento de conteúdo. 
 ```{toctree}
 :maxdepth: 1
 
-aula1/autenticar
-aula2/explorar
-aula3/navegar
-aula4/compartilhar
-aula5/publicar
+autenticar
+explorar
+navegar
+compartilhar
+publicar
 ```
