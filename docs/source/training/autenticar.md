@@ -10,6 +10,6 @@ myst:
 
 (autenticacao-label)=
 
-# Autenticação no Portal do Volto na CMC
+# Autenticação no portal do volto na cmc
 
 A autenticação no portal Volto.

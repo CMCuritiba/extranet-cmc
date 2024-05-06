@@ -10,6 +10,6 @@ myst:
 
 (publicando-label)=
 
-# Publicando conteúdo do Portal do Volto na CMC
+# Publicando conteúdo do portal do volto na cmc
 
 Publicando conteúdo do portal Volto.
