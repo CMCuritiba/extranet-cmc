@@ -10,9 +10,9 @@ myst:
 
 (treinamento-label)=
 
-# Treinamento de utilização do Volto na CMC
+# Treinamento de utilização do volto na cmc
 
-O treinamento apresenta o portal como ferramenta de gerenciamento de conteúdo. Aborada a utilização do portal desde a forma de autenticar, introdução aos elementos da interface, botões, painéis e blocos. Ainda ensina a organizar o conteúdo e navegação do portal.
+O treinamento apresenta o portal como ferramenta de gerenciamento de conteúdo. Aborda a utilização do portal desde a forma de autenticar, introdução aos elementos da interface, botões, painéis e blocos. Ainda ensina a organizar o conteúdo e navegação do portal.
 
 
 ```{toctree}

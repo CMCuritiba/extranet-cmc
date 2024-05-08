@@ -10,7 +10,7 @@ myst:
 
 (explorando-label)=
 
-# Explorando a interface do Portal do Volto na CMC
+# Explorando a interface do portal do volto na cmc
 
 Explorando a interface no portal Volto.
 
@@ -142,7 +142,7 @@ Na aba de propriedade podem ser adicionados , autores, co-autores e colaboradore
 :alt: Formulário para adicionar arquivo, aba propriedade
 ```
 
-Na aba de configurações definimos se o arquivo permite comentários, um nome curto personalizao ou se o arquivo deve ser omitido do menu de navegação.
+Na aba de configurações definimos se o arquivo permite comentários, um nome curto personalizado ou se o arquivo deve ser omitido do menu de navegação.
 
 ```{image} ./_static/training/explorar/adiciona-arquivo-aba-configuracoes.png
 :alt: Formulário para adicionar arquivo, aba configurações
@@ -193,7 +193,7 @@ Na quinta página são os dados de propriedade e direitos autorais.
 ```{image} ./_static/training/explorar/adiciona-evento-configuracao-expandida-pg5.png
 :alt: Formulário de configuração do evento expandido, página 5
 ```
-Na sexa e última página é possível configurar se o evento permite comentários, se deve ser omitido do menu de navegação, um nome curto personalizado e se o versionamento deve ser ativado.
+Na sexta e última página é possível configurar se o evento permite comentários. Possue uma opção para ser omitido do menu de navegação. Ainda é possível fornecer um nome curto personalizado e se o versionamento deve ser ativado.
 
 ```{image} ./_static/training/explorar/adiciona-evento-configuracao-expandida-pg6.png
 :alt: Formulário de configuração do evento expandido, página 6

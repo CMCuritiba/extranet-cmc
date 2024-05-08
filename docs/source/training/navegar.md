@@ -10,11 +10,11 @@ myst:
 
 (navegando-label)=
 
-# Navegando pelo conteúdo do Portal do Volto na CMC
+# Navegando pelo conteúdo do portal do volto na cmc
 
 Navegando pelo conteúdo do portal Volto.
 
-## Acessando os ítens de conteúdo.
+## Acessando os ítens de conteúdo
 
 Assim que é realizada a autenticação é possível clicar no botão de conteúdo. Clique no botão conteúdo para exibir a lista de ítens de conteúdo.
 
@@ -22,7 +22,7 @@ Assim que é realizada a autenticação é possível clicar no botão de conteú
 :alt: Página inicial, botão conteúdo na barra de ações do portal.
 ```
 
-### Ítens de conteúdo inicial.
+### Ítens de conteúdo inicial
 
 No ínicio o conteúdo padrão é apenas uma pasta de imagens. Acima da lista está a barra de tarefas de conteúdo. Enquanto não há ítens selecionados a barra fica com a maioria dos botões desativados.
 
@@ -30,7 +30,7 @@ No ínicio o conteúdo padrão é apenas uma pasta de imagens. Acima da lista es
 :alt: Pasta inicio, nenhum item selecionado, botões da barra de tarefas de conteúdo desativados.
 ```
 
-### Ítens de conteúdo selecionados.
+### Ítens de conteúdo selecionados
 
 Ao selecionar um ou mais ítens os botões da barra são habilitados.
 
@@ -38,7 +38,7 @@ Ao selecionar um ou mais ítens os botões da barra são habilitados.
 :alt: Pasta imagens selecionada, botões da barra de tarefas de conteúdo ativos.
 ``` 
 
-## Enviar arquivo.
+## Enviar arquivo
 
 O primeiro botão permite enviar um arquivo para o portal. 
 
@@ -46,7 +46,7 @@ O primeiro botão permite enviar um arquivo para o portal.
 :alt: Botão para enviar arquivo da barra de tarefas de conteúdo.
 ``` 
 
-### Seleção de arquivos para enviar.
+### Seleção de arquivos para enviar
 
 Clique no botão para enviar arquivo e um formulário para escolha de arquivos permite selecionar os arquivos a serem enviados.
 
@@ -54,7 +54,7 @@ Clique no botão para enviar arquivo e um formulário para escolha de arquivos p
 :alt: Formulário para enviar arquivos.
 ``` 
 
-## Renomear ítens.
+## Renomear ítens
 
 O próximo botão é o botão de renomear ítens. 
 
@@ -62,7 +62,7 @@ O próximo botão é o botão de renomear ítens.
 :alt: Botão para abrir formulário de renomear itens selecionados da barra de tarefas de conteúdo.
 ``` 
 
-### Alteração de nome do ítem.
+### Alteração de nome do ítem
 
 Clique no botão renomear ítens e um formulário para escolha do novo nome seja exibido.
 
@@ -70,7 +70,7 @@ Clique no botão renomear ítens e um formulário para escolha do novo nome seja
 :alt: Formulário para renomear os itens selecionados.
 ``` 
 
-## Alterar estado de ítens.
+## Alterar estado de ítens
 
 Em seguida está o botão de alteração de estado de ítens.
 
@@ -78,7 +78,7 @@ Em seguida está o botão de alteração de estado de ítens.
 :alt: Botão para abrir formulário de alteração de estado da barra de tarefas de conteúdo.
 ``` 
 
-### Seleção de novo estado dos ítens.
+### Seleção de novo estado dos ítens
 
 Clique no botão para alterar estado e um formulário de alteração de estado é exibido.
 
@@ -86,7 +86,7 @@ Clique no botão para alterar estado e um formulário de alteração de estado �
 :alt: Formulário para alterar estado dos itens selecionados.
 ``` 
 
-## Adicionar tags aos ítens.
+## Adicionar tags aos ítens
 
 O botão de edição das tags do ítem vem logo a seguir.
 
@@ -94,7 +94,7 @@ O botão de edição das tags do ítem vem logo a seguir.
 :alt: Botão para abrir formulário de tags para os itens selecionados da barra de tarefas de conteúdo.
 ``` 
 
-### Preenchimento das tags do ítem.
+### Preenchimento das tags do ítem
 
 Clique no botão para edição de tags e um formulário para edição das tags do ítem é exibido.
 
@@ -102,7 +102,7 @@ Clique no botão para edição de tags e um formulário para edição das tags d
 :alt: Formulário para adicionar tags aos itens selecionados.
 ``` 
 
-## Alterar propriedades dos ítens.
+## Alterar propriedades dos ítens
 
 O próximo botão permite alterar as propriedades dos itens.
 
@@ -110,7 +110,7 @@ O próximo botão permite alterar as propriedades dos itens.
 :alt: Botão para abrir formulário de popriedades dos itens selecionados da barra de tarefas de conteúdo.
 ``` 
 
-### Preenchimento das propriedades do ítem.
+### Preenchimento das propriedades do ítem
 
 Clique no botão para alterar as propriedades do ítem para exibir o formulário de propriedades do ítem.
 
@@ -118,7 +118,7 @@ Clique no botão para alterar as propriedades do ítem para exibir o formulário
 :alt: Formulário para editar as propriedades do ítem selecionado.
 ``` 
 
-## Cortar ítens de conteúdo.
+## Cortar ítens de conteúdo
 
 A barra de tarefas também tem funcionalidades para lidar com os ítens. O primeiro é o botão de cortar. Clique no botão cortar. O ítem fica marcado para ser colado em alguma pasta.
 
@@ -126,7 +126,7 @@ A barra de tarefas também tem funcionalidades para lidar com os ítens. O prime
 :alt: Botão de cortar itens selecionados da barra de tarefas de conteúdo.
 ``` 
 
-## Copiar ítens de conteúdo.
+## Copiar ítens de conteúdo
 
 Clique no botão copiar para que os ítens selecionados sejam marcados para cópia. Ítens copiados terão sua cópia original mantida. 
  
@@ -134,7 +134,7 @@ Clique no botão copiar para que os ítens selecionados sejam marcados para cóp
 :alt: Botão de copiar itens selecionados da barra de tarefas de conteúdo.
 ``` 
 
-## Colar ítens de conteúdo.
+## Colar ítens de conteúdo
 
 Clique no botão colar para que os ítens cortados ou copiados sejam transferidos para a localização atual. Ítens cortados terão sua cópia original apagada. Ítens copiados terão sua cópia original mantida.
 
@@ -142,7 +142,7 @@ Clique no botão colar para que os ítens cortados ou copiados sejam transferido
 :alt: Botão de colar itens copiados ou cortados da barra de tarefas de conteúdo.
 ``` 
 
-## Excluir ítens de conteúdo.
+## Excluir ítens de conteúdo
 
 Por fim o botão excluir permite remover ítens.
 
@@ -150,7 +150,7 @@ Por fim o botão excluir permite remover ítens.
 :alt: Botão para excluir itens selecionados da barra de tarefas de conteúdo.
 ``` 
 
-### Confirmação da exclusão de ítens.
+### Confirmação da exclusão de ítens
 
 Clique no botão excluir e um formulário para confirmar a exclusão será exibido.
 
