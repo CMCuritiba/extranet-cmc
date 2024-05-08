@@ -11,6 +11,7 @@ Remova
 Renomear
 Repare
 abaixo
+acessadas
 acessar
 acesso
 adiconar
