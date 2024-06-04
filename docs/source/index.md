@@ -21,6 +21,7 @@ blocks
 copy-paste-blocks
 links-to-item
 how-to
+training/index
 ```
 
 [^DTIC]: Diretoria de Tecnologia da Informação e Comunicação
