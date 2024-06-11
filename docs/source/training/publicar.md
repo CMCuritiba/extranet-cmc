@@ -14,6 +14,38 @@ myst:
 
 Publicando conteúdo do portal Volto.
 
+```{image} ./_static/training/publicar/ferramentas-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/ferramentas-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/ferramentas-aluno3.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/ferramentas-aluno4.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/ferramentas-aluno5.png
+:alt:
+```
+
+
+## Permissões e papéis dos usuários alunos
+
+```{image} ./_static/training/publicar/configuracoes-usuarios-alunos.png
+:alt:
+```
+
+## Permissões padrão dos usuários alunos
+
+```{image} ./_static/training/publicar/permissoes-padrao-alunos.png
+:alt:
+```
 
 ## Workflow de publicação
 
@@ -31,17 +63,150 @@ Publicando conteúdo do portal Volto.
 :alt:
 ```
 
-## Permissões e papéis dos usuários alunos
 
-```{image} ./_static/training/publicar/configuracoes-usuarios-alunos.png
+## Papéis e a vizualização de conteúdo
+
+### Visibilidade de conteúdo privado
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno1-visivel.png
 :alt:
 ```
 
-## Permissões padrão dos usuários alunos
-
-```{image} ./_static/training/publicar/permissoes-padrao-alunos.png
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno2-visivel.png
 :alt:
 ```
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno3-indisponivel.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno4-visivel.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno5-indisponivel.png
+:alt:
+```
+
+### Visibilidade de conteúdo em revisão
+
+TODO
+
+## Disponibilidade de botões de ação
+
+```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno2-indisponivel.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno5-indisponivel.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botoes-acao-usuario-aluno3-indisponiveis.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botoes-acao-usuario-aluno4-indisponiveis.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-conteudo-usuario-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-conteudo-usuario-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-conteudo-usuario-aluno5.png
+:alt:
+```
+
+## Disponibilidade de mais opções de ação
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno3-indisponivel.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno4-indisponivel.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno5.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estado-privado-menu-usuario-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estado-privado-menu-usuario-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-menu-usuario-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-menu-usuario-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-usuario-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-usuario-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estado-revisao-usuario-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estados-menu-desabilitado.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-historico-usuario-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-historico-usuario-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-historico-usuario-aluno4.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-links-e-referencias-usuario-aluno1.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-links-e-referencias-usuario-aluno2.png
+:alt:
+```
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-links-e-referencias-usuario-aluno4.png
+:alt:
+```
+
+
+
+
 
 ## Usuário aluno 1 acesso ao compartilhamento
 ```{image} ./_static/training/publicar/mais-opcoes-aluno1-pagina-compartilhamento.png
