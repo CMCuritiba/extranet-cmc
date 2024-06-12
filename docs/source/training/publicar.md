@@ -77,48 +77,105 @@ Permissões dos usuários criados.
 
 ## Workflow de publicação
 
+Os itens de conteúdo do Plone podem estar em 3 estados no workflow padrão. O estado privado, em revisão ou publicado. Um usuário Membro só pode ver conteúdo publicado e não pode alterar nada. Um usuário leitor pode ver conteúdo privado, mas também não pode alterar o ítem. Um usuário Contribuidor pode ver conteúdo privado, pode adicionar conteúdo, usar controle de versão, só não pode editar conteúdo de outros usuários. Quando um usuário cria conteúdo, ele se torna o dono do conteúdo com permissão de alterar o conteúdo em qualquer estado que o conteúdo esteja. Um usuário editor pode editar conteúdo, usar o controle de versão, gerenciar propriedades do item de conteúdo, enviar conteúdo para publicação mas não pode adicionar conteúdo. Um usuário Revisor pode enviar um documento para publicação ou enviar de volta ao autor, mas não pode alterar o documento.  
+
+Diagrama com o workflow padrão do Plone. O usuário Autor cria um documento e pode realizar qualquer ação no documento, o estado padrão é privado. O usuário Editor pode alterar o documento e enviar para revisão. Ao enviar para revisão o documento passa para o estado Em revisão. No estado Em revisão, o usuário Revisor pode publicar ou enviar de volta ao autor para mudanças, o documento volta ao estado privado quando volta ao autor. 
+
 ```{image} ./_static/training/publicar/workflow.png
-:alt:
+:alt: Diagrama com o workflow padrão do Plone
 ```
 
 ## Usuário anônimo acesso a noticias publicadas
+
+Quando o documento é publicado usuários sem autenticação, anônimo, podem ler o conteúdo.
+
+Notícias visíveis para usuário anônimo quando estão publicadas.
+
 ```{image} ./_static/training/publicar/inicio-usuario-anonimo-noticias-publicadas.png
-:alt:
+:alt: Notícias visíveis para usuário anônimo quando estão publicadas
 ```
 
 ## Usuário anônimo sem acesso conteúdo privado
-```{image} ./_static/training/publicar/inicio-usuario-anonimo-conteudo-privado.png
-:alt:
-```
 
+Quando o documento está em um estado privado usuários sem autenticação, anônimo, não podem ler o conteúdo.
+
+Notícias indisponíveis para usuário anônimo quando estã em estado privado.
+
+```{image} ./_static/training/publicar/inicio-usuario-anonimo-conteudo-privado.png
+:alt: Notícias indisponíveis para usuário anônimo quando estã em estado privado
+```
 
 ## Papéis e a vizualização de conteúdo
 
+De acordo com os papéis e permissões atribuídos ao usuário ele pode acessar conteúdo privado.
+
 ### Visibilidade de conteúdo privado
 
+Os usuários Autor, Colaborador e Editor tem acesso a conteúdo privado, sendo que o Colaborador só pode ler o conteúdo. Os usuários Membro e Revisor não tem acesso a conteúdo privado.
+
+Visibilidade de conteúdo privado para usuário Aluno 1.
+
 ```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno1-visivel.png
-:alt:
+:alt: Visibilidade de conteúdo privado para usuário Aluno 1
 ```
+
+Visibilidade de conteúdo privado para usuário Aluno 2.
 
 ```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno2-visivel.png
-:alt:
+:alt: Visibilidade de conteúdo privado para usuário Aluno 2
 ```
+
+Visibilidade de conteúdo privado para usuário Aluno 3, indisponível.
 
 ```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno3-indisponivel.png
-:alt:
+:alt: Visibilidade de conteúdo privado para usuário Aluno 3, indisponível
 ```
+
+Visibilidade de conteúdo privado para usuário Aluno 4.
 
 ```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno4-visivel.png
-:alt:
+:alt: Visibilidade de conteúdo privado para usuário Aluno 4
 ```
 
+Visibilidade de conteúdo privado para usuário Aluno 5, indisponível.
+
 ```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno5-indisponivel.png
-:alt:
+:alt: Visibilidade de conteúdo privado para usuário Aluno 5, indisponível
 ```
 
 ### Visibilidade de conteúdo em revisão
 
-TODO
+Os usuários Autor, Colaborador, Editor e Revisor tem acesso a conteúdo Em revisão, sendo que o Colaborador só pode ler o conteúdo e o Revisor pode enviar de volta ao Autor. O usuário Membro não tem acesso a conteúdo Em revisão.
+
+Visibilidade de conteúdo em revisão para usuário Aluno 1.
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno1-visivel.png
+:alt: Visibilidade de conteúdo em revisão para usuário Aluno 1
+```
+
+Visibilidade de conteúdo em revisão para usuário Aluno 2.
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno2-visivel.png
+:alt: Visibilidade de conteúdo em revisão para usuário Aluno 2
+```
+
+Visibilidade de conteúdo em revisão para usuário Aluno 3, indisponível.
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno3-indisponivel.png
+:alt: Visibilidade de conteúdo em revisão para usuário Aluno 3, indisponível
+```
+
+Visibilidade de conteúdo em revisão para usuário Aluno 4.
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno4-visivel.png
+:alt: Visibilidade de conteúdo em revisão para usuário Aluno 4
+```
+
+Visibilidade de conteúdo em revisão para usuário Aluno 5, indisponível.
+
+```{image} ./_static/training/publicar/inicio-conteudo-privado-usuario-aluno5-indisponivel.png
+:alt: Visibilidade de conteúdo em revisão para usuário Aluno 5, indisponível
+```
 
 ## Disponibilidade de botões de ação
 
