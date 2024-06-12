@@ -12,39 +12,67 @@ myst:
 
 # Publicando conteúdo do portal do volto na cmc
 
-Publicando conteúdo do portal Volto.
+O workflow de publicação padrão do Plone tem um mecanismo baseado em usuários, grupos, papéis e permissões. Para a demostração nesse treinamento foram criados 5 alunos para abranger a variedade de papés do Plone.
+
+Menu de ferramentas do usuário Aluno 1.
 
 ```{image} ./_static/training/publicar/ferramentas-aluno1.png
-:alt:
+:alt: Menu de ferramentas do usuário Aluno 1
 ```
+
+--
+
+Menu de ferramentas do usuário Aluno 2.
 
 ```{image} ./_static/training/publicar/ferramentas-aluno2.png
-:alt:
+:alt: Menu de ferramentas do usuário Aluno 2
 ```
+
+--
+
+Menu de ferramentas do usuário Aluno 3.
 
 ```{image} ./_static/training/publicar/ferramentas-aluno3.png
-:alt:
+:alt: Menu de ferramentas do usuário Aluno 3
 ```
+
+--
+
+Menu de ferramentas do usuário Aluno 4.
 
 ```{image} ./_static/training/publicar/ferramentas-aluno4.png
-:alt:
+:alt: Menu de ferramentas do usuário Aluno 4
 ```
 
+--
+
+Menu de ferramentas do usuário Aluno 5.
+
 ```{image} ./_static/training/publicar/ferramentas-aluno5.png
-:alt:
+:alt: Menu de ferramentas do usuário Aluno 5
 ```
 
 
 ## Permissões e papéis dos usuários alunos
 
+As permissões no Plone permitem que o usuário possa realizar certa ação. Os papéis são conjuntos de permissões que podem ser atribuídas a usuários ou grupos.
+
+Para o treinamento foram configuradas alguns papéis para os usuários criados. O usuário Aluno 1 é Colaborador e Revisor. O usuário Aluno 2 é Editor e Revisor. O usuário Aluno 3 é Membro apenas. O usuário Aluno 4 é Leitor apenas. O usuário Aluno 5 é Revisor apenas.
+
+Papéis atribuídos aos usuários criados.
+
 ```{image} ./_static/training/publicar/configuracoes-usuarios-alunos.png
-:alt:
+:alt: Papéis atribuídos aos usuários criados
 ```
 
 ## Permissões padrão dos usuários alunos
 
+Os papéis atribuídos concedem as seguintes permissões para os usuários criados. O usuário Aluno 1 pode Adicionar conteúdo e Revisar. O usuário Aluno 2 pode Editar e Revisar. O usuário Aluno 3 pode apenas Ler conteúdo publicado. O usuário Aluno 4 pode Ler conteúdo privado. O usuário Aluno 5 pode Revisar.
+
+Permissões dos usuários criados.
+
 ```{image} ./_static/training/publicar/permissoes-padrao-alunos.png
-:alt:
+:alt: Permissões dos usuários criados
 ```
 
 ## Workflow de publicação
