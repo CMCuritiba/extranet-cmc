@@ -240,43 +240,54 @@ Para o usuário Aluno 4 estão disponíveis as opções de Estado (somente leitu
 ```
 
 Para o usuário Aluno 5 está disponivel apenas a opção de Compartilhamento.
+
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno5.png
 :alt: Opções disponíveis para usuário Aluno 5: Compartilhamento
 ```
 
 ### Estados
 
+As permissões também afetam o que cada usuário pode fazer em termos de transição de estados. O usuário Aluno 1 pode publicar o documento quando o documento está no estado privado.
+
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-privado-menu-usuario-aluno1.png
-:alt:
+:alt: Itens do menu de estados para usuário Aluno 1 no estado privado: Publicar e Privado
 ```
+O usuário Aluno 2 além de poder publicar o documento ele pode enviar para publicação. Quando o documento é enviado para publicação ele entra no estado Em revisão.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-privado-menu-usuario-aluno2.png
-:alt:
+:alt: Itens do menu de estados para usuário Aluno 2 no estado privado: Publicar, Enviar para publicação e Privado
 ```
+O usuário Aluno 1 pode enviar o documento de volta ao autor. Quando o documento é enviado de volta ele entra novamente no estado privado.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-menu-usuario-aluno1.png
-:alt:
+:alt: Itens do menu de estados para usuário Aluno 1 no estado publicado: Enviar de volta e Publicado
 ```
+
+O usuário Aluno 2 pode enviar o documento de volta e também pode Retirar o documento. Em ambos os casos o documento volta ao estado privado.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-menu-usuario-aluno2.png
-:alt:
+:alt: Itens do menu de estados para usuário Aluno 2 no estado publicado: Enviar de volta, Retirar e Publicado
 ```
 
-```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-usuario-aluno1.png
-:alt:
-```
-
-```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-usuario-aluno2.png
-:alt:
-```
+O usuário Aluno 1 não tem acesso ao documento quando ele está em revisão. O usuário Aluno 2 pode publicar, pode enviar de volta ou retirar o documento quando o documento está em revisão.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-revisao-usuario-aluno2.png
-:alt:
+:alt: Itens do menu de estados para usuário Aluno 2 no estado em revisão: Publicar, Enviar de volta, Retirar e Revisão pendente
 ```
 
+O usuário Aluno 3 não tem acesso ao documento nem no estado privado nem no estado em revisão. O usuário Aluno 4 tem acesso somente leitura ao menu de estados.
+
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estados-menu-desabilitado.png
-:alt:
+:alt: Menu de estados somente leitura
 ```
+
+O usuário Aluno 5 pode revisar o documento e enviar o documento de volta ou então publicar.
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-estado-revisao-usuario-aluno5.png
+:alt: Itens do menu de estados para usuário Aluno 5 no estado em revisão: Publicar, Enviar de volta e Revisão pendente
+```
+
+### Histórico
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-historico-usuario-aluno1.png
 :alt:
