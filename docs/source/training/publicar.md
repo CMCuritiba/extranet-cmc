@@ -213,25 +213,38 @@ O usuário Aluno 5 não tem a permissão para criar documento e não tem a permi
 
 ## Disponibilidade de mais opções de ação
 
+Além dos botões de ação as permissões dão acesso a itens do menu de mais opções, que é aberto quando se clica no ícone de reticências (3 pontos seguidos).
+
+Para o usuário Aluno 1 estão disponíveis as opções de Estado, Histório, Compartilhamento e Links e referências.
+
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno1.png
-:alt:
+:alt: Opções disponíveis para usuário Aluno 1: Estado, Histórico, Compartilhamento e Links e referências
 ```
+
+Para o usuário Aluno 2 estão disponíveis as opções de Estado, Histório, Compartilhamento, Gerenciamento de URLS e Links e referências.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno2.png
-:alt:
+:alt: Opções disponíveis para usuário Aluno 2: Estado, Histório, Compartilhamento, Gerenciamento de URLS e Links e referências
 ```
+
+Para o usuário Aluno 3 estão disponíveis as opções de Estado (somente leitura), Histório e Links e referências.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno3-indisponivel.png
-:alt:
+:alt: Opções disponíveis para usuário Aluno 3: Estado (somente leitura), Histório e Links e referências
 ```
+
+Para o usuário Aluno 4 estão disponíveis as opções de Estado (somente leitura), Histório e Links e referências.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno4-indisponivel.png
-:alt:
+:alt: Opções disponíveis para usuário Aluno 4: Estado (somente leitura), Histório e Links e referências
 ```
 
+Para o usuário Aluno 5 está disponivel apenas a opção de Compartilhamento.
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno5.png
-:alt:
+:alt: Opções disponíveis para usuário Aluno 5: Compartilhamento
 ```
+
+### Estados
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-privado-menu-usuario-aluno1.png
 :alt:
