@@ -179,36 +179,36 @@ Visibilidade de conteúdo em revisão para usuário Aluno 5, indisponível.
 
 ## Disponibilidade de botões de ação
 
+De acordo com as permissões de cada um são apresentados botões de ação específicos. O botão adicionar é um exemplo, só está disponível para quem pode criar conteúdo. O botão editar aparece para quem pode modificar o documento e assim por diante.
+
+O usuário Aluno 1 tem a permissão de criar conteúdo, então o botão adicionar está disponível. Entretanto o botão editar não está disponível pois ele não pode alterar o documento. Ele pode navegar pelo conteúdo, portanto o botão de conteúdo também está disponível.
+
 ```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno1.png
-:alt:
+:alt: Botões disponiveis para usuário Aluno 1: botão conteúdo e botão adicionar.
 ```
+
+O usuário Aluno 2 não tem a permissão para criar documento, então o botão de adição está indisponível. O usuário Aluno 2 tem a permissão de modificar o documento, portanto o botão de edição está disponível. Ele pode navegar pelo conteúdo por isso o botão de conteúdo também está disponível.
 
 ```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno2-indisponivel.png
-:alt:
+:alt: Botões disponiveis para usuário Aluno 2: botão conteúdo e botão editar.
 ```
 
-```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno5-indisponivel.png
-:alt:
-```
+O usuário Aluno 3 não tem permissão de criar conteúdo, não tem a permissão de modificar conteúdo e nem pode navegar pelo conteúdo, então nenhum destes botões está disponível. 
 
 ```{image} ./_static/training/publicar/botoes-acao-usuario-aluno3-indisponiveis.png
-:alt:
+:alt: Botões adicionar, editar e conteúdo indisponiveis para usuário Aluno 3
 ```
+
+O usuário Aluno 4 não tem permissão de criar conteúdo, não tem a permissão de modificar conteúdo e nem pode navegar pelo conteúdo, então nenhum destes botões está disponível. 
 
 ```{image} ./_static/training/publicar/botoes-acao-usuario-aluno4-indisponiveis.png
-:alt:
+:alt: Botões adicionar, editar e conteúdo indisponiveis para usuário Aluno 4
 ```
 
-```{image} ./_static/training/publicar/botao-conteudo-usuario-aluno1.png
-:alt:
-```
+O usuário Aluno 5 não tem a permissão para criar documento e não tem a permissão de modificar o documento. O usuário Aluno 5 tem permissão de navegar no conteúdo, então apenas o botão de conteúdo está disponível.
 
-```{image} ./_static/training/publicar/botao-conteudo-usuario-aluno2.png
-:alt:
-```
-
-```{image} ./_static/training/publicar/botao-conteudo-usuario-aluno5.png
-:alt:
+```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno5-indisponivel.png
+:alt: Botões disponiveis para usuário Aluno 5: apenas o botão conteúdo
 ```
 
 ## Disponibilidade de mais opções de ação
