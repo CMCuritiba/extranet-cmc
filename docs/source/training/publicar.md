@@ -289,17 +289,55 @@ O usuário Aluno 5 pode revisar o documento e enviar o documento de volta ou ent
 
 ### Histórico
 
+O histórico também é afetado pelas permissões, o usuário Aluno 1 tem visibilidade ao menu de Histórico.
+
 ```{image} ./_static/training/publicar/botao-mais-opcoes-historico-usuario-aluno1.png
 :alt:
 ```
+
+Ao clicar no item de menu Histórico o usuário Aluno 1 recebe uma mensagem de que o acesso a esse recurso é restrito pois ele não tem permissão de ler o histórico de mudanças.
+
+```{image} ./_static/training/publicar/historico-noticias-usuario-aluno1-restrito.png
+:alt:
+```
+
+O usuário Aluno 2 também tem visibilidade ao menu Histórico. 
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-historico-usuario-aluno2.png
 :alt:
 ```
 
+O usuário Aluno 2 tem acesso a página do histórico de mudanças do documento.
+
+```{image} ./_static/training/publicar/historico-noticias-usuario-aluno2.png
+:alt:
+```
+
+O usuário Aluno 3 não tem acesso ao menu e nem ao histórico de mudanças. O usuário Aluno 4 tem visibilidade ao menu de Histórico.
+
 ```{image} ./_static/training/publicar/botao-mais-opcoes-historico-usuario-aluno4.png
 :alt:
 ```
+
+Ao clicar no item de menu Histórico o usuário Aluno 4 recebe uma mensagem de que o acesso a esse recurso é restrito pois ele não tem permissão de ler o histórico de mudanças.
+
+```{image} ./_static/training/publicar/historico-noticias-usuario-aluno4-restrito.png
+:alt:
+```
+
+O usuário Aluno 5 também tem visibilidade ao menu Histórico se o documento estiver em revisão. 
+
+```{image} ./_static/training/publicar/botao-mais-opcoes-historico-usuario-aluno5.png
+:alt:
+```
+
+O usuário Aluno 5 tem acesso a página do histórico de mudanças do documento se o documento estiver em revisão.
+
+```{image} ./_static/training/publicar/historico-noticias-usuario-aluno5.png
+:alt:
+```
+
+### Links e referências
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-links-e-referencias-usuario-aluno1.png
 :alt:
