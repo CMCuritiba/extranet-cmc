@@ -57,7 +57,7 @@ Menu de ferramentas do usuário Aluno 5.
 
 As permissões no Plone permitem que o usuário possa realizar certa ação. Os papéis são conjuntos de permissões que podem ser atribuídas a usuários ou grupos.
 
-Para o treinamento foram configuradas alguns papéis para os usuários criados. O usuário Aluno 1 é Colaborador e Revisor. O usuário Aluno 2 é Editor e Revisor. O usuário Aluno 3 é Membro apenas. O usuário Aluno 4 é Leitor apenas. O usuário Aluno 5 é Revisor apenas.
+Para o treinamento foram configuradas alguns papéis para os usuários criados. O usuário Aluno 1 é `Colaborador` e `Revisor`. O usuário Aluno 2 é `Editor` e `Revisor`. O usuário Aluno 3 é `Membro` apenas. O usuário Aluno 4 é `Leitor` apenas. O usuário Aluno 5 é `Revisor` apenas.
 
 Papéis atribuídos aos usuários criados.
 
@@ -67,7 +67,7 @@ Papéis atribuídos aos usuários criados.
 
 ## Permissões padrão dos usuários alunos
 
-Os papéis atribuídos concedem as seguintes permissões para os usuários criados. O usuário Aluno 1 pode Adicionar conteúdo e Revisar. O usuário Aluno 2 pode Editar e Revisar. O usuário Aluno 3 pode apenas Ler conteúdo publicado. O usuário Aluno 4 pode Ler conteúdo privado. O usuário Aluno 5 pode Revisar.
+Os papéis atribuídos concedem as seguintes permissões para os usuários criados. O usuário Aluno 1 pode adicionar conteúdo e revisar. O usuário Aluno 2 pode editar e revisar. O usuário Aluno 3 pode apenas ler conteúdo publicado. O usuário Aluno 4 pode ler conteúdo privado. O usuário Aluno 5 pode revisar.
 
 Permissões dos usuários criados.
 
@@ -77,9 +77,9 @@ Permissões dos usuários criados.
 
 ## Workflow de publicação
 
-Os itens de conteúdo do Plone podem estar em 3 estados no workflow padrão. O estado privado, em revisão ou publicado. Um usuário Membro só pode ver conteúdo publicado e não pode alterar nada. Um usuário leitor pode ver conteúdo privado, mas também não pode alterar o ítem. Um usuário Contribuidor pode ver conteúdo privado, pode adicionar conteúdo, usar controle de versão, só não pode editar conteúdo de outros usuários. Quando um usuário cria conteúdo, ele se torna o dono do conteúdo com permissão de alterar o conteúdo em qualquer estado que o conteúdo esteja. Um usuário editor pode editar conteúdo, usar o controle de versão, gerenciar propriedades do item de conteúdo, enviar conteúdo para publicação mas não pode adicionar conteúdo. Um usuário Revisor pode enviar um documento para publicação ou enviar de volta ao autor, mas não pode alterar o documento.  
+Os itens de conteúdo do Plone podem estar em 3 estados no workflow padrão. O estado privado, em revisão ou publicado. Um usuário membro só pode ver conteúdo publicado e não pode alterar nada. Um usuário leitor pode ver conteúdo privado, mas também não pode alterar o ítem. Um usuário contribuidor pode ver conteúdo privado, pode adicionar conteúdo, usar controle de versão, só não pode editar conteúdo de outros usuários. Quando um usuário cria conteúdo, ele se torna o dono do conteúdo com permissão de alterar o conteúdo em qualquer estado que o conteúdo esteja. Um usuário editor pode editar conteúdo, usar o controle de versão, gerenciar propriedades do item de conteúdo, enviar conteúdo para publicação mas não pode adicionar conteúdo. Um usuário revisor pode enviar um documento para publicação ou enviar de volta ao autor, mas não pode alterar o documento.  
 
-Diagrama com o workflow padrão do Plone. O usuário Autor cria um documento e pode realizar qualquer ação no documento, o estado padrão é privado. O usuário Editor pode alterar o documento e enviar para revisão. Ao enviar para revisão o documento passa para o estado Em revisão. No estado Em revisão, o usuário Revisor pode publicar ou enviar de volta ao autor para mudanças, o documento volta ao estado privado quando volta ao autor. 
+Diagrama com o workflow padrão do Plone. O usuário autor cria um documento e pode realizar qualquer ação no documento, o estado padrão é privado. O usuário editor pode alterar o documento e enviar para revisão. Ao enviar para revisão o documento passa para o estado em revisão. No estado em revisão, o usuário revisor pode publicar ou enviar de volta ao autor para mudanças, o documento volta ao estado privado quando volta ao autor. 
 
 ```{image} ./_static/training/publicar/workflow.png
 :alt: Diagrama com o workflow padrão do Plone
@@ -99,7 +99,7 @@ Notícias visíveis para usuário anônimo quando estão publicadas.
 
 Quando o documento está em um estado privado usuários sem autenticação, anônimo, não podem ler o conteúdo.
 
-Notícias indisponíveis para usuário anônimo quando estã em estado privado.
+Notícias indisponíveis para usuário anônimo quando estão em estado privado.
 
 ```{image} ./_static/training/publicar/inicio-usuario-anonimo-conteudo-privado.png
 :alt: Notícias indisponíveis para usuário anônimo quando estã em estado privado
@@ -111,7 +111,7 @@ De acordo com os papéis e permissões atribuídos ao usuário ele pode acessar 
 
 ### Visibilidade de conteúdo privado
 
-Os usuários Autor, Colaborador e Editor tem acesso a conteúdo privado, sendo que o Colaborador só pode ler o conteúdo. Os usuários Membro e Revisor não tem acesso a conteúdo privado.
+Os usuários `Autor`, `Colaborador` e `Editor` tem acesso a conteúdo privado, sendo que o `Colaborador` só pode ler o conteúdo. Os usuários `Membro` e `Revisor` não tem acesso a conteúdo privado.
 
 Visibilidade de conteúdo privado para usuário Aluno 1.
 
@@ -145,7 +145,7 @@ Visibilidade de conteúdo privado para usuário Aluno 5, indisponível.
 
 ### Visibilidade de conteúdo em revisão
 
-Os usuários Autor, Colaborador, Editor e Revisor tem acesso a conteúdo Em revisão, sendo que o Colaborador só pode ler o conteúdo e o Revisor pode enviar de volta ao Autor. O usuário Membro não tem acesso a conteúdo Em revisão.
+Os usuários `Autor`, `Colaborador`, `Editor` e `Revisor` tem acesso a conteúdo Em revisão. Atenção que o usuário `Colaborador` só pode ler o conteúdo e o `Revisor` pode enviar de volta ao `Autor`. O usuário `Membro` não tem acesso a conteúdo `Em revisão`.
 
 Visibilidade de conteúdo em revisão para usuário Aluno 1.
 
@@ -221,7 +221,7 @@ Para o usuário Aluno 1 estão disponíveis as opções de Estado, Histório, Co
 :alt: Opções disponíveis para usuário Aluno 1: Estado, Histórico, Compartilhamento e Links e referências
 ```
 
-Para o usuário Aluno 2 estão disponíveis as opções de Estado, Histório, Compartilhamento, Gerenciamento de URLS e Links e referências.
+Para o usuário Aluno 2 estão disponíveis as opções de `Estado`, `Histório`, `Compartilhamento`, `Gerenciamento de url` e `Links e referências`.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno2.png
 :alt: Opções disponíveis para usuário Aluno 2: Estado, Histório, Compartilhamento, Gerenciamento de URLS e Links e referências
@@ -239,7 +239,7 @@ Para o usuário Aluno 4 estão disponíveis as opções de Estado (somente leitu
 :alt: Opções disponíveis para usuário Aluno 4: Estado (somente leitura), Histório e Links e referências
 ```
 
-Para o usuário Aluno 5 está disponivel apenas a opção de Compartilhamento.
+Para o usuário Aluno 5 está disponível apenas a opção de Compartilhamento.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno5.png
 :alt: Opções disponíveis para usuário Aluno 5: Compartilhamento
@@ -263,7 +263,7 @@ O usuário Aluno 1 pode enviar o documento de volta ao autor. Quando o documento
 :alt: Itens do menu de estados para usuário Aluno 1 no estado publicado: Enviar de volta e Publicado
 ```
 
-O usuário Aluno 2 pode enviar o documento de volta e também pode Retirar o documento. Em ambos os casos o documento volta ao estado privado.
+O usuário Aluno 2 pode enviar o documento de volta e também pode retirar o documento. Em ambos os casos o documento volta ao estado privado.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-menu-usuario-aluno2.png
 :alt: Itens do menu de estados para usuário Aluno 2 no estado publicado: Enviar de volta, Retirar e Publicado
@@ -295,7 +295,7 @@ O histórico também é afetado pelas permissões, o usuário Aluno 1 tem visibi
 :alt: Botão histórico visível para usuário Aluno 1
 ```
 
-Ao clicar no item de menu Histórico o usuário Aluno 1 recebe uma mensagem de que o acesso a esse recurso é restrito pois ele não tem permissão de ler o histórico de mudanças.
+Ao clicar no item de menu Histórico o usuário Aluno 1 recebe uma mensagem. O acesso a esse recurso é restrito pois ele não tem permissão de ler o histórico de mudanças.
 
 ```{image} ./_static/training/publicar/historico-noticias-usuario-aluno1-restrito.png
 :alt: Histórico restrito para usuário Aluno 1
@@ -319,7 +319,7 @@ O usuário Aluno 3 não tem acesso ao menu e nem ao histórico de mudanças. O u
 :alt: Botão histórico visível para usuário Aluno 4
 ```
 
-Ao clicar no item de menu Histórico o usuário Aluno 4 recebe uma mensagem de que o acesso a esse recurso é restrito pois ele não tem permissão de ler o histórico de mudanças.
+Ao clicar no item de menu Histórico o usuário Aluno 4 recebe uma mensagem. O acesso a esse recurso é restrito pois ele não tem permissão de ler o histórico de mudanças.
 
 ```{image} ./_static/training/publicar/historico-noticias-usuario-aluno4-restrito.png
 :alt: Histórico restrito para usuário Aluno 4

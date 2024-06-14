@@ -37,6 +37,7 @@ preferido
 realinhar
 reconstruir
 recorrente
+recurso
 redirecionado
 reduzido
 relevantes
@@ -51,6 +52,7 @@ renomear
 reorganizar
 representa
 representando
+retirar
 retornado
 retrato
 reutilizados
