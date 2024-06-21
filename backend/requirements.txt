@@ -1,4 +1,5 @@
 -c constraints.txt
 
 pas.plugins.oidc
+pas.plugins.authomatic
 zope.testrunner
