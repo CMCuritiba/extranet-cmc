@@ -4102,6 +4102,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plone-collective/volto-authomatic@npm:*":
+  version: 2.0.1
+  resolution: "@plone-collective/volto-authomatic@npm:2.0.1"
+  peerDependencies:
+    "@plone/volto": ">=13.8.0"
+  checksum: 3ef620d30dd7c5716a327acdd8875df3b7902d2812c9d6dd1faf4dd36fd8462b32d04b20011070edfc781d5139f7eb0745702cf147e4703c0d8bb4315e8abfaa
+  languageName: node
+  linkType: hard
+
 "@plone-collective/volto-sentry@npm:0.3.1":
   version: 0.3.1
   resolution: "@plone-collective/volto-sentry@npm:0.3.1"
@@ -15026,6 +15035,7 @@ __metadata:
     "@codesyntax/volto-social-sharing": "*"
     "@eeacms/volto-eea-kitkat": "*"
     "@kitconcept/volto-slider-block": "*"
+    "@plone-collective/volto-authomatic": "*"
     "@plone/scripts": ^3.0.0
     "@plone/volto": 17.6.1
     "@storybook/addon-actions": ^6.3.0

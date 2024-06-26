@@ -1,4 +1,5 @@
 -c constraints.txt
 
 pas.plugins.oidc
+pas.plugins.oidc==2.0.0a1
 zope.testrunner
