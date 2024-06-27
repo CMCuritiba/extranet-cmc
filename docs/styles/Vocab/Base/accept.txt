@@ -13,6 +13,7 @@ Repare
 abaixo
 acessadas
 acessar
+Acesso
 acesso
 adiconar
 aquela
@@ -29,6 +30,7 @@ html
 impacto
 permitir
 possue
+Preencher
 preencher
 preenchidas
 preenchido
@@ -57,6 +59,7 @@ reutilizados
 reversa
 revisar
 revisor
+submeter
 upload
 url
 urls

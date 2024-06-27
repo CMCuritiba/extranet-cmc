@@ -48,7 +48,7 @@ Após preencher o formulário com o usuário e senha basta clicar no botão com 
 
 ## Botão entrar do formulário de login de autenticação única
 
-Após preencher o formulário de autenticação única da Câmara de Curitiba com o usuário e senha basta clicar no botão enviar e submeter os dados do formulário para o sistema de autenticação única da Câmara de Curitiba.
+Preencher o formulário de autenticação única da Câmara de Curitiba com o usuário e senha. Então basta clicar no botão enviar e submeter os dados do formulário para o sistema de autenticação única da Câmara de Curitiba.
 
 ```{image} ./_static/training/autenticar/form-login-entrar-keycloak.png
 :alt: Formulário de login de autenticação única com usuário aluno, senha e botão entrar. 
