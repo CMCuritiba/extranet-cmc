@@ -16,7 +16,7 @@ A autenticação no portal Volto.
 
 ## Menu de acesso ao formulário de login
 
-O portal exibe no topo, em seu cabeçalho, o ítem de menu `Entrar` para o formulário de login padrão do portal Plone.  
+O portal exibe no topo, em seu cabeçalho, o ítem de menu `Entrar` para o formulário de login do portal Plone.  
 
 ```{image} ./_static/training/autenticar/menu-entrar.png
 :alt: Menu entrar no topo da página.
@@ -24,10 +24,18 @@ O portal exibe no topo, em seu cabeçalho, o ítem de menu `Entrar` para o formu
 
 ## Formulário de login padrão
 
-Ao clicar no ítem de menu `Entrar` o formulário de login padrão do Plone é exibido com os campos usuário e senha em branco.
+Ao clicar no ítem de menu `Entrar` o formulário de login padrão do Plone é exibido com os campos usuário e senha em branco em instalações padrão. Para o portal da extranet usaremos o sistema de autenticação única da Câmara de Curitiba.
 
 ```{image} ./_static/training/autenticar/form-login.png
 :alt: Formulário de login vazio.
+```
+
+## Formulário de login da autenticação única da Câmara de Curitiba
+
+Ao clicar no ítem de menu `Entrar` o formulário de login de autenticação única da Câmara de Curitiba será apresentado para a extranet com os campos usuário e senha em branco.
+
+```{image} ./_static/training/autenticar/form-login-keycloak.png
+:alt: Formulário de login de autenticação única vazio.
 ```
 
 ## Botão entrar do formulário de login
@@ -36,6 +44,14 @@ Após preencher o formulário com o usuário e senha basta clicar no botão com 
 
 ```{image} ./_static/training/autenticar/form-login-entrar.png
 :alt: Formulário de login com usuário aluno, senha e botão entrar. 
+```
+
+## Botão entrar do formulário de login de autenticação única
+
+Após preencher o formulário de autenticação única da Câmara de Curitiba com o usuário e senha basta clicar no botão enviar e submeter os dados do formulário para o sistema de autenticação única da Câmara de Curitiba.
+
+```{image} ./_static/training/autenticar/form-login-entrar-keycloak.png
+:alt: Formulário de login de autenticação única com usuário aluno, senha e botão entrar. 
 ```
 
 ## Autenticação bem sucedida
