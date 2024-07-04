@@ -184,13 +184,13 @@ De acordo com as permissões de cada um são apresentados botões de ação espe
 O usuário Aluno 1 tem a permissão de criar conteúdo, então o botão adicionar está disponível. Entretanto o botão editar não está disponível pois ele não pode alterar o documento. Ele pode navegar pelo conteúdo, portanto o botão de conteúdo também está disponível.
 
 ```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno1.png
-:alt: Botões disponiveis para usuário Aluno 1: botão conteúdo e botão adicionar.
+:alt: Botões disponiveis para usuário Aluno 1 - botão conteúdo e botão adicionar.
 ```
 
 O usuário Aluno 2 não tem a permissão para criar documento, então o botão de adição está indisponível. O usuário Aluno 2 tem a permissão de modificar o documento, portanto o botão de edição está disponível. Ele pode navegar pelo conteúdo por isso o botão de conteúdo também está disponível.
 
 ```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno2-indisponivel.png
-:alt: Botões disponiveis para usuário Aluno 2: botão conteúdo e botão editar.
+:alt: Botões disponiveis para usuário Aluno 2 - botão conteúdo e botão editar.
 ```
 
 O usuário Aluno 3 não tem permissão de criar conteúdo, não tem a permissão de modificar conteúdo e nem pode navegar pelo conteúdo, então nenhum destes botões está disponível. 
@@ -208,7 +208,7 @@ O usuário Aluno 4 não tem permissão de criar conteúdo, não tem a permissão
 O usuário Aluno 5 não tem a permissão para criar documento e não tem a permissão de modificar o documento. O usuário Aluno 5 tem permissão de navegar no conteúdo, então apenas o botão de conteúdo está disponível.
 
 ```{image} ./_static/training/publicar/botao-adicionar-usuario-aluno5-indisponivel.png
-:alt: Botões disponiveis para usuário Aluno 5: apenas o botão conteúdo
+:alt: Botões disponiveis para usuário Aluno 5 - apenas o botão conteúdo
 ```
 
 ## Disponibilidade de mais opções de ação
@@ -218,31 +218,31 @@ Além dos botões de ação as permissões dão acesso a itens do menu de mais o
 Para o usuário Aluno 1 estão disponíveis as opções de Estado, Histório, Compartilhamento e Links e referências.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno1.png
-:alt: Opções disponíveis para usuário Aluno 1: Estado, Histórico, Compartilhamento e Links e referências
+:alt: Opções disponíveis para usuário Aluno 1 - Estado, Histórico, Compartilhamento e Links e referências
 ```
 
 Para o usuário Aluno 2 estão disponíveis as opções de `Estado`, `Histório`, `Compartilhamento`, `Gerenciamento de url` e `Links e referências`.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno2.png
-:alt: Opções disponíveis para usuário Aluno 2: Estado, Histório, Compartilhamento, Gerenciamento de URLS e Links e referências
+:alt: Opções disponíveis para usuário Aluno 2 - Estado, Histório, Compartilhamento, Gerenciamento de URLS e Links e referências
 ```
 
 Para o usuário Aluno 3 estão disponíveis as opções de Estado (somente leitura), Histório e Links e referências.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno3-indisponivel.png
-:alt: Opções disponíveis para usuário Aluno 3: Estado (somente leitura), Histório e Links e referências
+:alt: Opções disponíveis para usuário Aluno 3 - Estado (somente leitura), Histório e Links e referências
 ```
 
 Para o usuário Aluno 4 estão disponíveis as opções de Estado (somente leitura), Histório e Links e referências.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno4-indisponivel.png
-:alt: Opções disponíveis para usuário Aluno 4: Estado (somente leitura), Histório e Links e referências
+:alt: Opções disponíveis para usuário Aluno 4 - Estado (somente leitura), Histório e Links e referências
 ```
 
 Para o usuário Aluno 5 está disponível apenas a opção de Compartilhamento.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-compartilhamento-usuario-aluno5.png
-:alt: Opções disponíveis para usuário Aluno 5: Compartilhamento
+:alt: Opções disponíveis para usuário Aluno 5 - Compartilhamento
 ```
 
 ### Estados
@@ -250,29 +250,29 @@ Para o usuário Aluno 5 está disponível apenas a opção de Compartilhamento.
 As permissões também afetam o que cada usuário pode fazer em termos de transição de estados. O usuário Aluno 1 pode publicar o documento quando o documento está no estado privado.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-privado-menu-usuario-aluno1.png
-:alt: Itens do menu de estados para usuário Aluno 1 no estado privado: Publicar e Privado
+:alt: Itens do menu de estados para usuário Aluno 1 no estado privado - Publicar e Privado
 ```
 O usuário Aluno 2 além de poder publicar o documento ele pode enviar para publicação. Quando o documento é enviado para publicação ele entra no estado Em revisão.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-privado-menu-usuario-aluno2.png
-:alt: Itens do menu de estados para usuário Aluno 2 no estado privado: Publicar, Enviar para publicação e Privado
+:alt: Itens do menu de estados para usuário Aluno 2 no estado privado - Publicar, Enviar para publicação e Privado
 ```
 O usuário Aluno 1 pode enviar o documento de volta ao autor. Quando o documento é enviado de volta ele entra novamente no estado privado.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-menu-usuario-aluno1.png
-:alt: Itens do menu de estados para usuário Aluno 1 no estado publicado: Enviar de volta e Publicado
+:alt: Itens do menu de estados para usuário Aluno 1 no estado publicado - Enviar de volta e Publicado
 ```
 
 O usuário Aluno 2 pode enviar o documento de volta e também pode retirar o documento. Em ambos os casos o documento volta ao estado privado.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-publicado-menu-usuario-aluno2.png
-:alt: Itens do menu de estados para usuário Aluno 2 no estado publicado: Enviar de volta, Retirar e Publicado
+:alt: Itens do menu de estados para usuário Aluno 2 no estado publicado - Enviar de volta, Retirar e Publicado
 ```
 
 O usuário Aluno 1 não tem acesso ao documento quando ele está em revisão. O usuário Aluno 2 pode publicar, pode enviar de volta ou retirar o documento quando o documento está em revisão.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-revisao-usuario-aluno2.png
-:alt: Itens do menu de estados para usuário Aluno 2 no estado em revisão: Publicar, Enviar de volta, Retirar e Revisão pendente
+:alt: Itens do menu de estados para usuário Aluno 2 no estado em revisão - Publicar, Enviar de volta, Retirar e Revisão pendente
 ```
 
 O usuário Aluno 3 não tem acesso ao documento nem no estado privado nem no estado em revisão. O usuário Aluno 4 tem acesso somente leitura ao menu de estados.
@@ -284,7 +284,7 @@ O usuário Aluno 3 não tem acesso ao documento nem no estado privado nem no est
 O usuário Aluno 5 pode revisar o documento e enviar o documento de volta ou então publicar.
 
 ```{image} ./_static/training/publicar/botao-mais-opcoes-estado-revisao-usuario-aluno5.png
-:alt: Itens do menu de estados para usuário Aluno 5 no estado em revisão: Publicar, Enviar de volta e Revisão pendente
+:alt: Itens do menu de estados para usuário Aluno 5 no estado em revisão - Publicar, Enviar de volta e Revisão pendente
 ```
 
 ### Histórico
@@ -347,7 +347,7 @@ O usuário Aluno 1 pode ver o item de menu Links e referencias.
 
 Ao clicar no menu Links e referencias o usuário Aluno 1 recebe a mensagem de que não é autorizado a ver os links e referências do documento.
 
-```{image} ._static/training/publicar/links-e-referencias-noticias-usuario-aluno1-nao-autorizado.png
+```{image} ./_static/training/publicar/links-e-referencias-noticias-usuario-aluno1-nao-autorizado.png
 :alt: Usuário Aluno 1 não autorizado a página de links e referências
 ```
 
@@ -359,7 +359,7 @@ O usuário Aluno 2 pode ver o item de menu Links e referencias.
 
 O usuário Aluno 2 tem acesso aos links e referencias do documento.
 
-```{image} ._static/training/publicar/links-e-referencias-noticias-usuario-aluno2.png
+```{image} ./_static/training/publicar/links-e-referencias-noticias-usuario-aluno2.png
 :alt: Usuário Aluno 2 autorizado a página de links e referências
 ```
 
@@ -373,7 +373,7 @@ O usuário Aluno 4 pode ver o item de menu Links e referencias.
 
 O usuário Aluno 4 tem acesso aos links e referencias do documento.
 
-```{image} ._static/training/publicar/links-e-referencias-noticias-usuario-aluno4.png
+```{image} ./_static/training/publicar/links-e-referencias-noticias-usuario-aluno4.png
 :alt: Usuário Aluno 4 autorizado a página de links e referências
 ```
 
@@ -385,6 +385,6 @@ O usuário Aluno 5 pode ver o item de menu Links e referencias quando o document
 
 O usuário Aluno 5 tem acesso aos links e referencias do documento quando o documento está no estado em revisão.
 
-```{image} ._static/training/publicar/links-e-referencias-noticias-usuario-aluno5.png
+```{image} ./_static/training/publicar/links-e-referencias-noticias-usuario-aluno5.png
 :alt: Usuário Aluno 5 autorizado a página de links e referências
 ```
