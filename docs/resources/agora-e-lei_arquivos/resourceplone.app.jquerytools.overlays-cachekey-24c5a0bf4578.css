@@ -1,0 +1,238 @@
+
+/* - ++resource++plone.app.jquerytools.overlays.css - */
+@media screen {
+/* https://www.curitiba.pr.leg.br/portal_css/++resource++plone.app.jquerytools.overlays.css?original=1 */
+div.overlay {
+width: auto;
+height: auto;
+/* */
+display: none;
+/* */
+margin: 1em;
+}
+div.overlay-iframe,
+div.overlay-ajax {
+width: 60%;
+min-height: 100px;
+z-index: 99; /* */
+}
+div.overlay-iframe {
+height: 60%;
+}
+/* */
+div.overlaybg div.close,
+div.overlay div.close {
+background-image: url(++resource++plone.app.jquerytools.pb_close.png);
+position: absolute;
+left: -14px;
+top: -14px;
+cursor: pointer;
+height: 30px;
+width: 30px;
+}
+.pb-ajax {
+overflow-y: auto;
+}
+.pb-ajax, .pb-image {
+background-color: #fff;
+border: 1px solid #999;
+white-space: normal;
+box-shadow: 0 0 3em 0.5em #666;
+-moz-box-shadow: 0 0 3em 0.5em #666;
+-webkit-box-shadow: 0 0 3em #666;
+}
+.pb-ajax > div {
+width: 92%;
+padding: 1em;
+}
+.pb-ajax .documentActions {display:none}
+div.overlay div.close span {
+display: block;
+height: 1px;
+margin: -1px 0 0 -1px;
+overflow: hidden;
+padding: 0;
+width: 1px;
+}
+div.overlay textarea { width: 100%; }
+/* */
+div.overlay .link-parent { display: none; }
+div.overlay #createGroup legend { display: none; }
+div.overlay #createGroup fieldset { border: none; }
+/* */
+div.overlay p {
+margin-bottom: 1em;
+}
+div.overlay label {
+margin-bottom: 0.25em;
+}
+div.overlay a:hover {
+color: #75ad0a;
+}
+div.overlay a.selected {
+color: #000000;
+}
+div.overlay .formTab {
+margin-right:1em;
+font-weight: bold;
+}
+div.overlay .formTab.lastFormTab {
+margin-right:0em;
+}
+div.overlay .formControls a {
+display: block;
+margin: 0.75em;
+}
+}
+
+
+/* - ++resource++plone.app.jquerytools.dateinput.css - */
+@media screen {
+/* https://www.curitiba.pr.leg.br/portal_css/++resource++plone.app.jquerytools.dateinput.css?original=1 */
+/* */
+/* */
+.date {
+border:1px solid #ccc;
+font-size:18px;
+padding:4px;
+text-align:center;
+width:194px;
+-moz-box-shadow:0 0 10px #eee inset;
+box-shadow:0 0 10px #eee inset;
+}
+/* */
+#calroot {
+margin-top:-1px;
+width:198px;
+padding:2px;
+background-color:#fff;
+font-size:11px;
+border:1px solid #ccc;
+z-index:1;
+-moz-border-radius:5px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-box-shadow: 0 0 15px #666;
+-webkit-box-shadow: 0 0 15px #666;
+box-shadow: 0 0 15px #666;
+}
+/* */
+#calhead {
+padding:2px 0;
+height:22px;
+}
+#caltitle {
+font-size:14px;
+color:#0150D1;
+float:left;
+text-align:center;
+width:155px;
+line-height:20px;
+text-shadow:0 1px 0 #ddd;
+}
+#calnext, #calprev {
+display:block;
+width:20px;
+height:20px;
+background:transparent url(prev.gif) no-repeat scroll center center;
+float:left;
+cursor:pointer;
+}
+#calnext {
+background-image:url(next.gif);
+float:right;
+}
+#calprev.caldisabled, #calnext.caldisabled {
+visibility:hidden;
+}
+/* */
+#caltitle select {
+font-size:10px;
+}
+/* */
+#caldays {
+height:14px;
+border-bottom:1px solid #ddd;
+}
+#caldays span {
+display:block;
+float:left;
+width:28px;
+text-align:center;
+}
+/* */
+#calweeks {
+background-color:#fff;
+margin-top:4px;
+}
+/* */
+.calweek {
+clear:left;
+height:22px;
+}
+/* */
+.calweek a {
+display:block;
+float:left;
+width:27px;
+height:20px;
+text-decoration:none;
+font-size:11px;
+margin-left:1px;
+text-align:center;
+line-height:20px;
+color:#666;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+/* */
+.calweek a:hover, .calfocus {
+background-color:#ddd;
+}
+/* */
+a.calsun {
+color:red;
+}
+/* */
+a.caloff {
+color:#ccc;
+}
+a.caloff:hover {
+background-color:rgb(245, 245, 250);
+}
+/* */
+a.caldisabled {
+background-color:#efefef !important;
+color:#ccc	!important;
+cursor:default;
+}
+/* */
+#calcurrent {
+background-color:#498CE2;
+color:#fff;
+}
+/* */
+#caltoday {
+background-color:#333;
+color:#fff;
+}
+/* */
+.caltrigger {
+background:url('popup_calendar.png') no-repeat 0 0;
+height: 16px;
+width: 16px;
+display: inline-block;
+border-bottom: none !important;
+vertical-align: middle;
+}
+#calprev {
+background-image:url(++resource++plone.app.jquerytools.prev.gif);
+}
+#calnext {
+background-image:url(++resource++plone.app.jquerytools.next.gif);
+}
+#calroot {
+z-index: 10000;
+}
+}
+

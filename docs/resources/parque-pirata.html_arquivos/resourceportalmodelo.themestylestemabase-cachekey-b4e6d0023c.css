@@ -1,0 +1,610 @@
+
+/* - ++resource++portalmodelo.theme/styles/temabase.css - */
+@media screen {
+/* https://www.curitiba.pr.leg.br/portal_css/++resource++portalmodelo.theme/styles/temabase.css?original=1 */
+/* */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+/* */
+#portal-logo img {
+margin: 0 1.5em 0 0;
+}
+#portal-logo img,
+#titleHeader {
+float:left;
+}
+#siteTitle {
+font-size: 230%;
+font-weight: bold;
+}
+/* */
+#portal-personaltools {
+z-index: 50;
+}
+#portal-personaltools .actionMenuContent {
+background: inherit;
+box-shadow: 0 10px 18px rgba(0, 0, 0, 0.19), -5px 5px 5px rgba(0, 0, 0, 0.23);
+border-radius: 0.5em 0 0.5em 0.5em;
+}
+#portal-personaltools.activated{
+border-radius: 0;
+}
+#portal-siteactions {
+clear: right;
+float: right;
+padding-bottom: 0;
+padding-top: 1em;
+}
+#portal-searchbox input.searchField {
+line-height: 1.5em;
+border:1px solid #DDDDDD;
+min-width: 15em;
+}
+/* */
+#edit-bar {
+border: 0;
+border-radius: 0.5em 0.5em 0;
+min-height: 2.5em;
+z-index: 10;
+position: relative;
+}
+#edit-bar #content-views {
+border-radius: 0.5em 0.5em 0;
+padding: 0 0.25em;
+}
+#edit-bar #content-views li.selected a, #edit-bar #content-views li a:hover {
+border-radius: 0em;
+background: #436976;
+color: white;
+padding: 0.25em 0.75em;
+}
+#edit-bar #contentActionMenus {
+clear: left;
+right: 0;
+top: 0;
+background-color: #5C9400;
+border-radius: 0 0 0.5em 0.5em;
+margin-bottom: 0.5em;
+padding: 0;
+max-width: 98%;
+}
+#edit-bar #contentActionMenus dl.actionMenu a {
+background-color: inherit;
+}
+#edit-bar #contentActionMenus dl.actionMenu.activated dd {
+background-color: #427A00;
+right: 0;
+border-top: 0.5em solid;
+border-color: transparent;
+border-radius: 0.5em 0 0.5em 0.5em;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 5px 6px rgba(0, 0, 0, 0.23);
+}
+#edit-bar #contentActionMenus .actionMenu.activated {
+background: #427A00;
+}
+#edit-bar #contentActionMenus dl.actionMenu.activated dd a:hover, #edit-bar #contentActionMenus dl.actionMenu.activated dd .actionMenuSelected {
+background-color: #75AD0A !important;
+color: inherit;
+}
+#edit-bar #contentActionMenus .actionMenu {
+margin: 0;
+}
+#edit-bar #contentActionMenus dl.actionMenu .actionMenuHeader a {
+margin: 0;
+padding: 0.25em 0.75em;
+}
+#edit-bar #contentActionMenus dl.actionMenu .actionMenuHeader {
+margin: 0;
+}
+#edit-bar #content-views a {
+padding: 0.25em 0.75em;
+}
+/* */
+#portal-footer a:hover, footer a:hover {
+text-decoration: underline;
+}
+#portal-footer li, footer li {
+display: block;
+padding-bottom: 1.5em;
+}
+#portal-footer table, footer table {
+width: 100%;
+}
+.edit-button {
+display: inline-block;
+background-color: #75AD0A;
+padding: 0.3rem 0.7rem;
+border-radius: 5px;
+margin-bottom: 0.7rem;
+}
+/* ***/
+/* */
+a:link, #content a:link, dl.portlet a:link {
+border-bottom: none;
+}
+/* */
+.portletPersonProfile img {
+max-width: 100%;
+height: auto;
+border: #d8d8d8 1px solid;
+margin-bottom: 0.5em;
+}
+.portletPersonProfile li {
+padding: 0.2em;
+}
+.portletPersonProfile a:before {
+font-family: FontAwesome;
+font-size: 1em;
+margin-right: 0.3em;
+}
+.portletPersonProfile li:first-child a:before {
+content: "\f007";
+}
+.portletPersonProfile a:before {
+content: "\f08b";
+}
+.portlet-static-adicionar-conteudo a:before {
+font-family: FontAwesome;
+font-size: 1em;
+margin-right: 0.3em;
+content: "\f055";
+}
+/* */
+div.activityAvatar img {
+width: auto !important;
+height: auto !important;
+max-width: 50px;
+max-height: 50px;
+}
+.portletBirthdayPortlet img {
+width: auto !important;
+height: auto !important;
+max-width: 50px;
+max-height: 50px;
+border: #d8d8d8 1px solid !important;
+}
+.portletBirthdayPortlet .portletItem div:first-child {
+font-weight: bold;
+}
+/* */
+/* */
+.flowPlayerMessage {
+-ms-word-break: break-all;
+word-break: break-all;
+/* */
+word-break: break-word;
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+hyphens: auto;
+}
+/* */
+#LSResult {
+background: none;
+margin: 0;
+right: 15px;
+z-index: 40;
+color: #333333;
+}
+#LSResult #livesearchLegend {
+margin-left: 10px;
+}
+#LSResult .livesearchContainer {
+background: white;
+margin: 0;
+}
+#LSResult .LSTable .LSRow a:link, #LSResult .LSTable .LSRow a:visited  {
+color: #333333;
+}
+#LSResult .LSTable .LSRow a:hover {
+color: #818181;
+}
+/* */
+#portal-columns #searchform h1.documentFirstHeading {
+border-bottom: 2px solid #dddddd;
+display: block;
+font-size: 29px;
+font-weight: bold;
+padding-bottom: 7px;
+padding-left: 2px;
+width: 100%;
+}
+#portal-columns #search-results dd {
+border-bottom: 1px solid #dddddd;
+margin-bottom: 14px;
+padding: 0 0 1em 0em!important;
+margin: 0!important;
+}
+#portal-columns #search-results{
+padding: 1em 0!important;
+}
+#portal-columns fieldset#search-field {
+text-align:left;
+}
+.template-search #portal-columns  #content .cell {
+width:96% !important;
+}
+.template-search #portal-columns  .optionsToggle {
+background-color: transparent;
+border: transparent;
+}
+#portal-columns  #search-results {width:66.5% !important;}
+#portal-columns #search-results-bar {
+border-bottom: 0 none !important;
+border-top: 0 none !important;
+background:#fff;
+top: -173px;
+font-size: 0.9em;
+padding: 0 !important;
+width: 317px !important;position:absolute !important;right:0;border-top:0 !important;border-bottom:0!important;}
+#portal-columns #search-results-bar>span:first-child {
+background: #fff;
+color: #000;
+font-size: 1.4em;
+font-weight: bold;
+padding: 15px;
+width: 90%;
+}
+#portal-columns #search-filter .field {
+padding: 1em 0 !important;
+}
+#portal-columns #search-filter .field div {
+width: 100%;
+}
+#portal-columns #search-filter .field,
+#portal-columns #search-filter {
+background:transparent !important;
+}
+#portal-columns #search-filter .field input {
+margin-right: 8px;
+}
+#portal-columns #search-results dd {
+color: #000000;
+font-family: "Times New Roman", sans-serif;
+font-size: 15px;
+font-weight: normal !important;
+line-height: 23px;
+}
+#portal-columns #search-results-bar dd.actionMenuContent {
+display:block;
+}
+.template-search #portal-columns .discreet {
+display:none;
+}
+#portal-columns #search-results .contenttype-collective-nitf-content a:visited,
+#portal-columns #search-results .contenttype-collective-nitf-content a:link,
+#portal-columns #search-results .contenttype-collective-nitf-content a {
+border-bottom: 0;
+color:#000 !important;
+line-height:33px;
+font-size:18px;
+font-weight: normal;
+text-transform: uppercase !important;
+}
+.template-search #portal-columns  #search-results-bar dl {
+width: 97%;
+margin-left:20px !important;
+}
+.template-search #portal-columns #rss-subscription,
+.template-search #portal-columns .actionMenuHeader {
+display:none;
+}
+#portal-columns #search-results-wrapper {
+min-height:600px;
+}
+.template-search #portal-columns .highlightedSearchTerm {
+background-color: transparent;
+}
+#portal-columns .optionsToggle {
+background-color: transparent;
+font-size: 100%;
+border: medium none transparent;}
+#portal-columns #searchResultsSort>span:first-child,
+#portal-columns #content #search-filter legend {
+font-size: 1.25em !important;
+padding-right:0 !important;
+padding-left:0 !important;
+padding-bottom:5px !important;
+background: transparent !important;
+border-bottom: 1px solid #000000;
+font-weight: normal !important;
+width: 88%;
+text-transform:none !important;
+}
+#portal-columns .highlightedSearchTerm {font-weight:normal !important;}
+#portal-columns #searchResultsSort>span:first-child {display:block;margin-bottom: 20px;}
+#portal-columns #searchResultsSort {
+padding: 0 20px 20px 20px;
+float:left;
+width: 98%;
+}
+.template-search #portal-column-content.cell.position-0,
+.template-search #portal-column-content.cell.position-1\3a 4 {
+border-right: 0 !important;
+}
+.template-search #portal-breadcrumbs {display:none;}
+.template-search #breadcrumbs-1 > a,
+.template-search #breadcrumbs-1 > span {
+color: #000;
+font-size: 2.5em;
+text-transform: uppercase;
+}
+.template-search #content h1.documentFirstHeading {
+font-size: 1.7em !important;
+font-weight: normal !important;
+margin-top: 45px!important;
+padding-bottom: 0!important;
+width: 66.5%;
+}
+.template-search #portal-columns #search-term {color:#000;font-weight:bold !important;}
+#content #sorting-options>span {display:none;}
+#content #sorting-options a {border-bottom:0;text-transform:capitalize;line-height:1.6em;display:block;color:#000;}
+#main-content .tile {
+margin-bottom: 2.5em;
+}
+.cover-banner-tile a img {
+width: 100%;
+height: auto;
+margin: 0 !important;
+}
+.tile-parlamentares {
+text-align: center;
+}
+.tile-parlamentares .list-item, #content .tile-parlamentares ul li  {
+display: inline-block;
+vertical-align: top;
+margin: 15px;
+max-width: 170px;
+line-height: normal;
+}
+.tile-parlamentares a {
+display: inline-block;
+}
+.tile-parlamentares img {
+margin: 0 !important;
+}
+.tile-parlamentares h3 {
+font-size: initial;
+padding: 5px;
+}
+.tile-parlamentares a:nth-child(2) {
+font-size: 15px;
+display: block;
+font-weight: 600;
+max-width: 170px;
+padding: 5px;
+}
+.cover-embed-tile {
+text-align: center;
+}
+.cover-embed-tile iframe {
+max-width: 100%;
+}
+/* *********/
+header {
+z-index: 1;
+background-repeat: no-repeat;
+background-position: top right;
+}
+nav {
+list-style-image: none;
+position: relative;
+}
+nav:after {
+clear: both;
+content: "";
+display: block;
+visibility: hidden;
+}
+nav li {
+float: left;
+position: relative;
+}
+nav ul {float:right;}
+nav li a {
+display: block;
+}
+ul.submenu {
+display: none;
+left: 0;
+background:transparent;
+z-index:30;
+position: absolute;
+top: 100%;
+}
+nav li:hover > ul.submenu {
+display: block;
+}
+ul.submenu li {
+float: none;
+margin-bottom: 0;
+background:#fff;
+text-align:left;
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+}
+nav ul.submenu li a {
+padding-bottom: 0.5em;
+padding-left: 1em;
+padding-right: 1.5em;
+padding-top: 0.5em;
+width: 9em;
+}
+ul.submenu ul {
+left: 100%;
+top: 0;
+}
+ul.submenu a, ul.submenu a.state-published:hover, .selected ul.submenu .state-published {
+color: #000 !important;
+}
+.menu-button{
+display: none;
+position: relative;
+width: 100%;
+height: 55px;
+text-align: right;
+}
+.menu-button::before {
+content: '';
+display: inline-block;
+height: 100%;
+vertical-align: middle;
+}
+.menu-button button{
+display: inline-block;
+vertical-align: middle;
+border: 2px solid;
+border-radius: 4px;
+font-size: 16pt;
+width: 40px;
+height: 40px;
+margin-right: 10px;
+text-align: center;
+transition: background 200ms ease;
+}
+/* **********/
+/* */
+@media (max-width: 767px) {
+ul#portal-siteactions {display: none !Important;}
+#portal-breadcrumbs,
+.searchSection {display: none;}
+#footerleft,
+#footerright {
+float: none;
+width: 100%;
+margin: 1em 0;
+display: table;
+}
+.portletWrapper {
+text-align: center;
+}
+.portletHeader {
+text-align: left;
+}
+.menu-button {
+display: inline-block;
+}
+#column-one.menuAtivo {
+position: absolute;
+}
+#column-one {
+left: 0;
+z-index: 20;
+border-bottom: 10px solid;
+background: white;
+box-shadow: 0px 2px 2px #888;
+}
+#column-one dl.portletNavigationTree {
+margin: 0;
+padding: 0;
+}
+#column-one dt.portletHeader {
+padding: 0;
+border-bottom: none;
+border-top: #D8D8D8 0.1em solid;
+}
+#column-one dt.portletHeader.menuAtivo a{
+background-color: #E4E4E4;
+}
+#column-one dt.portletHeader > a {
+padding: 1.2em;
+transition: background-color 200ms;
+}
+#column-one dd.portletItem {
+border-bottom: 2px solid #D8D8D8;
+}
+#column-one div.managePortletsLink {
+margin: 0.8em;
+border-top: 0.1em #D8D8D8 solid;
+}
+dl.portlet ul.navTree.navTreeLevel0 > .navTreeItem {
+padding: 0;
+}
+dl.portlet ul.navTree .navTreeItem {
+margin: 0;
+text-align: left;
+}
+dl.portlet ul.navTree .navTreeCurrentItem {
+margin: 0;
+background-color: transparent;
+}
+dl.portlet ul.navTree li.navTreeItem {
+border-bottom: none;
+border-top: #D8D8D8 0.1em dotted;
+}
+dl.portlet ul.navTree li a {
+border-left: 1em solid transparent;
+background-color: transparent;
+transition: border-color 200ms;
+}
+dl.portlet ul.navTree li a:hover {
+background-color: transparent;
+}
+}
+/* */
+@media (max-width: 767px) {
+footer #footer-info {
+display: none !important;
+}
+footer table.invisible {
+display: none !important;
+}
+}
+/* */
+@media (max-width: 480px) {
+#portal-column-one,
+#portal-column-two,
+#portal-column-content {clear: both; width: 97.75%; margin-left: -98.875%;}
+#portal-searchbox {
+float: none;
+clear: both;
+font-size: 80%;
+text-align: center;
+}
+#edit-bar {
+min-height: 2.7em;
+}
+#edit-bar #contentActionMenus .actionMenu {
+position: static;
+}
+#contentActionMenus a {
+width: auto;
+font-size: 110%;
+}
+#content-views a {
+font-size: 110%;
+}
+.cover-banner-tile {
+display: none;
+}
+/* */
+#LSResult {
+display: none !important;
+}
+.cell {
+float: none !important;
+margin-left: -100% !important;
+width: 100% !important;
+}
+}
+/* *****/
+.label,.badge {
+color: #000;
+text-shadow: 0;
+background-color: transparent;
+}
+.label:empty, .badge:empty {
+display: inline;
+}
+/* ********/
+#claim-button {
+margin: 2em 0 2em 0;
+}
+#claim-button input {
+padding: 7px
+}
+input#clearSavedFormInput.standalone {
+display: none !important;
+}
+
+}
+
