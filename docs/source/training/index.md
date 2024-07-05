@@ -23,4 +23,5 @@ explorar
 navegar
 compartilhar
 publicar
+exercicios
 ```

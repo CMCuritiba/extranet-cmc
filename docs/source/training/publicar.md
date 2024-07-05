@@ -12,7 +12,7 @@ myst:
 
 # Publicando conteúdo do portal do volto na cmc
 
-O workflow de publicação padrão do Plone tem um mecanismo baseado em usuários, grupos, papéis e permissões. Para a demostração nesse treinamento foram criados 5 alunos para abranger a variedade de papés do Plone.
+O workflow de publicação padrão do Plone tem um mecanismo baseado em usuários, grupos, papéis e permissões. Para a demostração nesse treinamento foram criados 5 alunos para abranger a variedade de papéis do Plone.
 
 Menu de ferramentas do usuário Aluno 1.
 
