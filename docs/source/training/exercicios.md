@@ -72,3 +72,19 @@ Os exercícios desse tópico tem como objetivo fixar o conhecimento sobre a publ
 32. Quais papéis permitem acesso a conteúdo privado?
 33. Quais papéis permitem acesso a conteúdo em revisão?
 34. Crie um documento e submeta o documento ao workflow de publicação do portal. 
+
+## Criação de pasta e página
+
+Os exercícios desse tópico tem como objetivo fixar o conhecimento sobre a criação de pasta e página. O instrutor irá fornecer os arquivos de modelo para serem usados na criação da página, texto e imagens.
+
+35. Crie uma pasta para conter a página.
+36. Crie uma página usando o modelo fornecido.
+
+## Criação de pasta e notícia
+
+Os exercícios desse tópico tem como objetivo fixar o conhecimento sobre a criação de pasta e notícia. O instrutor irá fornecer os arquivos de modelo para serem usados na criação da página, texto e imagens.
+
+37. Crie uma pasta para conter a notícia.
+38. Crie uma notícia usando o modelo fornecido.
+
+Parabéns, você completou todos as atividades para gerenciar conteúdo no portal. :D

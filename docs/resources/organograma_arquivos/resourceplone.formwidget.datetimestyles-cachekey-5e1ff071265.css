@@ -1,0 +1,59 @@
+
+/* - ++resource++plone.formwidget.datetime/styles.css - */
+@media screen {
+/* https://www.curitiba.pr.leg.br/portal_css/++resource++plone.formwidget.datetime/styles.css?original=1 */
+#content a.caltrigger {
+background: url(++resource++plone.formwidget.datetime/popup_calendar.gif) no-repeat scroll 0 0;
+height: 16px;
+width: 16px;
+display: inline-block;
+vertical-align: middle;
+border: none;
+margin: 0;
+padding: 0;
+border-radius: none;
+}
+
+}
+
+
+/* - ++resource++plone.formwidget.autocomplete/jquery.autocomplete.css - */
+@media screen {
+/* https://www.curitiba.pr.leg.br/portal_css/++resource++plone.formwidget.autocomplete/jquery.autocomplete.css?original=1 */
+.ac_results {
+padding: 0px;
+border: 1px solid black;
+background-color: white;
+overflow: hidden;
+z-index: 99999;
+}
+.ac_results ul {
+width: 100%;
+list-style-position: outside;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.ac_results li {
+margin: 0px;
+padding: 2px 5px;
+cursor: default;
+display: block;
+font: menu;
+font-size: 12px;
+line-height: 16px;
+overflow: hidden;
+}
+.ac_loading {
+background: white url('/++resource++plone.formwidget.autocomplete/indicator.gif') right center no-repeat;
+}
+.ac_odd {
+background-color: #eee;
+}
+.ac_over {
+background-color: #0A246A;
+color: white;
+}
+
+}
+

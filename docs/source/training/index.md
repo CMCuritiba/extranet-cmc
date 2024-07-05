@@ -23,5 +23,7 @@ explorar
 navegar
 compartilhar
 publicar
+../create-page
+../create-news
 exercicios
 ```
