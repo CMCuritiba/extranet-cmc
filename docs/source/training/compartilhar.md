@@ -178,7 +178,7 @@ Outra funcionalidade do Plone é o gerenciamento de endereços (urls). É possí
 
 ### Caminhos alternativos
 
-No formulário de gerenciamento de endereços basta adiconar ou remover o caminho alternativo desejado.
+No formulário de gerenciamento de endereços basta adicionar ou remover o caminho alternativo desejado.
 
 ```{image} ./_static/training/compartilhar/gerenciamento-urls-alternativas-da-pagina.png
 :alt: Formulário de gerenciamento de referências alternativas a esta página.
