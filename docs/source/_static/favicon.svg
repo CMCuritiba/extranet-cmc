@@ -8,8 +8,8 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="logo.svg"
-   inkscape:export-filename="/home/ramiro.luz/workspace/cmcuritiba/extranet-cmc/docs/source/_static/logo.jpg"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="/home/ramiro.luz/workspace/cmcuritiba/extranet-cmc/docs/source/_static/favicon.ico"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -30,8 +30,8 @@
      units="px"
      width="350px"
      inkscape:zoom="2.3942857"
-     inkscape:cx="79.564439"
-     inkscape:cy="175"
+     inkscape:cx="130.51909"
+     inkscape:cy="159.9642"
      inkscape:window-width="1920"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -44,15 +44,12 @@
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g27336"
-       transform="translate(0,-14.546771)">
-      <image
-         width="84.137497"
-         height="57.150002"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAADYCAYAAAByUo8bAAAABHNCSVQICAgIfAhkiAAADXVJREFU
+    <image
+       width="91.057434"
+       height="61.850334"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAADYCAYAAAByUo8bAAAABHNCSVQICAgIfAhkiAAADXVJREFU
 eJzt3X2MXFUdxvHnsKsi6E5UNMrtWYWIpIKiolEigmBUFN9REVFQ1Brx3aCIGAERMYoaEBWoJoBv
 1JeiYoLRoEKRIlAgqFVTbLfz24NoKdJZKC8tjn/MVBfo7s7LvffcO+f7SfiDnTvnPN3deXbunXvP
 dcqB99kbJD0+j7FG2G/MwprYIVBd3me7Snp17BxVZxbOHXYMl0cQ77NVkp6Tx1gjbI3knm02fVfs
@@ -115,31 +112,8 @@ L4wdIIa6Fd/Fyu+Wcy/IaRygzu6VtDSnsfZX59rfyqtb8Z1mFlbFDgHgobzPzlVNio9jfACSQ/EB
 SA7FByA5FB+A5FB8AJJD8QFIDsUHIDkUH4DkUHwAklO3KzcO9T7bK3YIANu1R+wAvSqj+H6vfN5Z
 Okm7df8DUD1NSefnNNbGnMbZrv8CZZhKdSZ+PhoAAAAASUVORK5CYII=
 "
-         id="image17"
-         x="4.233335"
-         y="17.727083" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1667px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="4.060576"
-         y="91.714188"
-         id="text1827"><tspan
-           sodipodi:role="line"
-           id="tspan1825"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1667px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';stroke-width:0.264583"
-           x="4.060576"
-           y="91.714188">Câmara</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:14.4639px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="4.7937455"
-         y="103.79706"
-         id="text15429"><tspan
-           sodipodi:role="line"
-           id="tspan15427"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.4639px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';stroke-width:0.264583"
-           x="4.7937455"
-           y="103.79706">de Curitiba</tspan></text>
-    </g>
+       id="image17"
+       x="0.77336699"
+       y="15.376916" />
   </g>
 </svg>

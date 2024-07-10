@@ -106,9 +106,25 @@ docs-help:  ## Docs help message.
 docs-clean:  ## Clean current and legacy docs build directories, and docs Python virtual environment
 	$(MAKE) -C "./docs/" clean
 
+.PHONY: docs-clean-venv
+docs-clean-venv:  ## remove docs virtual environment
+	$(MAKE) -C "./docs/" clean-venv
+
+.PHONY: docs-clean-build
+docs-clean-build:  ## Clean current and legacy docs build directories, and Python virtual environment
+	$(MAKE) -C "./docs/" clean-build
+
+.PHONY: docs-config
+docs-config: ## Create docs instance configuration
+	$(MAKE) -C "./docs/" config
+
 .PHONY: docs-setup
 docs-setup:  ## Install sphinx requirements.
 	$(MAKE) -C "./docs/" setup
+
+.PHONY: docs-slides
+docs-slides: ## Build doc slides
+	$(MAKE) -C "./docs/" slides
 
 .PHONY: docs-html
 docs-html:  ## Build html
