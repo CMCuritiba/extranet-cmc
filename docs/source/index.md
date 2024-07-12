@@ -14,7 +14,6 @@ myst:
 
 Este é o manual do usuário do Volto da [^DTIC] da [^CMC] traduzido do manual do Volto, o frontend do Plone 6.
 
-
 ## Conteúdo do material
 
 ```{toctree}

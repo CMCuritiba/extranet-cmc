@@ -9,7 +9,11 @@ myst:
 
 (edit-content-using-blocks-label)=
 
-# Editando conteúdo usando blocos
+# Gerenciando blocos
+
+Gerenciando blocos com Volto.
+
+## Editando conteúdo usando blocos
 
 Volto utiliza a interface [Pastanaga UI](https://github.com/plone/pastanaga), oferendo uma composição de página visual utilizando blocos para você.
 O editor de blocos oferece para você a adição, modificação, reordenação e remoção de blocos de acordo com seus requisitos.
@@ -34,7 +38,8 @@ Eles são criados utilizando componentes React, que são peças modulares de có
 Para criar ou adicionar um bloco vazio depois de um bloco existente, clique no bloco, então pressione e tecla {kbd}`Enter`.
 Um novo bloco vazio aparece.
 
-```{image} ./_static/user-manual/blocks/add-new-block.gif
+```{figure} ./_static/user-manual/blocks/add-new-block.gif
+:width: 85%
 :alt: Adiciona novo bloco
 ```
 
@@ -69,11 +74,17 @@ Você pode acessar e escolher um tipo de bloco para adicionar ao seu conteúdo q
 
 Agora com seu bloco vazio disponível, você pode selecionar seu tipo de uma das duas formas.
 
+```{nextslide}
+```
+
 1.  Clique no botão `+` do lado esquerdo do bloco vazio.
 
     ```{image} ./_static/user-manual/blocks/block-left-add-icon.png
     :alt: Botão de adição de bloco
     ```
+
+```{nextslide}
+```
 
 2. Pressione `/` dentro de um bloco vazio para abrir o menu de tipos de bloco.
    Você pode digitar algumas letrar para filtrar os tipos de bloco disponíveis.
@@ -81,6 +92,7 @@ Agora com seu bloco vazio disponível, você pode selecionar seu tipo de uma das
    Para selecionar o tipo de bloco, você pode clicar ou tocar ou usar a tecla {kbd}`Enter`.
 
     ```{image} ./_static/user-manual/blocks/block-types-menu.png
+    :height: 350
     :alt: Menu de tipos de bloco
     ```
 
@@ -90,7 +102,9 @@ Agora com seu bloco vazio disponível, você pode selecionar seu tipo de uma das
 ### Bloco descrição
 
 Um bloco de descrição aceita texto puro.
-Quando exibido, ele aparece como descrição na página, e para otimização de mecanismos de pesquisa nas meta tags HTML como `<meta name="description" content="DESCRIPTION_TEXT" data-react-helmet="true">` e `<meta property="og:description" content="DESCRIPTION_TEXT" data-react-helmet="true">`.
+Quando exibido, ele aparece como descrição na página, e para otimização de mecanismos de pesquisa nas meta tags HTML como:
+
+```<meta name="description" content="DESCRIPTION_TEXT" data-react-helmet="true">` e `<meta property="og:description" content="DESCRIPTION_TEXT" data-react-helmet="true">```.
 
 
 (user-manual-grid-block-label)=
@@ -104,10 +118,16 @@ Você pode selecionar o número de colunas para inserir.
 :alt: Escolha o número de colunas para inserir num bloco grid.
 ```
 
+```{nextslide}
+```
+
 Depois de escolher o número de colunas para inserir num bloco grid, você pode gerenciar as colunas.
 
 ```{image} ./_static/user-manual/blocks/grid-block-manage-blocks.png
 :alt: Adiciona um tipo de bloco específico em uma coluna de um bloco grid
+```
+
+```{nextslide}
 ```
 
 -   Especifique o tipo do bloco numa coluna clicando em seu botão `+`.
@@ -139,7 +159,11 @@ Um bloco hero cria um banner de largura total ou cabeçalho para uma página.
 Ele é tipicamente usado para destacar conteúdo importante ou para criar um impacto visual no topo da página.
 
 ```{image} ./_static/user-manual/blocks/hero-block.png
+:height: 380
 :alt: Bloco hero
+```
+
+```{nextslide}
 ```
 
 Blocos hero tipicamente incluem uma imagem ou cor de fundo.
@@ -160,15 +184,25 @@ Um bloco imagem permite inserir uma imagem numa página e configurar seus atribu
 :alt: Bloco imagem
 ```
 
+```{nextslide}
+```
+
 Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada através de qualquer um dos seguintes métodos:
 -   Escolha uma imagem existente no site clicando no ícone de lista do bloco.
 -   Envie uma nova imagem ou clicando no ícone de upload do bloco ou arrastando e soltando.
 -   Forneça um endereço remoto da imagem na área de texto do bloco.
     Clique no ícone de seta para salvar o endereço.
 
+```{nextslide}
+```
+
 Depois que você especificou uma imagem, suas opções de configuração se tornar disponíveis.
 ```{image} ./_static/user-manual/blocks/image-block-configuration-options.png
+:height: 380
 :alt: Opções de configuração do bloco imagem
+```
+
+```{nextslide}
 ```
 
 Origem
@@ -180,6 +214,9 @@ Texto alternativo
 
 Alinhamento
 : Opções para alinhamento incluindo a esquerda, a direita, centralizado e largura total.
+
+```{nextslide}
+```
 
 Tamanho da imagem
 : O tamanho da imagem determina a exibição relativa a largura, qual seja pequeno, médio ou grande
@@ -201,10 +238,17 @@ Pode ser configurado para mostrar imagens em diferentes layouts e estilos.
 :alt: Escolha o número de imagens para inserir em um bloco de grid de imagens.
 ```
 
+```{nextslide}
+```
+
 Depois de escolher o número de imagens a inserir em um bloco de grid de imagens, você pode configurar as imagens. Funciona da mesma forma que configurar um única imagem em um bloco de imagem.
 
 ```{image} ./_static/user-manual/blocks/image-block-configuration-options.png
+:height: 380
 :alt: Opções de configuração do bloco de imagem.
+```
+
+```{nextslide}
 ```
 
 Origem
@@ -217,6 +261,9 @@ Texto alternativo
 Alinhamento
 : Opções para alinhamento incluindo a esquerda, a direita, centralizado e largura total.
 
+```{nextslide}
+```
+
 Tamanho da imagem
 : O tamanho da imagem determina a exibição relativa a largura, qual seja pequeno, médio ou grande
 
@@ -225,16 +272,25 @@ Link para
   Você pode opcionalmente fazer o link abrir em uma nova aba quando o usuário clicar nele marcando a caixa de seleção {guilabel}`Abrir em nova aba`.
 
 
+```{nextslide}
+```
+
 Você também pode gerenciar as imagens em um block de grid de imagens.
 
 ```{image} ./_static/user-manual/blocks/images-grid-block-manage-images.png
 :alt: Gerencie imagens num bloco de grid de imagens
 ```
 
+```{nextslide}
+```
+
 -   Reorganize a ordem das imagens no bloco de grid de imagens arrastando e soltando elas.
 -   Adicione uma imagem ao bloc de grid de imagens clicando no botão `+` no seu lado superior esquerdo.
 -   Remova uma imagem do bloco de grid de imagens clicando no seu botão `×`.
 
+
+```{nextslide}
+```
 
 Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada através de qualquer um dos seguintes métodos:
 -   Escolha uma imagem existente no site clicando no ícone de lista do bloco.
@@ -248,17 +304,24 @@ Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada atra
 ### Bloco de listagem
 
 O bloco de listagem permite aos usuários exibir uma lista de itens de conteúdo do seu site Plone numa página.
-O editor do site pode configurar o critério usado para obter itens de conteúdo, incluindo texto, titúlo, datas e criador.
-Os resultados obtidos podem ser configurados com uma ordenação, limite de resultados e se é para criar um lote de resultados com paginação.
 
 ```{image} ./_static/user-manual/blocks/listing-block.png
+:height: 380
 :alt: Bloco de listagem
 ```
 
-O bloco de listagem tem várias opções de configuração.
+```{nextslide}
+```
+
+O editor do site pode configurar o critério usado para obter itens de conteúdo, incluindo texto, titúlo, datas e criador.
+Os resultados obtidos podem ser configurados com uma ordenação, limite de resultados e se é para criar um lote de resultados com paginação.
 
 ```{image} ./_static/user-manual/blocks/listing-block-configuration.png
+:height: 380
 :alt: Configuração do bloco de listagem
+```
+
+```{nextslide}
 ```
 
 Variação
@@ -270,6 +333,9 @@ Chamada
 Nível de cabeçalho
 : Nível de cabeçalho define o nível de cabeçalho para {guilabel}`H2` ou {guilabel}`H3`.
 
+```{nextslide}
+```
+
 Critério
 : Adiciona um critério de pesquisa.
   Inclue opções para pesquisa por metadados, datas e texto.
@@ -279,6 +345,9 @@ Critério
 Ordenação
 : Ordena os resultados pela opção escolhida.
   Opções incluídas metadados, datas e texto.
+
+```{nextslide}
+```
 
 Limite de resultados
 : Limita o número de resultados retornado.
@@ -298,12 +367,18 @@ O bloco mapa permite o usuário a adicionar um mapa em uma página.
 :alt: Bloco mapas
 ```
 
+```{nextslide}
+```
+
 Para usar o bloco mapa, o serviço de mapas de um terceiro deve fornecer um trecho de código HTML que você pode copiar e colar no bloco mapa.
 Usualmente o trecho inclui uma marcação HTML `<iframe>`.
 Depois que você cola o trecho de código na configuração do bloco de mapa, você verá opções adicionais.
 
 ```{image} ./_static/user-manual/blocks/map-blocks-configuration.png
 :alt: Configuração do bloco de mapas.
+```
+
+```{nextslide}
 ```
 
 Endereço do mapa
@@ -321,26 +396,32 @@ Alinhamento
 ### Bloco de pesquisa
 
 O bloco de pesquisa fornece uma interface de pesquisa a visitantes para buscar conteúdo em um site Plone.
-O editor do site pode configurar seus critérios e aspectos de pesquisa através de diversos parâmetros, incluindo texto, status, datas e criador.
-Os resultados de pesquisa podem ser configurados com uma ordenação, limite de resultados e se os resultados devem ser agrupados com paginação.
-O editor do site pode escolher quais controles oferecer ao visitante, incluindo ordenação e total de resultados.
 
 ```{image} ./_static/user-manual/blocks/search-block.png
+:height: 380
 :alt: Bloco de pesquisa
 ```
 
-Você pode configurar o bloco de pesquisa modificando as opções no editor do bloco.
+```{nextslide}
+```
 
+O editor do site pode configurar seus critérios e aspectos de pesquisa através de diversos parâmetros, incluindo texto, status, datas e criador.
 ```{image} ./_static/user-manual/blocks/search-block-configuration.png
+:height: 380
 :alt: Configuração do bloco de pesquisa
 ```
 
-```{todo}
-Adicionar opções de configuração omitidas.
+```{nextslide}
 ```
 
+Os resultados de pesquisa podem ser configurados com uma ordenação, limite de resultados e se os resultados devem ser agrupados com paginação.
+O editor do site pode escolher quais controles oferecer ao visitante, incluindo ordenação e total de resultados.
 
-#### Opções básicas
+```{todo}
+Adicionar imagem com as opções de configuração omitidas.
+```
+
+### Opções básicas
 
 Variação
 : Opções para variação incluem {guilabel}`Facetas no lado direito`, {guilabel}`Facetas no lado esquerdo`, and {guilabel}`Facetas no topo`.
@@ -352,7 +433,7 @@ Chamada
 : O valor exibido acima da caixa de pesquisa como cabeçalho.
 
 
-#### Opções de consulta básicas para pesquisa
+### Opções de consulta básicas para pesquisa
 
 Critério
 : Adiciona um critério de pesquisa.
@@ -360,10 +441,16 @@ Critério
   Cada critério tem suas próprias opções.
   Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas. Ou pela sua localização em um caminho do seu site Plone.
 
+```{nextslide}
+```
+
 Ordenação
 : Ordena os resultados pela opção escolhida.
   Opções incluídas metadados, datas e texto.
   Opcionalmente ordene os resultados de forma reversa marcando a caixa de verificação {guilabel}`Reversed order`.
+
+```{nextslide}
+```
 
 Limite de resultados
 : Limita o número de resultados retornado.
@@ -371,12 +458,10 @@ Limite de resultados
 Tamanho do lote de items
 : Agrupa os itens do resultado da pesquisa em um tamanho de lote especificado.
 
-#### Facetas
+### Facetas
 
 Título da seção
-: ```
-  Serve como cabeçalho da seção de facetas do bloco de pesquisa.  
-  ```
+: Serve como cabeçalho da seção de facetas do bloco de pesquisa.  
 
 Facetas
 : Clique no botão {guilabel}`Adicionar Faceta` para adicionar uma faceta na pesquisa.
@@ -384,24 +469,19 @@ Facetas
   Você pode adicionar várias facetas, reordenar elas arrastando e soltando e deletar elas.
 
 Rótulo
-: ```
-  Serve como título da seção da faceta da seção de facetas do bloco de pesquisa.
-  ```
+: Serve como título da seção da faceta da seção de facetas do bloco de pesquisa.
 
 Campo
-: ```
-  Serve para escolher o tipo do campo que será usado para apresentar uma opção de filtro ao visitante.
-  ```
+: Serve para escolher o tipo do campo que será usado para apresentar uma opção de filtro ao visitante.
+
+```{nextslide}
+```
 
 Widget Faceta
-: ```
-  Serve para escolher o tipo de componente visual utilizado para apresentar o filtro ao visitante.
-  ```
+: Serve para escolher o tipo de componente visual utilizado para apresentar o filtro ao visitante.
 
 Múltipla escolha?
-: ```
-  Serve para escolher se o componente, quando fizer sentido, permite que seja selecionado mais de um item pelo visitante.
-  ```
+: Serve para escolher se o componente, quando fizer sentido, permite que seja selecionado mais de um item pelo visitante.
 
 Ocultar faceta?
 : Alterna entre mostrar ou esconder a faceta.
@@ -411,7 +491,7 @@ Faceta avançada?
 : Seleciona para definir a faceta como avançada.
   Facetas avançadas ficam ocultas inicialmente e exibidas sobre demanda.
 
-#### Controles
+### Controles
 
 Você pode configurar wuais controles de pesquisa oferecer ao visitante do site.
 
@@ -429,7 +509,7 @@ Exibir o total de resultados?
 : Alternar para mostrar ou esconder a contagem do total de resultados de pesquisa.
 
 
-#### Visões
+### Visões
 
 Visões disponíveis
 : Opções incluem {guilabel}`Padrão`, {guilabel}`Galeria de imagem` e {guilabel}`Listagem`.
@@ -444,19 +524,27 @@ Ele é tipicamente usado para mostrar dados estruturados de uma maneira limpa e 
 Ele pode ser configurado para mostrar dados em diferentes estilos e disposições.
 
 ```{image} ./_static/user-manual/blocks/table-block.png
+:width: 85%
 :alt: Bloco tabela
 ```
 
+```{nextslide}
+```
+
 Você pode usar o editor no topo da tabela para adicionar linhas e colunas na tabela e para deletar linhas e colunas.
+
+```{image} ./_static/user-manual/blocks/table-block-configuration.png
+:height: 380
+:alt: Configuração do bloco tabela
+```
+
+```{nextslide}
+```
 
 Para preencher os dados, clique em uma célula e digite.
 Você pode opcionalmente formatar os dados.
 
 O bloco tabela possuem diversas opções de configuração.
-
-```{image} ./_static/user-manual/blocks/table-block-configuration.png
-:alt: Configuração do bloco tabela
-```
 
 Ocultar cabeçalhos
 : Alterne para mostrar ou esconder a linha de cabeçalho.
@@ -469,6 +557,9 @@ Células da tabela com largura fixa
 : Quando habilitado, as colunas são fixadas em uma mesma largura percentual da tabela.
   Por exemplo, uma tabela com quatro colunas poderia ter cada uma de suas colunas fixadas em 25% da largura da tabela.
 
+```{nextslide}
+```
+
 Dividir cada linha em células separadas
 : Quando habilitada, as células em uma linha são separadas por uma borda vertical.
 
@@ -477,6 +568,9 @@ Alternar cores das linhas
 
 Tornar a tabela compacta
 : Quando habilitada, o preenchimento das células é reduzido dando uma aparência mais compacta.
+
+```{nextslide}
+```
 
 Reduzir complexidade
 : Quando habilitada, as bordas do topo, esquerda, direita são removidas.
@@ -493,25 +587,40 @@ O bloco tabela de conteúdos cria uma lista de links para os títulos e subtítu
 O bloco tabela de conteúdos torna mais fácil para o visitante navegar para uma seção de uma página longa ou complexa.
 Ele pode ser configurado para mostrar os links em layouts e estilos. 
 
+```{nextslide}
+```
+
 Para usar o bloco tabela de conteúdos, você deve primeiro ter blocos de texto com títulos e subtítulos em sua página.
 Quando você adiciona um bloco tabela de conteúdos na página, o bloco de tabela de conteúdos é automaticamente preenchido. São exibidos os títulos e subtítulos em uma lista com marcadores, com subtítulos recuados.
 
 ```{image} ./_static/user-manual/blocks/table-of-contents-block.png
+:width: 85%
 :alt: Bloco de tabela de conteúdos
+```
+
+```{nextslide}
 ```
 
 O bloco tabela de conteúdos tem diversas opções de configuração.
 
 ```{image} ./_static/user-manual/blocks/table-of-contents-block-configuration.png
+:height: 380
 :alt: Configuração do bloco de tabela de conteúdos
+```
+
+```{nextslide}
 ```
 
 Variação
 : Alterna a exibição da tabela de conteúdos entre listagem (padrão) ou abas horizontais.
   A variação horizontal também adiciona um botão suspenso (dropdown), se necessário, assim itens que não couberem serão exibidos em uma lista suspensa (dropdown).
   ```{video} ./_static/user-manual/blocks/table-of-contents-block-with-dropdown.mp4
+  :height: 380
   :alt: Menu do bloco tabela de conteúdos.
   ```
+
+```{nextslide}
+```
 
 Título do bloco
 : Opcionalmente adiciona um título acima da tabela de conteúdos.
@@ -521,6 +630,9 @@ Ocultar título
 
 Ordenação
 : Quando habilitado, muda a listagem para uma lista numerada (ordenada).
+
+```{nextslide}
+```
 
 Entradas
 : Selecione quais níveis de títulos exibir.
@@ -539,10 +651,17 @@ O bloco teaser tipicamente inclui o título, um extrato do sumário do conteúdo
 :alt: Bloco teaser
 ```
 
+```{nextslide}
+```
+
 O bloco teaser possue várias opções de configuração.
 
 ```{image} ./_static/user-manual/blocks/teaser-block-configuration.png
+:height: 380
 :alt: Configuração do bloco teaser
+```
+
+```{nextslide}
 ```
 
 Alvo
@@ -553,6 +672,9 @@ Título
 
 Chapéu
 : O chapéu é um cabeçalho que aparece acima do título.
+
+```{nextslide}
+```
 
 Descrição
 : A descrição é um texto puro que sumariza ou descreve o item de conteúdo.
@@ -593,10 +715,16 @@ Uma prévia do vídeo é apresentada.
 :alt: Bloco vídeo
 ```
 
+```{nextslide}
+```
+
 O bloco vídeo tem diversas opções de configuração.
 
 ```{image} ./_static/user-manual/blocks/video-block-configuration.png
 :alt: Configuração do bloco vídeo
+```
+
+```{nextslide}
 ```
 
 Endereço do vídeo
