@@ -7,11 +7,8 @@
    preserveAspectRatio="xMidYMid meet"
    version="1.0"
    id="svg1224"
-   sodipodi:docname="Logo.svg"
+   sodipodi:docname="logo-cmc.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   inkscape:export-filename="/home/ramiro.luz/workspace/cmcuritiba/extranet-cmc/frontend/src/customizations/volto/components/theme/Logo/Logo.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -351,8 +348,8 @@
        style="font-style:normal;font-weight:normal;font-size:136px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect47546);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1514.293"
          y="1116.4069"
-         id="tspan70337"><tspan
+         id="tspan68960"><tspan
            style="font-weight:900;font-family:Montserrat;-inkscape-font-specification:'Montserrat Heavy'"
-           id="tspan70335">de Curitiba</tspan></tspan></text>
+           id="tspan68958">de Curitiba</tspan></tspan></text>
   </g>
 </svg>
