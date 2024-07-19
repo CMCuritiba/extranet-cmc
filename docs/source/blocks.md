@@ -461,12 +461,12 @@ Tamanho do lote de items
 ### Facetas
 
 Título da seção
-: Serve como cabeçalho da seção de facetas do bloco de pesquisa.  
+: Serve como cabeçalho da seção de facetas do bloco de pesquisa
 
 Facetas
 : Clique no botão {guilabel}`Adicionar Faceta` para adicionar uma faceta na pesquisa.
   A primeira faceta aparece como "FACETA #1".
-  Você pode adicionar várias facetas, reordenar elas arrastando e soltando e deletar elas.
+  Você pode adicionar várias facetas, reordenar elas arrastando e soltando e deletar elas
 
 Rótulo
 : Serve como título da seção da faceta da seção de facetas do bloco de pesquisa.
@@ -493,7 +493,7 @@ Faceta avançada?
 
 ### Controles
 
-Você pode configurar wuais controles de pesquisa oferecer ao visitante do site.
+Você pode configurar quais controles de pesquisa oferecer ao visitante do site.
 
 Exibir ordenação?
 : Alternar para mostrar ou esconder o controle de ordenação.
