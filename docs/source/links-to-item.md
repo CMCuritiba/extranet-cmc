@@ -11,12 +11,19 @@ myst:
 
 # Encontrando links e referências para a página atual
 
+
+```{nextslide}
+```
+
 ```{versionadded} Volto 16.28.0
 Esta funcionalidade foi adicionada no Volto 16.28.0, mas estava desabilitada por padrão.
 ```
 
 ```{versionchanged} Volto 17.0.0-alpha.19
 Esta funcionalidade está habilitada por padrão agora.
+```
+
+```{nextslide}
 ```
 
 As vezes é difícil acompanhar de onde uma página é referenciada.
@@ -41,10 +48,16 @@ Em ambos os casos, contate o administrado para ajuda.
 ```
 ````
 
+```{nextslide}
+```
+
 Você pode ver então uma tabela mostrando todos os links e referências do item atual.
 
 ```{image} ./_static/user-manual/manage/link-to-items.png
 :alt: Um painel legendado com "Conteúdo que linka ou referencia 'Supervisor Adélaïde Pickavance'". Abaixo da legenda, há uma tabela com uma única seção por tipo de relacionamento, onde cada seção tem três colunas. O cabeçalho da primeira coluna é o nome da relação, o segundo é "Estado da Revisão", e o terceiro é "Tipo". As seções são nomeadas, de cima para baixo, "Linkando este link com hyperlink no texto", "Referenciando o ítem como item relacionado", e "Referenciando este item com '[Nome da Relação]'".
+```
+
+```{nextslide}
 ```
 
 Para editores, esta visão dá uma ideia se estes links e referências ainda são relevantes.
