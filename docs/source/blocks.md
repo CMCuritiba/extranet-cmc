@@ -38,7 +38,7 @@ Eles são criados utilizando componentes React, que são peças modulares de có
 Para criar ou adicionar um bloco vazio depois de um bloco existente, clique no bloco, então pressione e tecla {kbd}`Enter`.
 Um novo bloco vazio aparece.
 
-```{figure} ./_static/user-manual/blocks/add-new-block.gif
+```{figure} ./_static/user-manual/blocks/add_new_block.gif
 :width: 85%
 :alt: Adiciona novo bloco
 ```
