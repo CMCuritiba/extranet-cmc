@@ -15,8 +15,7 @@ myst:
 
 A autenticação no portal da Câmara de Curitiba vai usar o autenticador centralizado, este tópico abrange a autenticação com o autenticador centralizado da Câmara de Curitiba.
 
-```{nextslide}
-```
+## Procedimento de autenticação
 
 Para autenticar no portal da Câmara, ao clicar no botão entrar o usuário será direcionado a página de autenticação da Câmara. Após a autenticação será redirecionado novamente para o portal.
 
