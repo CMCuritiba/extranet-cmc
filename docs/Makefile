@@ -92,6 +92,12 @@ setup: ## Install sphinx requirements.
 	@echo "$(GREEN)==> Docs Setup $(RESET)"
 	pip install -r requirements-docs.txt
 
+.PHONY: slides
+slides: bin/python  ## Build slides
+	cd $(DOCS_DIR) && $(SPHINXBUILD) -b slides $(ALLSPHINXOPTS) $(BUILDDIR)/slides
+	@echo
+	@echo "Build finished. The Slides are in $(BUILDDIR)/slides."
+
 .PHONY: html
 html: bin/python  ## Build html
 	cd $(DOCS_DIR) && $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html

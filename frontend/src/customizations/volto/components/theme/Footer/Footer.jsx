@@ -39,6 +39,7 @@ const Footer = ({ intl }) => {
           <div align="center">
             <Image src={LogoPreta} />
           </div>
+          <p></p>
           <FormattedMessage
             id="AQUI SE CONSTRÓI O FUTURO DA CIDADE   |   18ª LEGISLATURA (2021-2024)"
             defaultMessage="AQUI SE CONSTRÓI O FUTURO DA CIDADE   |   18ª LEGISLATURA (2021-2024)"

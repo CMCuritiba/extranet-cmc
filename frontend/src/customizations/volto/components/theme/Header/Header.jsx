@@ -30,9 +30,6 @@ const Header = (props) => {
               >
                 <Logo />
               </div>
-              <div>
-                <h4>Câmara Municipal de Curitiba</h4>
-              </div>
             </div>
             <Navigation pathname={pathname} />
             <div>
