@@ -28,6 +28,7 @@ Ao clicar no ítem de menu `Entrar` o formulário de login padrão do Plone é e
 
 ```{image} ./_static/training/autenticar/form-login.png
 :alt: Formulário de login vazio.
+:height: 400
 ```
 
 ## Formulário de login da autenticação única da Câmara de Curitiba
@@ -36,6 +37,7 @@ Ao clicar no ítem de menu `Entrar` o formulário de login de autenticação ún
 
 ```{image} ./_static/training/autenticar/form-login-keycloak.png
 :alt: Formulário de login de autenticação única vazio.
+:width: 80%
 ```
 
 ## Botão entrar do formulário de login
@@ -44,6 +46,7 @@ Após preencher o formulário com o usuário e senha basta clicar no botão com 
 
 ```{image} ./_static/training/autenticar/form-login-entrar.png
 :alt: Formulário de login com usuário aluno, senha e botão entrar. 
+:height: 400
 ```
 
 ## Botão entrar do formulário de login de autenticação única
@@ -52,6 +55,7 @@ Preencher o formulário de autenticação única da Câmara de Curitiba com o us
 
 ```{image} ./_static/training/autenticar/form-login-entrar-keycloak.png
 :alt: Formulário de login de autenticação única com usuário aluno, senha e botão entrar. 
+:width: 80%
 ```
 
 ## Autenticação bem sucedida
@@ -60,6 +64,7 @@ Após a autenticação bem sucedida o ítem de menu `Entrar` não é mais exibid
 
 ```{image} ./_static/training/autenticar/cabecalho-autenticado.png
 :alt: Topo da página com barra de ações e sem o menu Entrar.
+:width: 80%
 ```
 
 ## Ferramentas de usuário
@@ -68,6 +73,7 @@ Outra funcionalidade habilitada ao autenticar são as ferramentas de usuário. E
 
 ```{image} ./_static/training/autenticar/barra-de-acoes-e-ferramentas-usuario.png
 :alt: Barra de ações com botões de ação e ferramentas de usuário.
+:height: 400
 ```
 
 ## Encerrar a sessão
@@ -76,4 +82,5 @@ Para encerrar a sessão, fazer o logout, clique no botão sair presente no menu 
 
 ```{image} ./_static/training/autenticar/ferramentas-usuario-botao-sair.png
 :alt: Botão sair nas ferramentas de usuário.
+:height: 400
 ```
