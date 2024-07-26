@@ -14,6 +14,7 @@ myst:
 
 Este é o guia de como criar uma página com duas colunas no portal extranet da [^DTIC] da [^CMC] para extranet usando Volto, o frontend do Plone 6.
 
+## Criação da página
 
 Clique no botão de adicionar conteúdo.
 
@@ -23,8 +24,8 @@ Clique no botão de adicionar conteúdo.
 :alt: 
 ```
  
- ---
-
+```{nextslide}
+```
 
 Escolha o tipo de conteúdo página.
 
@@ -34,7 +35,8 @@ Escolha o tipo de conteúdo página.
 :alt: 
 ```
  
- ---
+```{nextslide}
+```
 
 Preencha o título e adicione uma imagem ao bloco de texto. Clique no ícone `+` para adicionar um bloco. Escolha o bloco imagem.
 
@@ -44,7 +46,8 @@ Preencha o título e adicione uma imagem ao bloco de texto. Clique no ícone `+`
 :alt: 
 ```
  
- ---
+```{nextslide}
+```
 
 Envie uma imagem para ser o banner da página.
 
@@ -54,7 +57,8 @@ Envie uma imagem para ser o banner da página.
 :alt: 
 ```
  
- ---
+```{nextslide}
+```
 
 Clique no ícone `+` para adicionar um novo tipo de bloco. Clique no botão do bloco listagem para adicionar uma listagem.
 
@@ -64,7 +68,8 @@ Clique no ícone `+` para adicionar um novo tipo de bloco. Clique no botão do b
 :alt: 
 ```
  
- ---
+```{nextslide}
+```
 
 Adicione um critério no painel de configuração da listagem e escolha o critério Tipo.
 
@@ -72,9 +77,11 @@ Adicione um critério no painel de configuração da listagem e escolha o crité
 
 ```{image} ./_static/create-page/listing-add-criteria.png 
 :alt: 
+:height: 400
 ```
  
- ---
+```{nextslide}
+```
 
 Escolha o tipo Página como critério de tipos.
 
@@ -82,9 +89,11 @@ Escolha o tipo Página como critério de tipos.
 
 ```{image} ./_static/create-page/listing-criteria-type-page.png 
 :alt: 
+:height: 400
 ```
  
- ---
+```{nextslide}
+```
 
 Adicione outro critério, dessa vez do tipo Local.
 
@@ -92,9 +101,11 @@ Adicione outro critério, dessa vez do tipo Local.
 
 ```{image} ./_static/create-page/listing-add-criteria-path.png 
 :alt: 
+:height: 400
 ```
  
- ---
+```{nextslide}
+```
 
 Nas opções de Local escolha Caminho relativo.
 
@@ -102,9 +113,11 @@ Nas opções de Local escolha Caminho relativo.
 
 ```{image} ./_static/create-page/listing-add-criteria-path-type.png 
 :alt: 
+:height: 400
 ```
  
- ---
+```{nextslide}
+```
 
 Salve a página.
 
@@ -113,8 +126,9 @@ Salve a página.
 ```{image} ./_static/create-page/save-page-button.png
 :alt: Botão salvar página.
 ```
- ---
 
+```{nextslide}
+```
 
 Vamos agora criar nossa página dentro da pasta Transparência. Clique no botão de adicionar conteúdo.
 
@@ -124,8 +138,8 @@ Vamos agora criar nossa página dentro da pasta Transparência. Clique no botão
 :alt: 
 ```
  
- ---
-
+```{nextslide}
+```
 
 Escolha o tipo de conteúdo página.
 
@@ -135,7 +149,8 @@ Escolha o tipo de conteúdo página.
 :alt: 
 ```
  
- ---
+```{nextslide}
+```
 
 Preencha o título, clique no botão `+` no primeiro bloco vazio e adicione uma imagem ao bloco de texto.
 
@@ -145,7 +160,8 @@ Preencha o título, clique no botão `+` no primeiro bloco vazio e adicione uma 
 :alt: 
 ```
  
- ---
+```{nextslide}
+```
 
 Envie uma imagem para ser o banner da página.
 
@@ -155,7 +171,8 @@ Envie uma imagem para ser o banner da página.
 :alt: 
 ```
  
- ---
+```{nextslide}
+```
 
 As opções da imagem podem ficar nos seus valores padrão.
 
@@ -163,10 +180,11 @@ As opções da imagem podem ficar nos seus valores padrão.
 
 ```{image} ./_static/create-page/image-block-control-panel.png 
 :alt: 
+:width: 80%
 ```
  
- ---
-
+```{nextslide}
+```
 
 Após a criação do banner você pode criar as colunas. O bloco de colunas pode ser encontrado na lista de blocos padrão. Clique na categoria 'PADRÃO' para encontrar o bloco de colunas.
 
@@ -174,9 +192,11 @@ Após a criação do banner você pode criar as colunas. O bloco de colunas pode
 
 ```{image} ./_static/create-page/add-standard-blocks.png
 :alt: 
+:height: 400
 ```
  
- ---
+```{nextslide}
+```
 
 Então clique no botão para adicionar o bloco de colunas.
 
@@ -184,9 +204,11 @@ Então clique no botão para adicionar o bloco de colunas.
 
 ```{image} ./_static/create-page/add-columns-block-button.png
 :alt: 
+:height: 400
 ```
  
- ---
+```{nextslide}
+```
 
 Ao clicar no bloco de colunas serão apresentadas opções para escolher a disposição das colunas. Clique no botão 50/50.
 
@@ -194,9 +216,11 @@ Ao clicar no bloco de colunas serão apresentadas opções para escolher a dispo
 
 ```{image} ./_static/create-page/add-columns-select-layout.png
 :alt: 
+:height: 400
 ```
 
- ---
+```{nextslide}
+```
 
 Agora você pode adicionar o texto do lado esquerdo, como no exemplo abaixo onde um texto foi colado com formatação.
 
@@ -204,9 +228,11 @@ Agora você pode adicionar o texto do lado esquerdo, como no exemplo abaixo onde
 
 ```{image} ./_static/create-page/add-columns-pasted-text.png
 :alt: 
+:height: 400
 ```
 
- ---
+```{nextslide}
+```
 
 Ao lado direito você pode adicionar um novo bloco no botão `+` que fica no canto direito superior da coluna.
 
@@ -214,9 +240,11 @@ Ao lado direito você pode adicionar um novo bloco no botão `+` que fica no can
 
 ```{image} ./_static/create-page/add-columns-add-block.png
 :alt: 
+:width: 80%
 ```
 
- ---
+```{nextslide}
+```
 
 Escolha o bloco 'Acordeão' para criar uma exibição de texto organizada em tópicos na coluna direita. 
 
@@ -225,9 +253,11 @@ Escolha o bloco 'Acordeão' para criar uma exibição de texto organizada em tó
 
 ```{image} ./_static/create-page/add-columns-add-accordion-block-button.png
 :alt: 
+:height: 400
 ```
 
- ---
+```{nextslide}
+```
 
 Um acrodeão vazio permite que você adicione o título e conteúdo de 3 ítens por padrão. Você pode remover um ítem, clique no ícone de lixeira ao lado do ítem vazio.
 
@@ -235,9 +265,11 @@ Um acrodeão vazio permite que você adicione o título e conteúdo de 3 ítens 
 
 ```{image} ./_static/create-page/add-columns-empty-accordion-block.png
 :alt: 
+:height: 400
 ```
 
- ---
+```{nextslide}
+```
 
 Para adicionar ítens no acordeão clique no botão 'Adicionar acordeão'. Clique no ícone de lixeira ao lado de um ítem se quiser remover o ítem.
 
@@ -245,9 +277,11 @@ Para adicionar ítens no acordeão clique no botão 'Adicionar acordeão'. Cliqu
 
 ```{image} ./_static/create-page/add-columns-accordion-block-add-item.png
 :alt: 
+:height: 400
 ```
 
- ---
+```{nextslide}
+```
 
 Para abrir ou fechar o acordeão clique na seta ao lado direito do título.
 
@@ -255,9 +289,11 @@ Para abrir ou fechar o acordeão clique na seta ao lado direito do título.
 
 ```{image} ./_static/create-page/add-columns-accordion-block-with-text.png
 :alt: 
+:height: 400
 ```
 
- ---
+```{nextslide}
+```
 
 Por fim, clique no botão salvar.
 

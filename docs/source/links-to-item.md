@@ -11,7 +11,9 @@ myst:
 
 # Encontrando links e referências para a página atual
 
+Essa funcionalidade permite encontrar os links para a página em questão.
 
+## Links e referências para a página
 ```{nextslide}
 ```
 

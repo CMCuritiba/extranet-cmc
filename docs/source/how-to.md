@@ -19,7 +19,6 @@ Este é o guia de como utilizar o portal extranet da [^DTIC] da [^CMC] para extr
 
 login
 structure
-upload-image
 create-page
 create-news
 blocks-use
