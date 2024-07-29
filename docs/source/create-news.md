@@ -185,7 +185,7 @@ Outra forma de adicionar imagem é colando o texto copiado de outra página que 
 
 ```{image} ./_static/create-news/news-image-pasted.png
 :alt: Imagem criada automaticamente por copiar e colar.
-:height: 400
+:width: 80%
 ```
 
 ```{nextslide}
@@ -197,7 +197,7 @@ Vamos realinhar a imagem, para começar vamos alinhar a imagem a direita. Clique
 
 ```{image} ./_static/create-news/news-image-medium-align-right-button.png
 :alt: Imagem de tamanho médio com configuração de alinhamento a direita.
-:height: 400
+:width: 80%
 ```
 
 ```{nextslide}
@@ -209,7 +209,7 @@ Em seguida clique no botão de tamanho médio no painel de configuração.
 
 ```{image} ./_static/create-news/news-image-medium-size-button.png
 :alt: Botão de opção por imagem de tamanho médio 
-:height: 400
+:width: 80%
 ```
 
 ```{nextslide}
@@ -233,6 +233,7 @@ Por fim, clique no botão salvar.
 
 ```{image} ./_static/create-news/news-save-button.png
 :alt: Botão salvar.
+:width: 80%
 ```
 
 
