@@ -54,6 +54,7 @@ Na página de histórico de mudanças é possível ver o que foi feito, quem fez
 
 ```{image} ./_static/training/compartilhar/historico-de-mudancas-da-pagina.png
 :alt: Histórico de mudanças da página.
+:width: 80%
 ```
 
 ## Compartilhamento
@@ -70,6 +71,7 @@ Por padrão aparece o grupo préexistente do Plone chamado `Usuários logados`. 
 
 ```{image} ./_static/training/compartilhar/compartilhamento-inicio.png
 :alt: Fomulário padrão de configuração de compartilhamento da página.
+:width: 80%
 ```
 
 ### Pesquisa de usuário
@@ -78,6 +80,7 @@ Para configurar as permissões de compartilhamento para outros usuários basta p
 
 ```{image} ./_static/training/compartilhar/compartilhamento-pesquisar-usuario.png
 :alt: Pesquisar por usuário.
+:width: 80%
 ```
 
 ### Usuários encontrados
@@ -86,6 +89,7 @@ Assim que a pesquisa é realizada os usuários correspondentes a pesquisa são e
 
 ```{image} ./_static/training/compartilhar/compartilhamento-pesquisa-de-usuario-resultado.png
 :alt: Resultado da busca pelo termo usuário. 
+:width: 80%
 ```
 
 ### Pesquisa por grupo
@@ -94,6 +98,7 @@ Da mesma forma é possível buscar grupos para definir as permissões.
 
 ```{image} ./_static/training/compartilhar/compartilhamento-pesquisar-grupo.png
 :alt: Pesquisar por grupo.
+:width: 80%
 ```
 
 ### Grupos encontrados
@@ -102,6 +107,7 @@ Assim como os usuários, os grupos correspondentes ao termo de pesquisa são exi
 
 ```{image} ./_static/training/compartilhar/compartilhamento-pesquisa-de-grupo-resultado.png
 :alt: Resultado da busca pelo grupo treinamento.
+:width: 80%
 ```
 
 ### Configuração de permissões, botão salvar
@@ -110,6 +116,7 @@ Após as escolhas de permissões deve ser feito clique no botão salvar para per
 
 ```{image} ./_static/training/compartilhar/compartilhamento-altera-permissao-usuarios-botao-salvar.png
 :alt: Permissões de usuários, aluno3 pode ver e revisar, aluno4 pode editar e ver. Botão salvar em destaque.
+:width: 80%
 ```
 
 ### Configuração de permissões, botão cancelar
@@ -118,6 +125,7 @@ Se houver a necessidade é possível cancelar todas as alterações que ainda n�
 
 ```{image} ./_static/training/compartilhar/compartilhamento-altera-permissao-usuarios-botao-cancelar.png
 :alt: Permissões de usuários, aluno3 pode ver e revisar, aluno4 pode editar e ver. Botão cancelar em destaque.
+:width: 80%
 ```
 
 ### Botões de ação habilitados, usuário aluno, autor
@@ -126,6 +134,7 @@ De acordo com as permissões, são exibidos os botões de ação. O usuário alu
 
 ```{image} ./_static/training/compartilhar/compartilhamento-acoes-usuario-aluno-da-pagina.png
 :alt: Usuário aluno é o autor, pode adicionar, editar, ver e revisar, botões habilitados.
+:height: 400
 ```
 
 ### Botões de ação habilitados, usuário aluno 2, possui permissões
@@ -134,6 +143,7 @@ De forma semelhante ocorre com o aluno 2, ele tem todos os papéis que o aluno e
 
 ```{image} ./_static/training/compartilhar/compartilhamento-acoes-usuario-aluno2-da-pagina.png
 :alt: Usuário aluno 2 pode adicionar, editar, ver e revisar, botões habilitados.
+:height: 400
 ```
 
 ### Botão mais opções apenas, usuário 3
@@ -142,6 +152,7 @@ No caso do aluno 3 ele não tem as permissões nem os papéis. Apenas o botão d
 
 ```{image} ./_static/training/compartilhar/compartilhamento-botao-mais-opcoes-usuario-aluno3-da-pagina.png
 :alt: Botão de mais opções do usuário 3.
+:height: 400
 ```
 
 ### Menu de mais opções desabilitado, usuário 3, não possui permissões
@@ -150,6 +161,7 @@ Ao clicar no botão mais opções nenhuma funcionalidade aparece. O aluno 3 só 
 
 ```{image} ./_static/training/compartilhar/compartilhamento-mais-opcoes-vazio-usuario-aluno3-da-pagina.png
 :alt: Lista de mais opções do usuário 3, sem permissões está vazia.
+:height: 400
 ```
 
 ### Botão de ferramentas pessoais do usuário 3
@@ -158,6 +170,7 @@ Da mesma forma que os usuários que possuem mais permissões o aluno 3 tem acess
 
 ```{image} ./_static/training/compartilhar/compartilhamento-botao-ferramentas-pessoais-usuario-aluno3-da-pagina.png
 :alt: Botão de ferramentas pessoais do usuário 3.
+:height: 400
 ```
 
 ### Ferramentas pessoais do usuário 3
@@ -166,6 +179,7 @@ Ao clicar no botão de ferramentas pessoais do usuário 3 percebemos que ele pos
 
 ```{image} ./_static/training/compartilhar/compartilhamento-ferramentas-pessoais-usuario-aluno3-da-pagina.png
 :alt: Ferramentas pessoais do usuário 3.
+:height: 400
 ```
 
 ## Gerenciamento de url
@@ -182,6 +196,7 @@ No formulário de gerenciamento de endereços basta adicionar ou remover o camin
 
 ```{image} ./_static/training/compartilhar/gerenciamento-urls-alternativas-da-pagina.png
 :alt: Formulário de gerenciamento de referências alternativas a esta página.
+:width: 80%
 ```
 
 ## Links e referências
@@ -190,6 +205,7 @@ Outra funcionalidade é o formulário de links e referências. Esta funcionalida
 
 ```{image} ./_static/training/compartilhar/link-para-noticia.png
 :alt: Referência na barra de navegação para notícia que tem um link para a página.
+:width: 80%
 ```
 
 ### Notícia com referência para a página
@@ -198,6 +214,7 @@ Foi criada uma notícia que tem um link para o nosso ítem de conteúdo chamado 
 
 ```{image} ./_static/training/compartilhar/link-para-pagina-na-noticia.png
 :alt: Referência para a página no corpo da notícia.
+:width: 80%
 ```
 
 ### Referências da página
@@ -214,4 +231,5 @@ Então a lista de ítens que fazem ligação para a página aparecem na lista. R
 
 ```{image} ./_static/training/compartilhar/links-ou-referencias-associados-a-pagina.png
 :alt: Formulário com os links e referências do site.
+:width: 80%
 ```
