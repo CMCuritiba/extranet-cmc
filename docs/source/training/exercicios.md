@@ -10,7 +10,11 @@ myst:
 
 (exercicios-um-label)=
 
-# Exercícios de fixação para a primeira parte do treinamento de utilização do volto na cmc
+# Exercícios de fixação
+
+Exercícios práticos de gerenciamento de conteúdo no portal volto da Câmara de Curitiba.
+
+## Instruções
 
 Para completar os exercícios você deve ter recebido, ou então deve solicitar ao instrutor, o nome de usuário e senha de acesso. Em alguns exercícios é solicitado tirar print da tela, para isso use a tecla Print Screen ou outro atalho que você conheça.
 
@@ -54,6 +58,10 @@ Os exercícios desse tópico tem como objetivo fixar o conhecimento sobre o comp
 19. Permitir que o usuário estagiário seja revisor do item.
 20. Encerrar sua sessão, autenticar com usuário Aluno 1 e tirar print da barra de ações.
 21. Encerrar sua sessão, autenticar com usuário Aluno 2 e tirar print da barra de ações.
+
+```{nextslide}
+```
+
 22. Encerrar sua sessão, autenticar com usuário Aluno 3 e tirar print da barra de ações.
 23. Encerrar sua sessão, autenticar com usuário Aluno 4 e tirar print da barra de ações.
 24. Encerrar sua sessão, autenticar com usuário Aluno 5 e tirar print da barra de ações.
