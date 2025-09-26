@@ -1,0 +1,819 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="Manual do portal - treinamento do Volto para Plone 6 da CMC. Publicando." name="description" />
+<meta content="Manual do portal - treinamento do Volto para Plone 6 da CMC. Publicando." property="og:description" />
+<meta content="Frontend" property="og:title" />
+<meta content="Volto, Plone, frontend, React, User manual, Manual de usuário, treinamento, publicar" name="keywords" />
+<meta property="og:title" content="Publicando conteúdo do portal do volto na cmc" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://6.docs.plone.org/training/publicar.html" />
+<meta property="og:site_name" content="Plone Documentation" />
+<meta property="og:description" content="A publicação de conteúdo no portal segue um fluxo, chamado de workflow. Workflow de publicação: O workflow de publicação padrão do Plone tem um mecanismo baseado em usuários, grupos, papéis e permi..." />
+<meta property="og:image" content="https://6.docs.plone.org/_static/Plone_logo_square.png" />
+<meta property="og:image:alt" content="Plone Documentation" />
+<meta property="og:locale" content="en_US" />
+
+    <title>Publicando conteúdo do portal do volto na cmc &#8212; Extranet CMC v1.0.0</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="../_static/print.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within Extranet CMC v1.0.0"
+          href="../_static/opensearch.xml"/>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Exercícios de fixação" href="exercicios.html" />
+    <link rel="prev" title="Configurar compartilhamento no portal do volto na cmc" href="compartilhar.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.svg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Extranet CMC v1.0.0</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../blocks.html">
+   Gerenciando blocos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../copy-paste-blocks.html">
+   Copiar, cortar e colar blocos no Volto
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../links-to-item.html">
+   Encontrando links e referências para a página atual
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../how-to.html">
+   Como utilizar
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../login.html">
+     Como autenticar no portal
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../structure.html">
+     Como gerenciar conteúdo
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../create-page.html">
+     Guia para criar uma página com duas colunas
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../create-news.html">
+     Guia para criar uma notícia
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../blocks-use.html">
+     Como utilizar blocos
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="index.html">
+   Treinamento da extranet da Câmara de Curitiba
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="autenticar.html">
+     Autenticação no portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="explorar.html">
+     Explorando a interface do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="navegar.html">
+     Navegando pelo conteúdo do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="compartilhar.html">
+     Configurar compartilhamento no portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Publicando conteúdo do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="exercicios.html">
+     Exercícios de fixação
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            
+    <p class="ploneorglink">
+        <a href="https://plone.org">
+            <img src="_static/Plone-logo.svg" alt="plone.org" /> plone.org</a>
+    </p>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc/issues/new?title=Issue%20on%20page%20%2Ftraining/publicar.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc/edit/main/docs/training/publicar.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/training/publicar.md.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#workflow-de-publicacao">
+   Workflow de publicação
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#permissoes-e-papeis-dos-usuarios-alunos">
+   Permissões e papéis dos usuários alunos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#permissoes-padrao-dos-usuarios-alunos">
+   Permissões padrão dos usuários alunos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   Workflow de publicação
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#workflow-padrao">
+     Workflow padrão
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#usuario-anonimo-acesso-a-noticias-publicadas">
+   Usuário anônimo acesso a noticias publicadas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#usuario-anonimo-sem-acesso-conteudo-privado">
+   Usuário anônimo sem acesso conteúdo privado
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#papeis-e-a-vizualizacao-de-conteudo">
+   Papéis e a vizualização de conteúdo
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visibilidade-de-conteudo-privado">
+     Visibilidade de conteúdo privado
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visibilidade-de-conteudo-em-revisao">
+     Visibilidade de conteúdo em revisão
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#disponibilidade-de-botoes-de-acao">
+   Disponibilidade de botões de ação
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#disponibilidade-de-mais-opcoes-de-acao">
+   Disponibilidade de mais opções de ação
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estados">
+     Estados
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#historico">
+     Histórico
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#links-e-referencias">
+     Links e referências
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Publicando conteúdo do portal do volto na cmc</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#workflow-de-publicacao">
+   Workflow de publicação
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#permissoes-e-papeis-dos-usuarios-alunos">
+   Permissões e papéis dos usuários alunos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#permissoes-padrao-dos-usuarios-alunos">
+   Permissões padrão dos usuários alunos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   Workflow de publicação
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#workflow-padrao">
+     Workflow padrão
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#usuario-anonimo-acesso-a-noticias-publicadas">
+   Usuário anônimo acesso a noticias publicadas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#usuario-anonimo-sem-acesso-conteudo-privado">
+   Usuário anônimo sem acesso conteúdo privado
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#papeis-e-a-vizualizacao-de-conteudo">
+   Papéis e a vizualização de conteúdo
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visibilidade-de-conteudo-privado">
+     Visibilidade de conteúdo privado
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visibilidade-de-conteudo-em-revisao">
+     Visibilidade de conteúdo em revisão
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#disponibilidade-de-botoes-de-acao">
+   Disponibilidade de botões de ação
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#disponibilidade-de-mais-opcoes-de-acao">
+   Disponibilidade de mais opções de ação
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estados">
+     Estados
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#historico">
+     Histórico
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#links-e-referencias">
+     Links e referências
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="publicando-conteudo-do-portal-do-volto-na-cmc">
+<span id="publicando-label"></span><h1>Publicando conteúdo do portal do volto na cmc<a class="headerlink" href="#publicando-conteudo-do-portal-do-volto-na-cmc" title="Permalink to this headline">#</a></h1>
+<p>A publicação de conteúdo no portal segue um fluxo, chamado de workflow.</p>
+<div class="section" id="workflow-de-publicacao">
+<h2>Workflow de publicação<a class="headerlink" href="#workflow-de-publicacao" title="Permalink to this headline">#</a></h2>
+<p>O workflow de publicação padrão do Plone tem um mecanismo baseado em usuários, grupos, papéis e permissões. Para a demostração nesse treinamento foram criados 5 alunos para abranger a variedade de papéis do Plone.</p>
+<p>Menu de ferramentas do usuário Aluno 1.</p>
+<a class="reference internal image-reference" href="../_images/ferramentas-aluno1.png"><img alt="Menu de ferramentas do usuário Aluno 1" src="../_images/ferramentas-aluno1.png" style="height: 400px;" /></a>
+<hr class="docutils" />
+<p>Menu de ferramentas do usuário Aluno 2.</p>
+<a class="reference internal image-reference" href="../_images/ferramentas-aluno2.png"><img alt="Menu de ferramentas do usuário Aluno 2" src="../_images/ferramentas-aluno2.png" style="height: 400px;" /></a>
+<hr class="docutils" />
+<p>Menu de ferramentas do usuário Aluno 3.</p>
+<a class="reference internal image-reference" href="../_images/ferramentas-aluno3.png"><img alt="Menu de ferramentas do usuário Aluno 3" src="../_images/ferramentas-aluno3.png" style="height: 400px;" /></a>
+<hr class="docutils" />
+<p>Menu de ferramentas do usuário Aluno 4.</p>
+<a class="reference internal image-reference" href="../_images/ferramentas-aluno4.png"><img alt="Menu de ferramentas do usuário Aluno 4" src="../_images/ferramentas-aluno4.png" style="height: 400px;" /></a>
+<hr class="docutils" />
+<p>Menu de ferramentas do usuário Aluno 5.</p>
+<a class="reference internal image-reference" href="../_images/ferramentas-aluno5.png"><img alt="Menu de ferramentas do usuário Aluno 5" src="../_images/ferramentas-aluno5.png" style="height: 400px;" /></a>
+</div>
+<div class="section" id="permissoes-e-papeis-dos-usuarios-alunos">
+<h2>Permissões e papéis dos usuários alunos<a class="headerlink" href="#permissoes-e-papeis-dos-usuarios-alunos" title="Permalink to this headline">#</a></h2>
+<p>As permissões no Plone permitem que o usuário possa realizar certa ação. Os papéis são conjuntos de permissões que podem ser atribuídas a usuários ou grupos.</p>
+<p>Para o treinamento foram configuradas alguns papéis para os usuários criados. O usuário Aluno 1 é <code class="docutils literal notranslate"><span class="pre">Colaborador</span></code> e <code class="docutils literal notranslate"><span class="pre">Revisor</span></code>. O usuário Aluno 2 é <code class="docutils literal notranslate"><span class="pre">Editor</span></code> e <code class="docutils literal notranslate"><span class="pre">Revisor</span></code>. O usuário Aluno 3 é <code class="docutils literal notranslate"><span class="pre">Membro</span></code> apenas. O usuário Aluno 4 é <code class="docutils literal notranslate"><span class="pre">Leitor</span></code> apenas. O usuário Aluno 5 é <code class="docutils literal notranslate"><span class="pre">Revisor</span></code> apenas.</p>
+<p>Papéis atribuídos aos usuários criados.</p>
+<a class="reference internal image-reference" href="../_images/configuracoes-usuarios-alunos.png"><img alt="Papéis atribuídos aos usuários criados" src="../_images/configuracoes-usuarios-alunos.png" style="height: 400px;" /></a>
+</div>
+<div class="section" id="permissoes-padrao-dos-usuarios-alunos">
+<h2>Permissões padrão dos usuários alunos<a class="headerlink" href="#permissoes-padrao-dos-usuarios-alunos" title="Permalink to this headline">#</a></h2>
+<p>Os papéis atribuídos concedem as seguintes permissões para os usuários criados. O usuário Aluno 1 pode adicionar conteúdo e revisar. O usuário Aluno 2 pode editar e revisar. O usuário Aluno 3 pode apenas ler conteúdo publicado. O usuário Aluno 4 pode ler conteúdo privado. O usuário Aluno 5 pode revisar.</p>
+<p>Permissões dos usuários criados.</p>
+<a class="reference internal image-reference" href="../_images/permissoes-padrao-alunos.png"><img alt="Permissões dos usuários criados" src="../_images/permissoes-padrao-alunos.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="id1">
+<h2>Workflow de publicação<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
+<p>Os itens de conteúdo do Plone podem estar em 3 estados no workflow padrão. O estado privado, em revisão ou publicado. Um usuário membro só pode ver conteúdo publicado e não pode alterar nada. Um usuário leitor pode ver conteúdo privado, mas também não pode alterar o ítem. Um usuário contribuidor pode ver conteúdo privado, pode adicionar conteúdo, usar controle de versão, só não pode editar conteúdo de outros usuários.</p>
+<p>Quando um usuário cria conteúdo, ele se torna o dono do conteúdo com permissão de alterar o conteúdo em qualquer estado que o conteúdo esteja. Um usuário editor pode editar conteúdo, usar o controle de versão, gerenciar propriedades do item de conteúdo, enviar conteúdo para publicação mas não pode adicionar conteúdo. Um usuário revisor pode enviar um documento para publicação ou enviar de volta ao autor, mas não pode alterar o documento.</p>
+<p>Diagrama com o workflow padrão do Plone. O usuário autor cria um documento e pode realizar qualquer ação no documento, o estado padrão é privado. O usuário editor pode alterar o documento e enviar para revisão. Ao enviar para revisão o documento passa para o estado em revisão. No estado em revisão, o usuário revisor pode publicar ou enviar de volta ao autor para mudanças, o documento volta ao estado privado quando volta ao autor.</p>
+<div class="section" id="workflow-padrao">
+<h3>Workflow padrão<a class="headerlink" href="#workflow-padrao" title="Permalink to this headline">#</a></h3>
+<p>Este é o diagrama de representação do fluxo padrão do plone.</p>
+<a class="reference internal image-reference" href="../_images/workflow.png"><img alt="Diagrama com o workflow padrão do Plone" src="../_images/workflow.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="usuario-anonimo-acesso-a-noticias-publicadas">
+<h2>Usuário anônimo acesso a noticias publicadas<a class="headerlink" href="#usuario-anonimo-acesso-a-noticias-publicadas" title="Permalink to this headline">#</a></h2>
+<p>Quando o documento é publicado usuários sem autenticação, anônimo, podem ler o conteúdo.</p>
+<p>Notícias visíveis para usuário anônimo quando estão publicadas.</p>
+<a class="reference internal image-reference" href="../_images/inicio-usuario-anonimo-noticias-publicadas.png"><img alt="Notícias visíveis para usuário anônimo quando estão publicadas" src="../_images/inicio-usuario-anonimo-noticias-publicadas.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="usuario-anonimo-sem-acesso-conteudo-privado">
+<h2>Usuário anônimo sem acesso conteúdo privado<a class="headerlink" href="#usuario-anonimo-sem-acesso-conteudo-privado" title="Permalink to this headline">#</a></h2>
+<p>Quando o documento está em um estado privado usuários sem autenticação, anônimo, não podem ler o conteúdo.</p>
+<p>Notícias indisponíveis para usuário anônimo quando estão em estado privado.</p>
+<a class="reference internal image-reference" href="../_images/inicio-usuario-anonimo-conteudo-privado.png"><img alt="Notícias indisponíveis para usuário anônimo quando estã em estado privado" src="../_images/inicio-usuario-anonimo-conteudo-privado.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="papeis-e-a-vizualizacao-de-conteudo">
+<h2>Papéis e a vizualização de conteúdo<a class="headerlink" href="#papeis-e-a-vizualizacao-de-conteudo" title="Permalink to this headline">#</a></h2>
+<p>De acordo com os papéis e permissões atribuídos ao usuário ele pode acessar conteúdo privado.</p>
+<div class="section" id="visibilidade-de-conteudo-privado">
+<h3>Visibilidade de conteúdo privado<a class="headerlink" href="#visibilidade-de-conteudo-privado" title="Permalink to this headline">#</a></h3>
+<p>Os usuários <code class="docutils literal notranslate"><span class="pre">Autor</span></code>, <code class="docutils literal notranslate"><span class="pre">Colaborador</span></code> e <code class="docutils literal notranslate"><span class="pre">Editor</span></code> tem acesso a conteúdo privado, sendo que o <code class="docutils literal notranslate"><span class="pre">Colaborador</span></code> só pode ler o conteúdo. Os usuários <code class="docutils literal notranslate"><span class="pre">Membro</span></code> e <code class="docutils literal notranslate"><span class="pre">Revisor</span></code> não tem acesso a conteúdo privado.</p>
+<p>Visibilidade de conteúdo privado para usuário Aluno 1.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno1-visivel.png"><img alt="Visibilidade de conteúdo privado para usuário Aluno 1" src="../_images/inicio-conteudo-privado-usuario-aluno1-visivel.png" style="width: 80%;" /></a>
+<p>Visibilidade de conteúdo privado para usuário Aluno 2.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno2-visivel.png"><img alt="Visibilidade de conteúdo privado para usuário Aluno 2" src="../_images/inicio-conteudo-privado-usuario-aluno2-visivel.png" style="width: 80%;" /></a>
+<p>Visibilidade de conteúdo privado para usuário Aluno 3, indisponível.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno3-indisponivel.png"><img alt="Visibilidade de conteúdo privado para usuário Aluno 3, indisponível" src="../_images/inicio-conteudo-privado-usuario-aluno3-indisponivel.png" style="width: 80%;" /></a>
+<p>Visibilidade de conteúdo privado para usuário Aluno 4.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno4-visivel.png"><img alt="Visibilidade de conteúdo privado para usuário Aluno 4" src="../_images/inicio-conteudo-privado-usuario-aluno4-visivel.png" style="width: 80%;" /></a>
+<p>Visibilidade de conteúdo privado para usuário Aluno 5, indisponível.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno5-indisponivel.png"><img alt="Visibilidade de conteúdo privado para usuário Aluno 5, indisponível" src="../_images/inicio-conteudo-privado-usuario-aluno5-indisponivel.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="visibilidade-de-conteudo-em-revisao">
+<h3>Visibilidade de conteúdo em revisão<a class="headerlink" href="#visibilidade-de-conteudo-em-revisao" title="Permalink to this headline">#</a></h3>
+<p>Os usuários <code class="docutils literal notranslate"><span class="pre">Autor</span></code>, <code class="docutils literal notranslate"><span class="pre">Colaborador</span></code>, <code class="docutils literal notranslate"><span class="pre">Editor</span></code> e <code class="docutils literal notranslate"><span class="pre">Revisor</span></code> tem acesso a conteúdo Em revisão. Atenção que o usuário <code class="docutils literal notranslate"><span class="pre">Colaborador</span></code> só pode ler o conteúdo e o <code class="docutils literal notranslate"><span class="pre">Revisor</span></code> pode enviar de volta ao <code class="docutils literal notranslate"><span class="pre">Autor</span></code>. O usuário <code class="docutils literal notranslate"><span class="pre">Membro</span></code> não tem acesso a conteúdo <code class="docutils literal notranslate"><span class="pre">Em</span> <span class="pre">revisão</span></code>.</p>
+<p>Visibilidade de conteúdo em revisão para usuário Aluno 1.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno1-visivel.png"><img alt="Visibilidade de conteúdo em revisão para usuário Aluno 1" src="../_images/inicio-conteudo-privado-usuario-aluno1-visivel.png" style="width: 80%;" /></a>
+<p>Visibilidade de conteúdo em revisão para usuário Aluno 2.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno2-visivel.png"><img alt="Visibilidade de conteúdo em revisão para usuário Aluno 2" src="../_images/inicio-conteudo-privado-usuario-aluno2-visivel.png" style="width: 80%;" /></a>
+<p>Visibilidade de conteúdo em revisão para usuário Aluno 3, indisponível.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno3-indisponivel.png"><img alt="Visibilidade de conteúdo em revisão para usuário Aluno 3, indisponível" src="../_images/inicio-conteudo-privado-usuario-aluno3-indisponivel.png" style="width: 80%;" /></a>
+<p>Visibilidade de conteúdo em revisão para usuário Aluno 4.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno4-visivel.png"><img alt="Visibilidade de conteúdo em revisão para usuário Aluno 4" src="../_images/inicio-conteudo-privado-usuario-aluno4-visivel.png" style="width: 80%;" /></a>
+<p>Visibilidade de conteúdo em revisão para usuário Aluno 5, indisponível.</p>
+<a class="reference internal image-reference" href="../_images/inicio-conteudo-privado-usuario-aluno5-indisponivel.png"><img alt="Visibilidade de conteúdo em revisão para usuário Aluno 5, indisponível" src="../_images/inicio-conteudo-privado-usuario-aluno5-indisponivel.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="disponibilidade-de-botoes-de-acao">
+<h2>Disponibilidade de botões de ação<a class="headerlink" href="#disponibilidade-de-botoes-de-acao" title="Permalink to this headline">#</a></h2>
+<p>De acordo com as permissões de cada um são apresentados botões de ação específicos. O botão adicionar é um exemplo, só está disponível para quem pode criar conteúdo. O botão editar aparece para quem pode modificar o documento e assim por diante.</p>
+<p>O usuário Aluno 1 tem a permissão de criar conteúdo, então o botão adicionar está disponível. Entretanto o botão editar não está disponível pois ele não pode alterar o documento. Ele pode navegar pelo conteúdo, portanto o botão de conteúdo também está disponível.</p>
+<img alt="Botões disponiveis para usuário Aluno 1 - botão conteúdo e botão adicionar." src="../_images/botao-adicionar-usuario-aluno1.png" />
+<p>O usuário Aluno 2 não tem a permissão para criar documento, então o botão de adição está indisponível. O usuário Aluno 2 tem a permissão de modificar o documento, portanto o botão de edição está disponível. Ele pode navegar pelo conteúdo por isso o botão de conteúdo também está disponível.</p>
+<img alt="Botões disponiveis para usuário Aluno 2 - botão conteúdo e botão editar." src="../_images/botao-adicionar-usuario-aluno2-indisponivel.png" />
+<p>O usuário Aluno 3 não tem permissão de criar conteúdo, não tem a permissão de modificar conteúdo e nem pode navegar pelo conteúdo, então nenhum destes botões está disponível.</p>
+<img alt="Botões adicionar, editar e conteúdo indisponiveis para usuário Aluno 3" src="../_images/botoes-acao-usuario-aluno3-indisponiveis.png" />
+<p>O usuário Aluno 4 não tem permissão de criar conteúdo, não tem a permissão de modificar conteúdo e nem pode navegar pelo conteúdo, então nenhum destes botões está disponível.</p>
+<img alt="Botões adicionar, editar e conteúdo indisponiveis para usuário Aluno 4" src="../_images/botoes-acao-usuario-aluno4-indisponiveis.png" />
+<p>O usuário Aluno 5 não tem a permissão para criar documento e não tem a permissão de modificar o documento. O usuário Aluno 5 tem permissão de navegar no conteúdo, então apenas o botão de conteúdo está disponível.</p>
+<img alt="Botões disponiveis para usuário Aluno 5 - apenas o botão conteúdo" src="../_images/botao-adicionar-usuario-aluno5-indisponivel.png" />
+</div>
+<div class="section" id="disponibilidade-de-mais-opcoes-de-acao">
+<h2>Disponibilidade de mais opções de ação<a class="headerlink" href="#disponibilidade-de-mais-opcoes-de-acao" title="Permalink to this headline">#</a></h2>
+<p>Além dos botões de ação as permissões dão acesso a itens do menu de mais opções, que é aberto quando se clica no ícone de reticências (3 pontos seguidos).</p>
+<p>Para o usuário Aluno 1 estão disponíveis as opções de Estado, Histório, Compartilhamento e Links e referências.</p>
+<img alt="Opções disponíveis para usuário Aluno 1 - Estado, Histórico, Compartilhamento e Links e referências" src="../_images/botao-mais-opcoes-compartilhamento-usuario-aluno1.png" />
+<p>Para o usuário Aluno 2 estão disponíveis as opções de <code class="docutils literal notranslate"><span class="pre">Estado</span></code>, <code class="docutils literal notranslate"><span class="pre">Histório</span></code>, <code class="docutils literal notranslate"><span class="pre">Compartilhamento</span></code>, <code class="docutils literal notranslate"><span class="pre">Gerenciamento</span> <span class="pre">de</span> <span class="pre">url</span></code> e <code class="docutils literal notranslate"><span class="pre">Links</span> <span class="pre">e</span> <span class="pre">referências</span></code>.</p>
+<img alt="Opções disponíveis para usuário Aluno 2 - Estado, Histório, Compartilhamento, Gerenciamento de URLS e Links e referências" src="../_images/botao-mais-opcoes-compartilhamento-usuario-aluno2.png" />
+<p>Para o usuário Aluno 3 estão disponíveis as opções de Estado (somente leitura), Histório e Links e referências.</p>
+<img alt="Opções disponíveis para usuário Aluno 3 - Estado (somente leitura), Histório e Links e referências" src="../_images/botao-mais-opcoes-compartilhamento-usuario-aluno3-indisponivel.png" />
+<p>Para o usuário Aluno 4 estão disponíveis as opções de Estado (somente leitura), Histório e Links e referências.</p>
+<img alt="Opções disponíveis para usuário Aluno 4 - Estado (somente leitura), Histório e Links e referências" src="../_images/botao-mais-opcoes-compartilhamento-usuario-aluno4-indisponivel.png" />
+<p>Para o usuário Aluno 5 está disponível apenas a opção de Compartilhamento.</p>
+<img alt="Opções disponíveis para usuário Aluno 5 - Compartilhamento" src="../_images/botao-mais-opcoes-compartilhamento-usuario-aluno5.png" />
+<div class="section" id="estados">
+<h3>Estados<a class="headerlink" href="#estados" title="Permalink to this headline">#</a></h3>
+<p>As permissões também afetam o que cada usuário pode fazer em termos de transição de estados. O usuário Aluno 1 pode publicar o documento quando o documento está no estado privado.</p>
+<img alt="Itens do menu de estados para usuário Aluno 1 no estado privado - Publicar e Privado" src="../_images/botao-mais-opcoes-estado-privado-menu-usuario-aluno1.png" />
+<p>O usuário Aluno 2 além de poder publicar o documento ele pode enviar para publicação. Quando o documento é enviado para publicação ele entra no estado Em revisão.</p>
+<img alt="Itens do menu de estados para usuário Aluno 2 no estado privado - Publicar, Enviar para publicação e Privado" src="../_images/botao-mais-opcoes-estado-privado-menu-usuario-aluno2.png" />
+<p>O usuário Aluno 1 pode enviar o documento de volta ao autor. Quando o documento é enviado de volta ele entra novamente no estado privado.</p>
+<img alt="Itens do menu de estados para usuário Aluno 1 no estado publicado - Enviar de volta e Publicado" src="../_images/botao-mais-opcoes-estado-publicado-menu-usuario-aluno1.png" />
+<p>O usuário Aluno 2 pode enviar o documento de volta e também pode retirar o documento. Em ambos os casos o documento volta ao estado privado.</p>
+<img alt="Itens do menu de estados para usuário Aluno 2 no estado publicado - Enviar de volta, Retirar e Publicado" src="../_images/botao-mais-opcoes-estado-publicado-menu-usuario-aluno2.png" />
+<p>O usuário Aluno 1 não tem acesso ao documento quando ele está em revisão. O usuário Aluno 2 pode publicar, pode enviar de volta ou retirar o documento quando o documento está em revisão.</p>
+<img alt="Itens do menu de estados para usuário Aluno 2 no estado em revisão - Publicar, Enviar de volta, Retirar e Revisão pendente" src="../_images/botao-mais-opcoes-estado-revisao-usuario-aluno2.png" />
+<p>O usuário Aluno 3 não tem acesso ao documento nem no estado privado nem no estado em revisão. O usuário Aluno 4 tem acesso somente leitura ao menu de estados.</p>
+<img alt="Menu de estados somente leitura" src="../_images/botao-mais-opcoes-estados-menu-desabilitado.png" />
+<p>O usuário Aluno 5 pode revisar o documento e enviar o documento de volta ou então publicar.</p>
+<img alt="Itens do menu de estados para usuário Aluno 5 no estado em revisão - Publicar, Enviar de volta e Revisão pendente" src="../_images/botao-mais-opcoes-estado-revisao-usuario-aluno5.png" />
+</div>
+<div class="section" id="historico">
+<h3>Histórico<a class="headerlink" href="#historico" title="Permalink to this headline">#</a></h3>
+<p>O histórico também é afetado pelas permissões, o usuário Aluno 1 tem visibilidade ao menu de Histórico.</p>
+<img alt="Botão histórico visível para usuário Aluno 1" src="../_images/botao-mais-opcoes-historico-usuario-aluno1.png" />
+<p>Ao clicar no item de menu Histórico o usuário Aluno 1 recebe uma mensagem. O acesso a esse recurso é restrito pois ele não tem permissão de ler o histórico de mudanças.</p>
+<img alt="Histórico restrito para usuário Aluno 1" src="../_images/historico-noticias-usuario-aluno1-restrito.png" />
+<p>O usuário Aluno 2 também tem visibilidade ao menu Histórico.</p>
+<img alt="Botão histórico visível para usuário Aluno 2" src="../_images/botao-mais-opcoes-historico-usuario-aluno2.png" />
+<p>O usuário Aluno 2 tem acesso a página do histórico de mudanças do documento.</p>
+<a class="reference internal image-reference" href="../_images/historico-noticias-usuario-aluno2.png"><img alt="Histórico de mudanças disponível para usuário Aluno 2" src="../_images/historico-noticias-usuario-aluno2.png" style="width: 80%;" /></a>
+<p>O usuário Aluno 3 não tem acesso ao menu e nem ao histórico de mudanças. O usuário Aluno 4 tem visibilidade ao menu de Histórico.</p>
+<img alt="Botão histórico visível para usuário Aluno 4" src="../_images/botao-mais-opcoes-historico-usuario-aluno4.png" />
+<p>Ao clicar no item de menu Histórico o usuário Aluno 4 recebe uma mensagem. O acesso a esse recurso é restrito pois ele não tem permissão de ler o histórico de mudanças.</p>
+<a class="reference internal image-reference" href="../_images/historico-noticias-usuario-aluno4-restrito.png"><img alt="Histórico restrito para usuário Aluno 4" src="../_images/historico-noticias-usuario-aluno4-restrito.png" style="width: 80%;" /></a>
+<p>O usuário Aluno 5 também tem visibilidade ao menu Histórico se o documento estiver em revisão.</p>
+<img alt="Botão histórico visível para usuário Aluno 5 no estado em revisão" src="../_images/botao-mais-opcoes-historico-usuario-aluno5.png" />
+<p>O usuário Aluno 5 tem acesso a página do histórico de mudanças do documento se o documento estiver em revisão.</p>
+<a class="reference internal image-reference" href="../_images/historico-noticias-usuario-aluno5.png"><img alt="Histórico de mudanças disponível para usuário Aluno 5 no estado em revisão" src="../_images/historico-noticias-usuario-aluno5.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="links-e-referencias">
+<h3>Links e referências<a class="headerlink" href="#links-e-referencias" title="Permalink to this headline">#</a></h3>
+<p>O usuário Aluno 1 pode ver o item de menu Links e referencias.</p>
+<img alt="Botão links e referencias visível para usuário Aluno 1" src="../_images/botao-mais-opcoes-links-e-referencias-usuario-aluno1.png" />
+<p>Ao clicar no menu Links e referencias o usuário Aluno 1 recebe a mensagem de que não é autorizado a ver os links e referências do documento.</p>
+<a class="reference internal image-reference" href="../_images/links-e-referencias-noticias-usuario-aluno1-nao-autorizado.png"><img alt="Usuário Aluno 1 não autorizado a página de links e referências" src="../_images/links-e-referencias-noticias-usuario-aluno1-nao-autorizado.png" style="width: 80%;" /></a>
+<p>O usuário Aluno 2 pode ver o item de menu Links e referencias.</p>
+<img alt="Botão links e referencias visível para usuário Aluno 2" src="../_images/botao-mais-opcoes-links-e-referencias-usuario-aluno2.png" />
+<p>O usuário Aluno 2 tem acesso aos links e referencias do documento.</p>
+<a class="reference internal image-reference" href="../_images/links-e-referencias-noticias-usuario-aluno2.png"><img alt="Usuário Aluno 2 autorizado a página de links e referências" src="../_images/links-e-referencias-noticias-usuario-aluno2.png" style="width: 80%;" /></a>
+<p>O usuário Aluno 3 não tem acesso ao documento, exceto quando for publicado.</p>
+<p>O usuário Aluno 4 pode ver o item de menu Links e referencias.</p>
+<img alt="Botão links e referencias visível para usuário Aluno 4" src="../_images/botao-mais-opcoes-links-e-referencias-usuario-aluno4.png" />
+<p>O usuário Aluno 4 tem acesso aos links e referencias do documento.</p>
+<a class="reference internal image-reference" href="../_images/links-e-referencias-noticias-usuario-aluno4.png"><img alt="Usuário Aluno 4 autorizado a página de links e referências" src="../_images/links-e-referencias-noticias-usuario-aluno4.png" style="width: 80%;" /></a>
+<p>O usuário Aluno 5 pode ver o item de menu Links e referencias quando o documento está no estado em revisão.</p>
+<img alt="Botão links e referencias visível para usuário Aluno 5 no estado em revisão" src="../_images/botao-mais-opcoes-links-e-referencias-usuario-aluno5.png" />
+<p>O usuário Aluno 5 tem acesso aos links e referencias do documento quando o documento está no estado em revisão.</p>
+<a class="reference internal image-reference" href="../_images/links-e-referencias-noticias-usuario-aluno5.png"><img alt="Usuário Aluno 5 autorizado a página de links e referências" src="../_images/links-e-referencias-noticias-usuario-aluno5.png" style="width: 80%;" /></a>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="compartilhar.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Configurar compartilhamento no portal do volto na cmc</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="exercicios.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Exercícios de fixação</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Ramiro Batista da Luz<br/>
+  
+      &copy; Copyright Câmara Municipal de Curitiba.<br/>
+    <div class="extra_footer">
+      <p>The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license. Plone and the Plone® logo are registered trademarks of the Plone Foundation, registered in the United States and other countries. For guidelines on the permitted uses of the Plone trademarks, see <a href="https://plone.org/foundation/logo">https://plone.org/foundation/logo</a>. All other trademarks are owned by their respective owners.</p>
+    
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

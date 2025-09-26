@@ -1,0 +1,785 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="Manual do portal - treinamento do Volto para Plone 6 da CMC. Navegando." name="description" />
+<meta content="Manual do portal - treinamento do Volto para Plone 6 da CMC. Navegando." property="og:description" />
+<meta content="Frontend" property="og:title" />
+<meta content="Volto, Plone, frontend, React, User manual, Manual de usuário, treinamento, navegar" name="keywords" />
+<meta property="og:title" content="Navegando pelo conteúdo do portal do volto na cmc" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://6.docs.plone.org/training/navegar.html" />
+<meta property="og:site_name" content="Plone Documentation" />
+<meta property="og:description" content="Navegando pelo conteúdo do portal Volto. Acessando os ítens de conteúdo: Assim que é realizada a autenticação é possível clicar no botão de conteúdo. Clique no botão conteúdo para exibir a lista de..." />
+<meta property="og:image" content="https://6.docs.plone.org/_static/Plone_logo_square.png" />
+<meta property="og:image:alt" content="Plone Documentation" />
+<meta property="og:locale" content="en_US" />
+
+    <title>Navegando pelo conteúdo do portal do volto na cmc &#8212; Extranet CMC v1.0.0</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="../_static/print.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within Extranet CMC v1.0.0"
+          href="../_static/opensearch.xml"/>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Configurar compartilhamento no portal do volto na cmc" href="compartilhar.html" />
+    <link rel="prev" title="Explorando a interface do portal do volto na cmc" href="explorar.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.svg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Extranet CMC v1.0.0</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../blocks.html">
+   Gerenciando blocos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../copy-paste-blocks.html">
+   Copiar, cortar e colar blocos no Volto
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../links-to-item.html">
+   Encontrando links e referências para a página atual
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../how-to.html">
+   Como utilizar
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../login.html">
+     Como autenticar no portal
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../structure.html">
+     Como gerenciar conteúdo
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../create-page.html">
+     Guia para criar uma página com duas colunas
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../create-news.html">
+     Guia para criar uma notícia
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../blocks-use.html">
+     Como utilizar blocos
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="index.html">
+   Treinamento da extranet da Câmara de Curitiba
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="autenticar.html">
+     Autenticação no portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="explorar.html">
+     Explorando a interface do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Navegando pelo conteúdo do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="compartilhar.html">
+     Configurar compartilhamento no portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="publicar.html">
+     Publicando conteúdo do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="exercicios.html">
+     Exercícios de fixação
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            
+    <p class="ploneorglink">
+        <a href="https://plone.org">
+            <img src="_static/Plone-logo.svg" alt="plone.org" /> plone.org</a>
+    </p>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc/issues/new?title=Issue%20on%20page%20%2Ftraining/navegar.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc/edit/main/docs/training/navegar.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/training/navegar.md.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#acessando-os-itens-de-conteudo">
+   Acessando os ítens de conteúdo
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#itens-de-conteudo-inicial">
+     Ítens de conteúdo inicial
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#itens-de-conteudo-selecionados">
+     Ítens de conteúdo selecionados
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#enviar-arquivo">
+   Enviar arquivo
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selecao-de-arquivos-para-enviar">
+     Seleção de arquivos para enviar
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#renomear-itens">
+   Renomear ítens
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#alteracao-de-nome-do-item">
+     Alteração de nome do ítem
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alterar-estado-de-itens">
+   Alterar estado de ítens
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selecao-de-novo-estado-dos-itens">
+     Seleção de novo estado dos ítens
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adicionar-tags-aos-itens">
+   Adicionar tags aos ítens
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preenchimento-das-tags-do-item">
+     Preenchimento das tags do ítem
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alterar-propriedades-dos-itens">
+   Alterar propriedades dos ítens
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preenchimento-das-propriedades-do-item">
+     Preenchimento das propriedades do ítem
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cortar-itens-de-conteudo">
+   Cortar ítens de conteúdo
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#copiar-itens-de-conteudo">
+   Copiar ítens de conteúdo
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#colar-itens-de-conteudo">
+   Colar ítens de conteúdo
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#excluir-itens-de-conteudo">
+   Excluir ítens de conteúdo
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#confirmacao-da-exclusao-de-itens">
+     Confirmação da exclusão de ítens
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Navegando pelo conteúdo do portal do volto na cmc</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#acessando-os-itens-de-conteudo">
+   Acessando os ítens de conteúdo
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#itens-de-conteudo-inicial">
+     Ítens de conteúdo inicial
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#itens-de-conteudo-selecionados">
+     Ítens de conteúdo selecionados
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#enviar-arquivo">
+   Enviar arquivo
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selecao-de-arquivos-para-enviar">
+     Seleção de arquivos para enviar
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#renomear-itens">
+   Renomear ítens
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#alteracao-de-nome-do-item">
+     Alteração de nome do ítem
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alterar-estado-de-itens">
+   Alterar estado de ítens
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selecao-de-novo-estado-dos-itens">
+     Seleção de novo estado dos ítens
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adicionar-tags-aos-itens">
+   Adicionar tags aos ítens
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preenchimento-das-tags-do-item">
+     Preenchimento das tags do ítem
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alterar-propriedades-dos-itens">
+   Alterar propriedades dos ítens
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preenchimento-das-propriedades-do-item">
+     Preenchimento das propriedades do ítem
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cortar-itens-de-conteudo">
+   Cortar ítens de conteúdo
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#copiar-itens-de-conteudo">
+   Copiar ítens de conteúdo
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#colar-itens-de-conteudo">
+   Colar ítens de conteúdo
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#excluir-itens-de-conteudo">
+   Excluir ítens de conteúdo
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#confirmacao-da-exclusao-de-itens">
+     Confirmação da exclusão de ítens
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="navegando-pelo-conteudo-do-portal-do-volto-na-cmc">
+<span id="navegando-label"></span><h1>Navegando pelo conteúdo do portal do volto na cmc<a class="headerlink" href="#navegando-pelo-conteudo-do-portal-do-volto-na-cmc" title="Permalink to this headline">#</a></h1>
+<p>Navegando pelo conteúdo do portal Volto.</p>
+<div class="section" id="acessando-os-itens-de-conteudo">
+<h2>Acessando os ítens de conteúdo<a class="headerlink" href="#acessando-os-itens-de-conteudo" title="Permalink to this headline">#</a></h2>
+<p>Assim que é realizada a autenticação é possível clicar no botão de conteúdo. Clique no botão conteúdo para exibir a lista de ítens de conteúdo.</p>
+<img alt="Página inicial, botão conteúdo na barra de ações do portal." src="../_images/inicio-botao-conteudo.png" />
+<div class="section" id="itens-de-conteudo-inicial">
+<h3>Ítens de conteúdo inicial<a class="headerlink" href="#itens-de-conteudo-inicial" title="Permalink to this headline">#</a></h3>
+<p>No ínicio o conteúdo padrão é apenas uma pasta de imagens. Acima da lista está a barra de tarefas de conteúdo. Enquanto não há ítens selecionados a barra fica com a maioria dos botões desativados.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio.png"><img alt="Pasta inicio, nenhum item selecionado, botões da barra de tarefas de conteúdo desativados." src="../_images/conteudo-pasta-inicio.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="itens-de-conteudo-selecionados">
+<h3>Ítens de conteúdo selecionados<a class="headerlink" href="#itens-de-conteudo-selecionados" title="Permalink to this headline">#</a></h3>
+<p>Ao selecionar um ou mais ítens os botões da barra são habilitados.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-selecao-objeto.png"><img alt="Pasta imagens selecionada, botões da barra de tarefas de conteúdo ativos." src="../_images/conteudo-pasta-inicio-selecao-objeto.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="enviar-arquivo">
+<h2>Enviar arquivo<a class="headerlink" href="#enviar-arquivo" title="Permalink to this headline">#</a></h2>
+<p>O primeiro botão permite enviar um arquivo para o portal.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-enviar.png"><img alt="Botão para enviar arquivo da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-enviar.png" style="width: 80%;" /></a>
+<div class="section" id="selecao-de-arquivos-para-enviar">
+<h3>Seleção de arquivos para enviar<a class="headerlink" href="#selecao-de-arquivos-para-enviar" title="Permalink to this headline">#</a></h3>
+<p>Clique no botão para enviar arquivo e um formulário para escolha de arquivos permite selecionar os arquivos a serem enviados.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-form-enviar-arquivo.png"><img alt="Formulário para enviar arquivos." src="../_images/conteudo-pasta-inicio-form-enviar-arquivo.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="renomear-itens">
+<h2>Renomear ítens<a class="headerlink" href="#renomear-itens" title="Permalink to this headline">#</a></h2>
+<p>O próximo botão é o botão de renomear ítens.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-renomear.png"><img alt="Botão para abrir formulário de renomear itens selecionados da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-renomear.png" style="width: 80%;" /></a>
+<div class="section" id="alteracao-de-nome-do-item">
+<h3>Alteração de nome do ítem<a class="headerlink" href="#alteracao-de-nome-do-item" title="Permalink to this headline">#</a></h3>
+<p>Clique no botão renomear ítens e um formulário para escolha do novo nome seja exibido.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-form-renomear-item.png"><img alt="Formulário para renomear os itens selecionados." src="../_images/conteudo-pasta-inicio-form-renomear-item.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="alterar-estado-de-itens">
+<h2>Alterar estado de ítens<a class="headerlink" href="#alterar-estado-de-itens" title="Permalink to this headline">#</a></h2>
+<p>Em seguida está o botão de alteração de estado de ítens.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-estado.png"><img alt="Botão para abrir formulário de alteração de estado da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-estado.png" style="width: 80%;" /></a>
+<div class="section" id="selecao-de-novo-estado-dos-itens">
+<h3>Seleção de novo estado dos ítens<a class="headerlink" href="#selecao-de-novo-estado-dos-itens" title="Permalink to this headline">#</a></h3>
+<p>Clique no botão para alterar estado e um formulário de alteração de estado é exibido.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-alterar-estado.png"><img alt="Formulário para alterar estado dos itens selecionados." src="../_images/conteudo-pasta-inicio-alterar-estado.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="adicionar-tags-aos-itens">
+<h2>Adicionar tags aos ítens<a class="headerlink" href="#adicionar-tags-aos-itens" title="Permalink to this headline">#</a></h2>
+<p>O botão de edição das tags do ítem vem logo a seguir.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-tags.png"><img alt="Botão para abrir formulário de tags para os itens selecionados da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-tags.png" style="width: 80%;" /></a>
+<div class="section" id="preenchimento-das-tags-do-item">
+<h3>Preenchimento das tags do ítem<a class="headerlink" href="#preenchimento-das-tags-do-item" title="Permalink to this headline">#</a></h3>
+<p>Clique no botão para edição de tags e um formulário para edição das tags do ítem é exibido.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-form-tags.png"><img alt="Formulário para adicionar tags aos itens selecionados." src="../_images/conteudo-pasta-inicio-form-tags.png" style="width: 80%;" /></a>
+</div>
+</div>
+<div class="section" id="alterar-propriedades-dos-itens">
+<h2>Alterar propriedades dos ítens<a class="headerlink" href="#alterar-propriedades-dos-itens" title="Permalink to this headline">#</a></h2>
+<p>O próximo botão permite alterar as propriedades dos itens.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-propriedades.png"><img alt="Botão para abrir formulário de popriedades dos itens selecionados da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-propriedades.png" style="width: 80%;" /></a>
+<div class="section" id="preenchimento-das-propriedades-do-item">
+<h3>Preenchimento das propriedades do ítem<a class="headerlink" href="#preenchimento-das-propriedades-do-item" title="Permalink to this headline">#</a></h3>
+<p>Clique no botão para alterar as propriedades do ítem para exibir o formulário de propriedades do ítem.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-form-propriedades-do-item.png"><img alt="Formulário para editar as propriedades do ítem selecionado." src="../_images/conteudo-pasta-inicio-form-propriedades-do-item.png" style="height: 400px;" /></a>
+</div>
+</div>
+<div class="section" id="cortar-itens-de-conteudo">
+<h2>Cortar ítens de conteúdo<a class="headerlink" href="#cortar-itens-de-conteudo" title="Permalink to this headline">#</a></h2>
+<p>A barra de tarefas também tem funcionalidades para lidar com os ítens. O primeiro é o botão de cortar. Clique no botão cortar. O ítem fica marcado para ser colado em alguma pasta.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-cortar.png"><img alt="Botão de cortar itens selecionados da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-cortar.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="copiar-itens-de-conteudo">
+<h2>Copiar ítens de conteúdo<a class="headerlink" href="#copiar-itens-de-conteudo" title="Permalink to this headline">#</a></h2>
+<p>Clique no botão copiar para que os ítens selecionados sejam marcados para cópia. Ítens copiados terão sua cópia original mantida.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-copiar.png"><img alt="Botão de copiar itens selecionados da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-copiar.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="colar-itens-de-conteudo">
+<h2>Colar ítens de conteúdo<a class="headerlink" href="#colar-itens-de-conteudo" title="Permalink to this headline">#</a></h2>
+<p>Clique no botão colar para que os ítens cortados ou copiados sejam transferidos para a localização atual. Ítens cortados terão sua cópia original apagada. Ítens copiados terão sua cópia original mantida.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-colar.png"><img alt="Botão de colar itens copiados ou cortados da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-colar.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="excluir-itens-de-conteudo">
+<h2>Excluir ítens de conteúdo<a class="headerlink" href="#excluir-itens-de-conteudo" title="Permalink to this headline">#</a></h2>
+<p>Por fim o botão excluir permite remover ítens.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-botao-excluir.png"><img alt="Botão para excluir itens selecionados da barra de tarefas de conteúdo." src="../_images/conteudo-pasta-inicio-botao-excluir.png" style="width: 80%;" /></a>
+<div class="section" id="confirmacao-da-exclusao-de-itens">
+<h3>Confirmação da exclusão de ítens<a class="headerlink" href="#confirmacao-da-exclusao-de-itens" title="Permalink to this headline">#</a></h3>
+<p>Clique no botão excluir e um formulário para confirmar a exclusão será exibido.</p>
+<a class="reference internal image-reference" href="../_images/conteudo-pasta-inicio-form-excluir.png"><img alt="Formulário para excluir os itens selecionados." src="../_images/conteudo-pasta-inicio-form-excluir.png" style="width: 80%;" /></a>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="explorar.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Explorando a interface do portal do volto na cmc</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="compartilhar.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Configurar compartilhamento no portal do volto na cmc</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Ramiro Batista da Luz<br/>
+  
+      &copy; Copyright Câmara Municipal de Curitiba.<br/>
+    <div class="extra_footer">
+      <p>The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license. Plone and the Plone® logo are registered trademarks of the Plone Foundation, registered in the United States and other countries. For guidelines on the permitted uses of the Plone trademarks, see <a href="https://plone.org/foundation/logo">https://plone.org/foundation/logo</a>. All other trademarks are owned by their respective owners.</p>
+    
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
