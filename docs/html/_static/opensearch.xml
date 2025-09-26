@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Extranet CMC</ShortName>
+  <Description>Search Extranet CMC v1.0.0</Description>
+  <InputEncoding>utf-8</InputEncoding>
+  <Url type="text/html" method="get"
+       template="https://6.docs.plone.org/search.html?q={searchTerms}"/>
+  <LongName>Extranet CMC v1.0.0</LongName>
+  <Image height="16" width="16" type="image/x-icon">https://6.docs.plone.org/_static/favicon.ico</Image>
+  
+</OpenSearchDescription>

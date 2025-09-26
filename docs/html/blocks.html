@@ -1,0 +1,1043 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="Manual do usuário para edição de blocos na Extranet da DTIC da CMC traduzido do manual do Volto, o frontend do Plone 6." name="description" />
+<meta content="Manual do usuário para edição de blocos na Extranet da DTIC da CMC traduzido do manual do Volto, o frontend do Plone 6." property="og:description" />
+<meta content="Como editar conteúdo usando blocos do Volto" property="og:title" />
+<meta content="Volto, Plone, frontend, React, User manual, edit blocks, edição de blocos" name="keywords" />
+<meta property="og:title" content="Gerenciando blocos" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://6.docs.plone.org/blocks.html" />
+<meta property="og:site_name" content="Plone Documentation" />
+<meta property="og:description" content="Gerenciando blocos com Volto. Editando conteúdo usando blocos: Volto utiliza a interface Pastanaga UI, oferendo uma composição de página visual utilizando blocos para você. O editor de blocos ofere..." />
+<meta property="og:image" content="https://6.docs.plone.org/_static/Plone_logo_square.png" />
+<meta property="og:image:alt" content="Plone Documentation" />
+<meta property="og:locale" content="en_US" />
+
+    <title>Gerenciando blocos &#8212; Extranet CMC v1.0.0</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="_static/print.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within Extranet CMC v1.0.0"
+          href="_static/opensearch.xml"/>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Copiar, cortar e colar blocos no Volto" href="copy-paste-blocks.html" />
+    <link rel="prev" title="Manual do usuário" href="index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.svg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Extranet CMC v1.0.0</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Gerenciando blocos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="copy-paste-blocks.html">
+   Copiar, cortar e colar blocos no Volto
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="links-to-item.html">
+   Encontrando links e referências para a página atual
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="how-to.html">
+   Como utilizar
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="login.html">
+     Como autenticar no portal
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="structure.html">
+     Como gerenciar conteúdo
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="create-page.html">
+     Guia para criar uma página com duas colunas
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="create-news.html">
+     Guia para criar uma notícia
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="blocks-use.html">
+     Como utilizar blocos
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="training/index.html">
+   Treinamento da extranet da Câmara de Curitiba
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="training/autenticar.html">
+     Autenticação no portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="training/explorar.html">
+     Explorando a interface do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="training/navegar.html">
+     Navegando pelo conteúdo do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="training/compartilhar.html">
+     Configurar compartilhamento no portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="training/publicar.html">
+     Publicando conteúdo do portal do volto na cmc
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="training/exercicios.html">
+     Exercícios de fixação
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            
+    <p class="ploneorglink">
+        <a href="https://plone.org">
+            <img src="_static/Plone-logo.svg" alt="plone.org" /> plone.org</a>
+    </p>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc/issues/new?title=Issue%20on%20page%20%2Fblocks.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/CMCuritiba/extranet-cmc/edit/main/docs/blocks.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/blocks.md.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#editando-conteudo-usando-blocos">
+   Editando conteúdo usando blocos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gerenciamento-de-blocos">
+   Gerenciamento de blocos
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#criar-bloco">
+     Criar bloco
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#configurar-bloco">
+     Configurar bloco
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#reorganizacao-de-blocos">
+     Reorganização de blocos
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#remocao-de-bloco">
+     Remoção de bloco
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tipos-de-bloco-padao">
+   Tipos de bloco padão
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-descricao">
+     Bloco descrição
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-grid">
+     Bloco grid
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-html">
+     Bloco html
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-hero">
+     Bloco hero
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-imagem">
+     Bloco imagem
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-grid-de-imagens">
+     Bloco grid de imagens
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-de-listagem">
+     Bloco de listagem
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-mapas">
+     Bloco mapas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-de-pesquisa">
+     Bloco de pesquisa
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#opcoes-basicas">
+     Opções básicas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#opcoes-de-consulta-basicas-para-pesquisa">
+     Opções de consulta básicas para pesquisa
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#facetas">
+     Facetas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-teaser">
+     Bloco teaser
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-de-grade-de-teaser">
+     Bloco de grade de teaser
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-texto">
+     Bloco texto
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-video">
+     Bloco vídeo
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Gerenciando blocos</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#editando-conteudo-usando-blocos">
+   Editando conteúdo usando blocos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gerenciamento-de-blocos">
+   Gerenciamento de blocos
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#criar-bloco">
+     Criar bloco
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#configurar-bloco">
+     Configurar bloco
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#reorganizacao-de-blocos">
+     Reorganização de blocos
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#remocao-de-bloco">
+     Remoção de bloco
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tipos-de-bloco-padao">
+   Tipos de bloco padão
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-descricao">
+     Bloco descrição
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-grid">
+     Bloco grid
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-html">
+     Bloco html
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-hero">
+     Bloco hero
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-imagem">
+     Bloco imagem
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-grid-de-imagens">
+     Bloco grid de imagens
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-de-listagem">
+     Bloco de listagem
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-mapas">
+     Bloco mapas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-de-pesquisa">
+     Bloco de pesquisa
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#opcoes-basicas">
+     Opções básicas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#opcoes-de-consulta-basicas-para-pesquisa">
+     Opções de consulta básicas para pesquisa
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#facetas">
+     Facetas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-teaser">
+     Bloco teaser
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-de-grade-de-teaser">
+     Bloco de grade de teaser
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-texto">
+     Bloco texto
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bloco-video">
+     Bloco vídeo
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="gerenciando-blocos">
+<span id="edit-content-using-blocks-label"></span><h1>Gerenciando blocos<a class="headerlink" href="#gerenciando-blocos" title="Permalink to this headline">#</a></h1>
+<p>Gerenciando blocos com Volto.</p>
+<div class="section" id="editando-conteudo-usando-blocos">
+<h2>Editando conteúdo usando blocos<a class="headerlink" href="#editando-conteudo-usando-blocos" title="Permalink to this headline">#</a></h2>
+<p>Volto utiliza a interface <a class="reference external" href="https://github.com/plone/pastanaga">Pastanaga UI</a>, oferendo uma composição de página visual utilizando blocos para você.
+O editor de blocos oferece para você a adição, modificação, reordenação e remoção de blocos de acordo com seus requisitos.
+Os blocos fornecem a você a habilidade de exibir conteúdo de uma maneira específica, embora eles também definam comportamentos e possuem características específicas.</p>
+</div>
+<div class="section" id="gerenciamento-de-blocos">
+<span id="manage-blocks-label"></span><h2>Gerenciamento de blocos<a class="headerlink" href="#gerenciamento-de-blocos" title="Permalink to this headline">#</a></h2>
+<p>No Volto, &quot;blocos&quot; são peças individuais de conteúdo que podem ser adicionadas a uma página ou outras áreas de conteúdo.
+Estes blocos podem ser usados em diferentes tipos de conteúdos, como texto, imagens ou multimídia. Os blocos podem ser organizados e customizados para criar uma grande variedade de layouts.</p>
+<p>Blocos são a característica chave do Volto e são projetados para tornar fácil para os usuários a adição de conteúdo em seu website.
+Eles são criados utilizando componentes React, que são peças modulares de código que podem ser fácilmente ser reutilizados e customizados.</p>
+<div class="section" id="criar-bloco">
+<span id="create-a-block-label"></span><h3>Criar bloco<a class="headerlink" href="#criar-bloco" title="Permalink to this headline">#</a></h3>
+<p>Para criar ou adicionar um bloco vazio depois de um bloco existente, clique no bloco, então pressione e tecla <kbd class="kbd docutils literal notranslate">Enter</kbd>.
+Um novo bloco vazio aparece.</p>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/add_new_block.gif"><img alt="Adiciona novo bloco" src="_images/add_new_block.gif" style="width: 85%;" /></a>
+</div>
+</div>
+<div class="section" id="configurar-bloco">
+<span id="configure-a-block-label"></span><h3>Configurar bloco<a class="headerlink" href="#configurar-bloco" title="Permalink to this headline">#</a></h3>
+<p>Quando você seleciona um bloco, o editor do bloco aparece na margem direita da página.
+Praticamente todos os blocos possuem opções de configuração.</p>
+</div>
+<div class="section" id="reorganizacao-de-blocos">
+<span id="rearrange-blocks-label"></span><h3>Reorganização de blocos<a class="headerlink" href="#reorganizacao-de-blocos" title="Permalink to this headline">#</a></h3>
+<p>Para reorganizar blocos, ao lado direito do bloco que deseja mover, clique no controle de movimento, mova o bloco para onde desejar e libere o controle de movimento.</p>
+</div>
+<div class="section" id="remocao-de-bloco">
+<span id="delete-a-block-label"></span><h3>Remoção de bloco<a class="headerlink" href="#remocao-de-bloco" title="Permalink to this headline">#</a></h3>
+<p>Para remover um bloco, ao lado direito do bloco, clique no botão de remoção, um ícone de lixeira.</p>
+</div>
+</div>
+<div class="section" id="tipos-de-bloco-padao">
+<span id="default-block-types-label"></span><h2>Tipos de bloco padão<a class="headerlink" href="#tipos-de-bloco-padao" title="Permalink to this headline">#</a></h2>
+<p>Volto oferece diversos tipos de blocos padrão no seu empacotamento.
+Você pode acessar e escolher um tipo de bloco para adicionar ao seu conteúdo quando você tem um bloco vazio.</p>
+<p>Agora com seu bloco vazio disponível, você pode selecionar seu tipo de uma das duas formas.</p>
+<ol class="arabic">
+<li><p>Clique no botão <code class="docutils literal notranslate"><span class="pre">+</span></code> do lado esquerdo do bloco vazio.</p>
+<img alt="Botão de adição de bloco" src="_images/block-left-add-icon.png" />
+</li>
+</ol>
+<ol class="arabic" start="2">
+<li><p>Pressione <code class="docutils literal notranslate"><span class="pre">/</span></code> dentro de um bloco vazio para abrir o menu de tipos de bloco.
+Você pode digitar algumas letrar para filtrar os tipos de bloco disponíveis.
+Você pode usar as teclas de seta para cima e para baixo para navegar dentro da lista de tipos de bloco.
+Para selecionar o tipo de bloco, você pode clicar ou tocar ou usar a tecla <kbd class="kbd docutils literal notranslate">Enter</kbd>.</p>
+<a class="reference internal image-reference" href="_images/block-types-menu.png"><img alt="Menu de tipos de bloco" src="_images/block-types-menu.png" style="height: 350px;" /></a>
+</li>
+</ol>
+<div class="section" id="bloco-descricao">
+<span id="user-manual-description-block-label"></span><h3>Bloco descrição<a class="headerlink" href="#bloco-descricao" title="Permalink to this headline">#</a></h3>
+<p>Um bloco de descrição aceita texto puro.
+Quando exibido, ele aparece como descrição na página, e para otimização de mecanismos de pesquisa nas meta tags HTML como:</p>
+<p><code class="docutils literal notranslate"><span class="pre">&lt;meta</span> <span class="pre">name=&quot;description&quot;</span> <span class="pre">content=&quot;DESCRIPTION_TEXT&quot;</span> <span class="pre">data-react-helmet=&quot;true&quot;&gt;`</span> <span class="pre">e</span> <span class="pre">`&lt;meta</span> <span class="pre">property=&quot;og:description&quot;</span> <span class="pre">content=&quot;DESCRIPTION_TEXT&quot;</span> <span class="pre">data-react-helmet=&quot;true&quot;&gt;</span></code>.</p>
+</div>
+<div class="section" id="bloco-grid">
+<span id="user-manual-grid-block-label"></span><h3>Bloco grid<a class="headerlink" href="#bloco-grid" title="Permalink to this headline">#</a></h3>
+<p>Um bloco grid cria uma linha única de colunas numa grade, que pode ser usada para exibir conteúdo de uma forma estruturada e organizada.
+Você pode selecionar o número de colunas para inserir.</p>
+<img alt="Escolha o número de colunas para inserir num bloco grid." src="_images/grid-block-number-of-columns.png" />
+<p>Depois de escolher o número de colunas para inserir num bloco grid, você pode gerenciar as colunas.</p>
+<img alt="Adiciona um tipo de bloco específico em uma coluna de um bloco grid" src="_images/grid-block-manage-blocks.png" />
+<ul class="simple">
+<li><p>Especifique o tipo do bloco numa coluna clicando em seu botão <code class="docutils literal notranslate"><span class="pre">+</span></code>.</p></li>
+<li><p>Reorganize a ordem das colunas no bloco grid arrastando e soltando elas.</p></li>
+<li><p>Adicione uma coluna ao bloco grid clicando no botão <code class="docutils literal notranslate"><span class="pre">+</span></code> no lado superior esquerdo dele.</p></li>
+<li><p>Remova uma coluna do bloco grid clicando no seu botão <code class="docutils literal notranslate"><span class="pre">×</span></code>.</p></li>
+</ul>
+</div>
+<div class="section" id="bloco-html">
+<span id="user-manual-html-block-label"></span><h3>Bloco html<a class="headerlink" href="#bloco-html" title="Permalink to this headline">#</a></h3>
+<p>Um bloco HTML permite aos usuários adicionar código HTML customizado em uma página.
+Isto pode ser útil para adicionar funcionalidades ou estilos customizados em uma página, ou para integração com serviços externos ou aplicações.
+Por exemplo, você pode inserir um trecho de HTML ou componente de um serviço de terceiros. É possível embutir um calendário, botão de doação ou pagamento, ou mídia social em uma página.</p>
+<img alt="Bloco HTML" src="_images/html-block.png" />
+<p>Para usar um bloco HTML, você precisa ter algum conhecimento sobre como escrever HTML. Se você obtiver um trecho de HTML de um terceiro que você pode copiar e colar no bloco.</p>
+</div>
+<div class="section" id="bloco-hero">
+<span id="user-manual-hero-block-label"></span><h3>Bloco hero<a class="headerlink" href="#bloco-hero" title="Permalink to this headline">#</a></h3>
+<p>Um bloco hero cria um banner de largura total ou cabeçalho para uma página.
+Ele é tipicamente usado para destacar conteúdo importante ou para criar um impacto visual no topo da página.</p>
+<a class="reference internal image-reference" href="_images/hero-block.png"><img alt="Bloco hero" src="_images/hero-block.png" style="height: 380px;" /></a>
+<p>Blocos hero tipicamente incluem uma imagem ou cor de fundo.
+Eles também podem incluir um título, descrição e links para outras páginas do seu site.</p>
+<p>Você pode usar o editor de blocos para configurar suas opções.
+Você pode configurar a imagem de fundo ou a cor, seu título, descrição e links.
+Para links, você pode fornecer um endereço externo ou selecionar uma página do seu site clicando no ícone lista e fornecer um título para o link.</p>
+</div>
+<div class="section" id="bloco-imagem">
+<span id="user-manual-image-block-label"></span><h3>Bloco imagem<a class="headerlink" href="#bloco-imagem" title="Permalink to this headline">#</a></h3>
+<p>Um bloco imagem permite inserir uma imagem numa página e configurar seus atributos.</p>
+<img alt="Bloco imagem" src="_images/image-block.png" />
+<p>Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada através de qualquer um dos seguintes métodos:</p>
+<ul class="simple">
+<li><p>Escolha uma imagem existente no site clicando no ícone de lista do bloco.</p></li>
+<li><p>Envie uma nova imagem ou clicando no ícone de upload do bloco ou arrastando e soltando.</p></li>
+<li><p>Forneça um endereço remoto da imagem na área de texto do bloco.
+Clique no ícone de seta para salvar o endereço.</p></li>
+</ul>
+<p>Depois que você especificou uma imagem, suas opções de configuração se tornar disponíveis.</p>
+<a class="reference internal image-reference" href="_images/image-block-configuration-options.png"><img alt="Opções de configuração do bloco imagem" src="_images/image-block-configuration-options.png" style="height: 380px;" /></a>
+<dl class="simple myst">
+<dt>Origem</dt><dd><p>Caminho ou endereço para a imagem.</p>
+</dd>
+<dt>Texto alternativo</dt><dd><p>Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca para descrever a imagem.
+Texto alternativo não deve ser usado para imagens decorativas, pois adiciona ruído aos leitores de tela.</p>
+</dd>
+<dt>Alinhamento</dt><dd><p>Opções para alinhamento incluindo a esquerda, a direita, centralizado e largura total.</p>
+</dd>
+</dl>
+<dl class="simple myst">
+<dt>Tamanho da imagem</dt><dd><p>O tamanho da imagem determina a exibição relativa a largura, qual seja pequeno, médio ou grande</p>
+</dd>
+<dt>Link para</dt><dd><p>Você pode fornecer um endereço no campo de texto, ou clicar no ícone lista e escolher uma página do site para o link alvo.
+Você pode opcionalmente fazer o link abrir em uma nova aba quando o usuário clicar nele marcando a caixa de seleção <span class="guilabel">Abrir em nova aba</span>.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="bloco-grid-de-imagens">
+<span id="user-manual-images-grid-block-label"></span><h3>Bloco grid de imagens<a class="headerlink" href="#bloco-grid-de-imagens" title="Permalink to this headline">#</a></h3>
+<p>Um bloco de imagens apresenta uma linha de imagens numa página.
+É usado tipicamente para mostrar uma coleção de imagens de uma maneira agradável.
+Pode ser configurado para mostrar imagens em diferentes layouts e estilos.</p>
+<img alt="Escolha o número de imagens para inserir em um bloco de grid de imagens." src="_images/images-grid-block-number-of-columns.png" />
+<p>Depois de escolher o número de imagens a inserir em um bloco de grid de imagens, você pode configurar as imagens. Funciona da mesma forma que configurar um única imagem em um bloco de imagem.</p>
+<a class="reference internal image-reference" href="_images/image-block-configuration-options.png"><img alt="Opções de configuração do bloco de imagem." src="_images/image-block-configuration-options.png" style="height: 380px;" /></a>
+<dl class="simple myst">
+<dt>Origem</dt><dd><p>O caminho ou endereço da imagem</p>
+</dd>
+<dt>Texto alternativo</dt><dd><p>Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca para descrever a imagem.
+Texto alternativo não deve ser usado para imagens decorativas, pois adiciona ruído aos leitores de tela.</p>
+</dd>
+<dt>Alinhamento</dt><dd><p>Opções para alinhamento incluindo a esquerda, a direita, centralizado e largura total.</p>
+</dd>
+</dl>
+<dl class="simple myst">
+<dt>Tamanho da imagem</dt><dd><p>O tamanho da imagem determina a exibição relativa a largura, qual seja pequeno, médio ou grande</p>
+</dd>
+<dt>Link para</dt><dd><p>Você pode fornecer um endereço no campo de texto, ou clicar no ícone lista e escolher uma página do site para o link alvo.
+Você pode opcionalmente fazer o link abrir em uma nova aba quando o usuário clicar nele marcando a caixa de seleção <span class="guilabel">Abrir em nova aba</span>.</p>
+</dd>
+</dl>
+<p>Você também pode gerenciar as imagens em um block de grid de imagens.</p>
+<img alt="Gerencie imagens num bloco de grid de imagens" src="_images/images-grid-block-manage-images.png" />
+<ul class="simple">
+<li><p>Reorganize a ordem das imagens no bloco de grid de imagens arrastando e soltando elas.</p></li>
+<li><p>Adicione uma imagem ao bloc de grid de imagens clicando no botão <code class="docutils literal notranslate"><span class="pre">+</span></code> no seu lado superior esquerdo.</p></li>
+<li><p>Remova uma imagem do bloco de grid de imagens clicando no seu botão <code class="docutils literal notranslate"><span class="pre">×</span></code>.</p></li>
+</ul>
+<p>Depois da inclusão de um bloco imagem, uma imagem precisa ser especificada através de qualquer um dos seguintes métodos:</p>
+<ul class="simple">
+<li><p>Escolha uma imagem existente no site clicando no ícone de lista do bloco.</p></li>
+<li><p>Envie uma nova imagem ou clicando no ícone de upload do bloco ou arrastando e soltando.</p></li>
+<li><p>Forneça um endereço remoto da imagem na área de texto do bloco.
+Clique no ícone de seta para salvar o endereço.</p></li>
+</ul>
+</div>
+<div class="section" id="bloco-de-listagem">
+<span id="user-manual-listing-block-label"></span><h3>Bloco de listagem<a class="headerlink" href="#bloco-de-listagem" title="Permalink to this headline">#</a></h3>
+<p>O bloco de listagem permite aos usuários exibir uma lista de itens de conteúdo do seu site Plone numa página.</p>
+<a class="reference internal image-reference" href="_images/listing-block.png"><img alt="Bloco de listagem" src="_images/listing-block.png" style="height: 380px;" /></a>
+<p>O editor do site pode configurar o critério usado para obter itens de conteúdo, incluindo texto, titúlo, datas e criador.
+Os resultados obtidos podem ser configurados com uma ordenação, limite de resultados e se é para criar um lote de resultados com paginação.</p>
+<a class="reference internal image-reference" href="_images/listing-block-configuration.png"><img alt="Configuração do bloco de listagem" src="_images/listing-block-configuration.png" style="height: 380px;" /></a>
+<dl class="simple myst">
+<dt>Variação</dt><dd><p>Opções para variação incluem <span class="guilabel">Padrão</span>, <span class="guilabel">Galeria de imagens</span>, e <span class="guilabel">Listagem</span>.</p>
+</dd>
+<dt>Chamada</dt><dd><p>Opcionalmente adiciona uma chamada para o bloco de listagem.</p>
+</dd>
+<dt>Nível de cabeçalho</dt><dd><p>Nível de cabeçalho define o nível de cabeçalho para <span class="guilabel">H2</span> ou <span class="guilabel">H3</span>.</p>
+</dd>
+</dl>
+<dl class="simple myst">
+<dt>Critério</dt><dd><p>Adiciona um critério de pesquisa.
+Inclue opções para pesquisa por metadados, datas e texto.
+Cada critério tem suas próprias opções.
+Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas. Ou pela sua localização em um caminho do seu site Plone.</p>
+</dd>
+<dt>Ordenação</dt><dd><p>Ordena os resultados pela opção escolhida.
+Opções incluídas metadados, datas e texto.</p>
+</dd>
+</dl>
+<dl class="simple myst">
+<dt>Limite de resultados</dt><dd><p>Limita o número de resultados retornado.</p>
+</dd>
+<dt>Tamanho do lote de items</dt><dd><p>Agrupa os itens do resultado da pesquisa em um tamanho de lote especificado.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="bloco-mapas">
+<span id="user-manual-maps-block-label"></span><h3>Bloco mapas<a class="headerlink" href="#bloco-mapas" title="Permalink to this headline">#</a></h3>
+<p>O bloco mapa permite o usuário a adicionar um mapa em uma página.
+É tipicamente usado para exibir localização ou região geográfica, ou fornecer rotas de viagem.</p>
+<img alt="Bloco mapas" src="_images/maps-block.png" />
+<p>Para usar o bloco mapa, o serviço de mapas de um terceiro deve fornecer um trecho de código HTML que você pode copiar e colar no bloco mapa.
+Usualmente o trecho inclui uma marcação HTML <code class="docutils literal notranslate"><span class="pre">&lt;iframe&gt;</span></code>.
+Depois que você cola o trecho de código na configuração do bloco de mapa, você verá opções adicionais.</p>
+<img alt="Configuração do bloco de mapas." src="_images/map-blocks-configuration.png" />
+<dl class="simple myst">
+<dt>Endereço do mapa</dt><dd><p>O endereço do mapa.</p>
+</dd>
+<dt>Texto alternativo</dt><dd><p>Texto alternativo (alt text) é usado para leitores de tela e mecanismos de busca.</p>
+</dd>
+<dt>Alinhamento</dt><dd><p>Opções para alinhamento incluem esquerdo, direito, centralizado ou largura total.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="bloco-de-pesquisa">
+<span id="user-manual-search-block-label"></span><h3>Bloco de pesquisa<a class="headerlink" href="#bloco-de-pesquisa" title="Permalink to this headline">#</a></h3>
+<p>O bloco de pesquisa fornece uma interface de pesquisa a visitantes para buscar conteúdo em um site Plone.</p>
+<a class="reference internal image-reference" href="_images/search-block.png"><img alt="Bloco de pesquisa" src="_images/search-block.png" style="height: 380px;" /></a>
+<p>O editor do site pode configurar seus critérios e aspectos de pesquisa através de diversos parâmetros, incluindo texto, status, datas e criador.</p>
+<a class="reference internal image-reference" href="_images/search-block-configuration.png"><img alt="Configuração do bloco de pesquisa" src="_images/search-block-configuration.png" style="height: 380px;" /></a>
+<p>Os resultados de pesquisa podem ser configurados com uma ordenação, limite de resultados e se os resultados devem ser agrupados com paginação.
+O editor do site pode escolher quais controles oferecer ao visitante, incluindo ordenação e total de resultados.</p>
+<div class="admonition-todo admonition" id="id1">
+<p class="admonition-title">Todo</p>
+<p>Adicionar imagem com as opções de configuração omitidas.</p>
+</div>
+</div>
+<div class="section" id="opcoes-basicas">
+<h3>Opções básicas<a class="headerlink" href="#opcoes-basicas" title="Permalink to this headline">#</a></h3>
+<dl class="simple myst">
+<dt>Variação</dt><dd><p>Opções para variação incluem <span class="guilabel">Facetas no lado direito</span>, <span class="guilabel">Facetas no lado esquerdo</span>, and <span class="guilabel">Facetas no topo</span>.</p>
+</dd>
+<dt>Modelo de resultados</dt><dd><p>Opções para o modelo de resultados incluem <span class="guilabel">Padrão</span>, <span class="guilabel">Galeria de imagens</span> e <span class="guilabel">Listagem</span>.</p>
+</dd>
+<dt>Chamada</dt><dd><p>O valor exibido acima da caixa de pesquisa como cabeçalho.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="opcoes-de-consulta-basicas-para-pesquisa">
+<h3>Opções de consulta básicas para pesquisa<a class="headerlink" href="#opcoes-de-consulta-basicas-para-pesquisa" title="Permalink to this headline">#</a></h3>
+<dl class="simple myst">
+<dt>Critério</dt><dd><p>Adiciona um critério de pesquisa.
+Inclue opções para pesquisa por metadados, datas e texto.
+Cada critério tem suas próprias opções.
+Por exemplo, você pode configurar a busca por conteúdo que foi criado entre duas datas. Ou pela sua localização em um caminho do seu site Plone.</p>
+</dd>
+</dl>
+<dl class="simple myst">
+<dt>Ordenação</dt><dd><p>Ordena os resultados pela opção escolhida.
+Opções incluídas metadados, datas e texto.
+Opcionalmente ordene os resultados de forma reversa marcando a caixa de verificação <span class="guilabel">Reversed order</span>.</p>
+</dd>
+</dl>
+<dl class="simple myst">
+<dt>Limite de resultados</dt><dd><p>Limita o número de resultados retornado.</p>
+</dd>
+<dt>Tamanho do lote de items</dt><dd><p>Agrupa os itens do resultado da pesquisa em um tamanho de lote especificado.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="facetas">
+<h3>Facetas<a class="headerlink" href="#facetas" title="Permalink to this headline">#</a></h3>
+<p>Título da seção</p>
+</div>
+<div class="section" id="bloco-teaser">
+<span id="user-manual-teaser-block-label"></span><h3>Bloco teaser<a class="headerlink" href="#bloco-teaser" title="Permalink to this headline">#</a></h3>
+<p>O bloco teaser mostra um sumário ou teaser de um item de conteúdo, como um artigo ou post de blog num website, e aponta para o conteúdo completo do item.
+Quando um visitante clica ou aciona o bloco teaser, eles irão visitar o conteúdo total do item.
+O bloco teaser tipicamente inclui o título, um extrato do sumário do conteúdo e a miniatura ou outro elemento visual.</p>
+<img alt="Bloco teaser" src="_images/teaser-block.png" />
+<p>O bloco teaser possue várias opções de configuração.</p>
+<a class="reference internal image-reference" href="_images/teaser-block-configuration.png"><img alt="Configuração do bloco teaser" src="_images/teaser-block-configuration.png" style="height: 380px;" /></a>
+<dl class="simple myst">
+<dt>Alvo</dt><dd><p>O alvo é um conteúdo existente no seu site Plone que pode ser selecionado clicando no ícone de lista. Ou um endereço externo que pode ser digitada no campo de texto e salva clicando na seta à direita quando ela aparecer depois que você começar a digitar.</p>
+</dd>
+<dt>Título</dt><dd><p>O título é o título do item de conteúdo.</p>
+</dd>
+<dt>Chapéu</dt><dd><p>O chapéu é um cabeçalho que aparece acima do título.</p>
+</dd>
+</dl>
+<dl class="simple myst">
+<dt>Descrição</dt><dd><p>A descrição é um texto puro que sumariza ou descreve o item de conteúdo.</p>
+</dd>
+<dt>Imagem</dt><dd><p>A imagem é uma imagem existente em seu site Plone que pode ser selecionada clicando no ícone lista. Ou um endereço externo de uma imagem que pode ser digitada no campo de texto. Para salvar, clique na seta à direita quando ela aparecer depois que você começar a digitar.</p>
+</dd>
+<dt>Alinhamento</dt><dd><p>O alinhamento do imagem destaque que pode ser a esquerda (padrão), a direita ou no topo.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="bloco-de-grade-de-teaser">
+<span id="user-manual-teaser-grid-block-label"></span><h3>Bloco de grade de teaser<a class="headerlink" href="#bloco-de-grade-de-teaser" title="Permalink to this headline">#</a></h3>
+<div class="admonition-todo admonition" id="id2">
+<p class="admonition-title">Todo</p>
+<p>Precisa de conteúdo.</p>
+</div>
+</div>
+<div class="section" id="bloco-texto">
+<span id="user-manual-text-grid-block-label"></span><h3>Bloco texto<a class="headerlink" href="#bloco-texto" title="Permalink to this headline">#</a></h3>
+<div class="admonition-todo admonition" id="id3">
+<p class="admonition-title">Todo</p>
+<p>Precisa de conteúdo.</p>
+</div>
+</div>
+<div class="section" id="bloco-video">
+<span id="user-manual-video-block-label"></span><h3>Bloco vídeo<a class="headerlink" href="#bloco-video" title="Permalink to this headline">#</a></h3>
+<p>O bloco vídeo permite a um editor inserir vídeo em uma página.
+Forneça o endereço de um vídeo hospedado em um terceiro e clique na seta a direita para salvar.
+Uma prévia do vídeo é apresentada.</p>
+<img alt="Bloco vídeo" src="_images/video-block.png" />
+<p>O bloco vídeo tem diversas opções de configuração.</p>
+<img alt="Configuração do bloco vídeo" src="_images/video-block-configuration.png" />
+<dl class="simple myst">
+<dt>Endereço do vídeo</dt><dd><p>O endereço do vídeo.</p>
+</dd>
+<dt>Endereço da imagem de prévia</dt><dd><p>Opcionalmente use uma imagem de prévia.
+Você pode fornecer o endereço de uma imagem no campo texto, ou clicar no ícone lista e escolher uma imagem do seu site.</p>
+</dd>
+<dt>Alinhamento</dt><dd><p>Opções para alinhamento incluem esquerda, direita, centralizada e largura total.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Manual do usuário</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="copy-paste-blocks.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Copiar, cortar e colar blocos no Volto</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Ramiro Batista da Luz<br/>
+  
+      &copy; Copyright Câmara Municipal de Curitiba.<br/>
+    <div class="extra_footer">
+      <p>The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license. Plone and the Plone® logo are registered trademarks of the Plone Foundation, registered in the United States and other countries. For guidelines on the permitted uses of the Plone trademarks, see <a href="https://plone.org/foundation/logo">https://plone.org/foundation/logo</a>. All other trademarks are owned by their respective owners.</p>
+    
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
